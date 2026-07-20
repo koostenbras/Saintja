@@ -2,9 +2,11 @@ import { useMemo, useState } from 'react'
 import { BASE } from './data/base.js'
 import { DESTINATIONS, CATEGORIES } from './data/destinations.js'
 import { HIKES, DIFFICULTY } from './data/hikes.js'
+import { RESTAURANTS, STYLES } from './data/restaurants.js'
 import WeatherPanel from './components/WeatherPanel.jsx'
 import DestinationCard from './components/DestinationCard.jsx'
 import HikeCard from './components/HikeCard.jsx'
+import RestaurantCard from './components/RestaurantCard.jsx'
 
 const MAX_MIN = 180
 
@@ -19,6 +21,7 @@ export default function App() {
   const [tab, setTab] = useState('explore')
   const [cats, setCats] = useState(new Set(Object.keys(CATEGORIES)))
   const [diffs, setDiffs] = useState(new Set(Object.keys(DIFFICULTY)))
+  const [styles, setStyles] = useState(new Set(Object.keys(STYLES)))
   const [maxDrive, setMaxDrive] = useState(MAX_MIN)
 
   function toggle(set, updater, key) {
@@ -44,6 +47,14 @@ export default function App() {
     [diffs, maxDrive],
   )
 
+  const restaurants = useMemo(
+    () =>
+      RESTAURANTS.filter((r) => styles.has(r.style) && r.driveMin <= maxDrive).sort(
+        (a, b) => a.driveMin - b.driveMin,
+      ),
+    [styles, maxDrive],
+  )
+
   return (
     <div className="app">
       <header className="hero">
@@ -66,6 +77,9 @@ export default function App() {
         </button>
         <button className={`tab ${tab === 'hikes' ? 'active' : ''}`} onClick={() => setTab('hikes')}>
           🥾 Hiking routes
+        </button>
+        <button className={`tab ${tab === 'food' ? 'active' : ''}`} onClick={() => setTab('food')}>
+          🍽️ Restaurants
         </button>
       </nav>
 
@@ -154,6 +168,50 @@ export default function App() {
             </div>
           ) : (
             <p className="empty">No hikes match — widen the drive time or add a difficulty.</p>
+          )}
+        </>
+      )}
+
+      {tab === 'food' && (
+        <>
+          <div className="filters">
+            {Object.entries(STYLES).map(([key, s]) => {
+              const active = styles.has(key)
+              return (
+                <button
+                  key={key}
+                  className={`chip ${active ? 'active' : ''}`}
+                  style={active ? { background: s.color } : undefined}
+                  onClick={() => toggle(styles, setStyles, key)}
+                >
+                  {s.emoji} {s.label}
+                </button>
+              )
+            })}
+            <span className="spacer" />
+            <label className="range">
+              Max drive: <b>{driveLabel(maxDrive)}</b>
+              <input
+                type="range"
+                min="10"
+                max={MAX_MIN}
+                step="5"
+                value={maxDrive}
+                onChange={(e) => setMaxDrive(Number(e.target.value))}
+              />
+            </label>
+          </div>
+          <div className="count">
+            {restaurants.length} place{restaurants.length === 1 ? '' : 's'} within {driveLabel(maxDrive)}
+          </div>
+          {restaurants.length ? (
+            <div className="grid">
+              {restaurants.map((r) => (
+                <RestaurantCard key={r.id} r={r} />
+              ))}
+            </div>
+          ) : (
+            <p className="empty">No restaurants match — widen the drive time or add a style.</p>
           )}
         </>
       )}
