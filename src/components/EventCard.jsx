@@ -18,19 +18,22 @@ function seasonOf(months) {
 export default function EventCard({ e }) {
   const now = new Date().getMonth() + 1
   const happeningNow = e.months.includes(now)
+  const allYear = e.months.length >= 12
   const season = seasonOf(e.months)
   const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.place)}`
+  const badge = allYear ? 'All year' : happeningNow ? 'Now!' : season.label
+  const badgeColor = allYear ? '#6b5d52' : happeningNow ? '#4f6f52' : season.color
   return (
     <div className="card">
       <div className="top">
         <div>
           <h3>{e.name}</h3>
           <div className="sub">
-            {season.emoji} {e.when} · {e.place}
+            {allYear ? '📅' : season.emoji} {e.when} · {e.place}
           </div>
         </div>
-        <span className="badge" style={{ background: happeningNow ? '#4f6f52' : season.color }}>
-          {happeningNow ? 'Now!' : season.label}
+        <span className="badge" style={{ background: badgeColor }}>
+          {badge}
         </span>
       </div>
 
@@ -50,9 +53,16 @@ export default function EventCard({ e }) {
         <b>Dates shift yearly:</b> check the local tourist office before planning around this one.
       </div>
 
-      <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
-        Find on Google Maps →
-      </a>
+      <div className="link-row">
+        <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
+          Find on Google Maps →
+        </a>
+        {e.url && (
+          <a className="map-link" href={e.url} target="_blank" rel="noreferrer">
+            🗓️ {e.urlLabel || 'Agenda'}
+          </a>
+        )}
+      </div>
     </div>
   )
 }

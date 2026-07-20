@@ -303,6 +303,17 @@ export const DESTINATIONS = [
     tip: 'Pair the fortress with the projected-art quarry next door.',
   },
   {
+    id: 'isle-sur-la-sorgue',
+    name: 'L’Isle-sur-la-Sorgue',
+    category: 'culture',
+    tier: 'far',
+    driveMin: 70,
+    lat: 43.9190, lon: 5.0510,
+    summary: 'The "Venice of Provence" — canals, waterwheels and the antiques capital of the south, with permanent dealer villages and a famous Sunday brocante.',
+    highlights: ['Antiques & brocante', 'Canals & waterwheels', 'Sunday market', 'Riverside cafés'],
+    tip: 'Sunday is the big brocante day; dealer villages also open Sat–Mon.',
+  },
+  {
     id: 'lyon',
     name: 'Lyon',
     category: 'food',

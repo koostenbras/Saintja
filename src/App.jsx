@@ -67,10 +67,10 @@ export default function App() {
     return EVENTS.filter(
       (e) => e.driveMin <= maxDrive && e.months.some((m) => activeMonths.has(m)),
     ).sort((a, b) => {
-      // events happening this month first, then by drive time
-      const aNow = a.months.includes(now) ? 0 : 1
-      const bNow = b.months.includes(now) ? 0 : 1
-      return aNow - bNow || a.driveMin - b.driveMin
+      // seasonal events happening this month first (all-year events don't
+      // count as "now" — they'd otherwise crowd out the special ones)
+      const isNow = (e) => (e.months.includes(now) && e.months.length < 12 ? 0 : 1)
+      return isNow(a) - isNow(b) || a.driveMin - b.driveMin
     })
   }, [seasons, maxDrive])
 
