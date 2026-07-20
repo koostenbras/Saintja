@@ -3,10 +3,12 @@ import { BASE } from './data/base.js'
 import { DESTINATIONS, CATEGORIES } from './data/destinations.js'
 import { HIKES, DIFFICULTY } from './data/hikes.js'
 import { RESTAURANTS, STYLES } from './data/restaurants.js'
+import { EVENTS, SEASONS } from './data/events.js'
 import WeatherPanel from './components/WeatherPanel.jsx'
 import DestinationCard from './components/DestinationCard.jsx'
 import HikeCard from './components/HikeCard.jsx'
 import RestaurantCard from './components/RestaurantCard.jsx'
+import EventCard from './components/EventCard.jsx'
 
 const MAX_MIN = 180
 
@@ -22,6 +24,7 @@ export default function App() {
   const [cats, setCats] = useState(new Set(Object.keys(CATEGORIES)))
   const [diffs, setDiffs] = useState(new Set(Object.keys(DIFFICULTY)))
   const [styles, setStyles] = useState(new Set(Object.keys(STYLES)))
+  const [seasons, setSeasons] = useState(new Set(Object.keys(SEASONS)))
   const [maxDrive, setMaxDrive] = useState(MAX_MIN)
 
   function toggle(set, updater, key) {
@@ -55,6 +58,21 @@ export default function App() {
     [styles, maxDrive],
   )
 
+  const events = useMemo(() => {
+    const activeMonths = new Set(
+      [...seasons].flatMap((key) => SEASONS[key].months),
+    )
+    const now = new Date().getMonth() + 1
+    return EVENTS.filter(
+      (e) => e.driveMin <= maxDrive && e.months.some((m) => activeMonths.has(m)),
+    ).sort((a, b) => {
+      // events happening this month first, then by drive time
+      const aNow = a.months.includes(now) ? 0 : 1
+      const bNow = b.months.includes(now) ? 0 : 1
+      return aNow - bNow || a.driveMin - b.driveMin
+    })
+  }, [seasons, maxDrive])
+
   return (
     <div className="app">
       <header className="hero">
@@ -80,6 +98,9 @@ export default function App() {
         </button>
         <button className={`tab ${tab === 'food' ? 'active' : ''}`} onClick={() => setTab('food')}>
           🍽️ Restaurants
+        </button>
+        <button className={`tab ${tab === 'events' ? 'active' : ''}`} onClick={() => setTab('events')}>
+          🎪 Events & seasons
         </button>
       </nav>
 
@@ -212,6 +233,51 @@ export default function App() {
             </div>
           ) : (
             <p className="empty">No restaurants match — widen the drive time or add a style.</p>
+          )}
+        </>
+      )}
+
+      {tab === 'events' && (
+        <>
+          <div className="filters">
+            {Object.entries(SEASONS).map(([key, s]) => {
+              const active = seasons.has(key)
+              return (
+                <button
+                  key={key}
+                  className={`chip ${active ? 'active' : ''}`}
+                  style={active ? { background: s.color } : undefined}
+                  onClick={() => toggle(seasons, setSeasons, key)}
+                >
+                  {s.emoji} {s.label}
+                </button>
+              )
+            })}
+            <span className="spacer" />
+            <label className="range">
+              Max drive: <b>{driveLabel(maxDrive)}</b>
+              <input
+                type="range"
+                min="10"
+                max={MAX_MIN}
+                step="5"
+                value={maxDrive}
+                onChange={(e) => setMaxDrive(Number(e.target.value))}
+              />
+            </label>
+          </div>
+          <div className="count">
+            {events.length} event{events.length === 1 ? '' : 's'} within {driveLabel(maxDrive)} · events
+            happening this month are listed first
+          </div>
+          {events.length ? (
+            <div className="grid">
+              {events.map((e) => (
+                <EventCard key={e.id} e={e} />
+              ))}
+            </div>
+          ) : (
+            <p className="empty">No events match — widen the drive time or add a season.</p>
           )}
         </>
       )}
