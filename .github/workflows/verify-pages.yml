@@ -2,6 +2,8 @@ name: Verify Pages URL
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/saint-alle-activity-app-fz4ws5]
 
 jobs:
   verify:
