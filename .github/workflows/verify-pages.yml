@@ -7,26 +7,38 @@ on:
 
 permissions:
   contents: read
-  pages: read
+  pages: write
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Show current Pages config (read-only)
+      - name: Ensure Pages builds via GitHub Actions (not legacy branch)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== CURRENT PAGES CONFIG for ${{ github.repository }} ==="
+          echo "=== CURRENT PAGES CONFIG ==="
           curl -sS -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/${{ github.repository }}/pages
+            https://api.github.com/repos/${{ github.repository }}/pages | tee /tmp/pages.json
+          BT=$(python3 -c "import json;print(json.load(open('/tmp/pages.json')).get('build_type'))")
+          if [ "$BT" = "legacy" ]; then
+            echo "=== Switching build_type legacy -> workflow ==="
+            curl -sS -X PUT \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/pages \
+              -d '{"build_type":"workflow"}' -w "\nHTTP %{http_code}\n"
+          else
+            echo "build_type already: $BT"
+          fi
 
-      - name: Probe the live github.io URL
+      - name: Probe the live github.io URL (cache-busted)
         run: |
-          URL="https://koostenbras.github.io/Saintja/"
+          URL="https://koostenbras.github.io/Saintja/?nocache=${{ github.run_id }}"
           echo "=== HEADERS for $URL ==="
-          curl -sS -o /tmp/page.html -D - -L --max-time 30 "$URL" || true
+          curl -sS -o /tmp/page.html -D - -L --max-time 30 \
+            -H "Cache-Control: no-cache" "$URL" || true
           echo "=== FIRST 40 LINES OF BODY ==="
           head -40 /tmp/page.html || true
           echo "=== DIAGNOSIS ==="
