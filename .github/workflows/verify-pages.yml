@@ -5,10 +5,23 @@ on:
   push:
     branches: [claude/saint-alle-activity-app-fz4ws5]
 
+permissions:
+  contents: read
+  pages: read
+
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
+      - name: Show current Pages config (read-only)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "=== CURRENT PAGES CONFIG for ${{ github.repository }} ==="
+          curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages
+
       - name: Probe the live github.io URL
         run: |
           URL="https://koostenbras.github.io/Saintja/"
