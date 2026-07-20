@@ -9,6 +9,7 @@ import DestinationCard from './components/DestinationCard.jsx'
 import HikeCard from './components/HikeCard.jsx'
 import RestaurantCard from './components/RestaurantCard.jsx'
 import EventCard from './components/EventCard.jsx'
+import HikesMap from './components/HikesMap.jsx'
 
 const MAX_MIN = 180
 
@@ -181,6 +182,7 @@ export default function App() {
             {hikes.length} route{hikes.length === 1 ? '' : 's'} within {driveLabel(maxDrive)} · check the
             weather panel for the best days
           </div>
+          {hikes.length > 0 && <HikesMap hikes={hikes} />}
           {hikes.length ? (
             <div className="grid">
               {hikes.map((h) => (
