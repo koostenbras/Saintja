@@ -1,4 +1,4 @@
-import { DIFFICULTY } from '../data/hikes.js'
+import { DIFFICULTY, VISORANDO_COMMUNE } from '../data/hikes.js'
 
 function driveLabel(min) {
   if (min < 60) return `${min} min`
@@ -59,9 +59,37 @@ export default function HikeCard({ h }) {
         </div>
       )}
 
-      <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
-        Directions to trailhead →
-      </a>
+      <div className="link-row">
+        <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
+          🚗 Directions
+        </a>
+        <a
+          className="map-link"
+          href={`https://www.geoportail.gouv.fr/carte?c=${h.lon},${h.lat}&z=15`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          🗺️ IGN map
+        </a>
+        <a
+          className="map-link"
+          href={`https://hiking.waymarkedtrails.org/#?map=14!${h.lat}!${h.lon}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          🥾 Trail map
+        </a>
+        {VISORANDO_COMMUNE[h.id] && (
+          <a
+            className="map-link"
+            href={`https://www.visorando.com/randonnee-${VISORANDO_COMMUNE[h.id]}.html`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            📥 GPX routes
+          </a>
+        )}
+      </div>
     </div>
   )
 }
