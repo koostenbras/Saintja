@@ -37,11 +37,19 @@ fi
 mkdir -p dt-feed
 if unzip -q -o feed.bin -d dt-feed 2>/dev/null; then
   echo "Zip flux unpacked: $(find dt-feed -name '*.json' | wc -l) JSON files."
+elif gzip -t feed.bin 2>/dev/null; then
+  # Gzip: either a .tar.gz of JSON-LD files or a single gzipped JSON document.
+  if tar -xzf feed.bin -C dt-feed 2>/dev/null; then
+    echo "tar.gz flux unpacked: $(find dt-feed -name '*.json' | wc -l) JSON files."
+  else
+    gunzip -c feed.bin > dt-feed/feed.json
+    echo "Gzipped JSON-LD flux decompressed to dt-feed/feed.json ($(stat -c%s dt-feed/feed.json) bytes)."
+  fi
 elif head -c 64 feed.bin | grep -q '[{[]'; then
   cp feed.bin dt-feed/feed.json
   echo "Plain JSON-LD flux saved as dt-feed/feed.json."
 else
-  echo "Response is neither a zip nor JSON. First bytes (truncated):"
+  echo "Response is not a zip, gzip or JSON. First bytes (truncated):"
   head -c 400 feed.bin | tr -d '\0'
   echo
   rm -rf dt-feed
