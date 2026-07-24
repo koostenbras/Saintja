@@ -65,7 +65,7 @@ export default function HikeCard({ h }) {
         </a>
         <a
           className="map-link"
-          href={`https://www.geoportail.gouv.fr/carte?c=${h.lon},${h.lat}&z=15`}
+          href={`https://cartes.gouv.fr/explorer-les-cartes/?c=${h.lon},${h.lat}&z=15`}
           target="_blank"
           rel="noreferrer"
         >
