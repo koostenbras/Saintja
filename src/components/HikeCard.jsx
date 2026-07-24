@@ -1,4 +1,4 @@
-import { DIFFICULTY, VISORANDO_COMMUNE, ALLTRAILS } from '../data/hikes.js'
+import { DIFFICULTY, VISORANDO_COMMUNE, RANDOGPS } from '../data/hikes.js'
 
 function driveLabel(min) {
   if (min < 60) return `${min} min`
@@ -63,14 +63,14 @@ export default function HikeCard({ h }) {
         <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
           🚗 Directions
         </a>
-        {ALLTRAILS[h.id] && (
+        {RANDOGPS[h.id] && (
           <a
             className="map-link"
-            href={`https://www.alltrails.com/${ALLTRAILS[h.id]}`}
+            href={`https://www.randogps.net/${RANDOGPS[h.id]}`}
             target="_blank"
             rel="noreferrer"
           >
-            🥾 AllTrails
+            🇫🇷 Free GPX (RandoGPS)
           </a>
         )}
         {VISORANDO_COMMUNE[h.id] && (

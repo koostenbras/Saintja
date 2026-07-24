@@ -7,25 +7,27 @@ export const DIFFICULTY = {
   hard: { label: 'Hard', color: '#8e3b46' },
 }
 
-// AllTrails pages per hike: town pages where they exist, otherwise the
-// Baronnies Provençales park page (tiny villages have no own page).
-const AT_PARK = 'parks/france/hautes-alpes/parc-naturel-regional-des-baronnies-provencales'
-export const ALLTRAILS = {
-  'saint-julien': 'france/drome/buis-les-baronnies',
-  angele: AT_PARK,
-  caire: AT_PARK,
-  'saint-julien-buis': AT_PARK,
-  'ventoux-gr4': 'france/vaucluse/bedoin',
-  'dentelles-loop': 'france/vaucluse/gigondas',
-  'trois-becs': 'france/drome/saou',
-  nesque: 'france/vaucluse/monieux',
-  'toulourenc-walk': 'france/vaucluse/malaucene',
-  vanige: AT_PARK,
-  'garde-grosse': 'france/drome/nyons',
-  'saint-may': AT_PARK,
-  ubrieux: 'france/drome/buis-les-baronnies',
-  mevouillon: AT_PARK,
-  'ventoux-mont-serein': 'france/vaucluse/bedoin',
+// Free French GPX libraries per hike (randogps.net - no account needed):
+// the Baronnies park page for hikes inside the park, department pages elsewhere.
+const RG_BARONNIES = 'randonnee-baronnies-provencales-pnr.php'
+const RG_VAUCLUSE = 'randonnee-pedestre-gps-vaucluse-84.php'
+const RG_DROME = 'randonnee-pedestre-gps-drome-26.php'
+export const RANDOGPS = {
+  'saint-julien': RG_BARONNIES,
+  angele: RG_BARONNIES,
+  caire: RG_BARONNIES,
+  'saint-julien-buis': RG_BARONNIES,
+  'ventoux-gr4': RG_VAUCLUSE,
+  'dentelles-loop': RG_VAUCLUSE,
+  'trois-becs': RG_DROME,
+  nesque: RG_VAUCLUSE,
+  'toulourenc-walk': RG_VAUCLUSE,
+  vanige: RG_BARONNIES,
+  'garde-grosse': RG_BARONNIES,
+  'saint-may': RG_BARONNIES,
+  ubrieux: RG_BARONNIES,
+  mevouillon: RG_BARONNIES,
+  'ventoux-mont-serein': RG_VAUCLUSE,
 }
 
 // Visorando commune pages: curated local routes with downloadable GPX tracks.
