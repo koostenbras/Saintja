@@ -98,6 +98,17 @@ function parseDataTourisme(dir) {
   const events = []
   let files = 0
   let parsed = 0
+  let noDate = 0
+  let noGeo = 0
+  let tooFar = 0
+  let sampled = false
+  const sample = (why, obj) => {
+    // One raw entity in the log tells us which field names this flux uses.
+    if (sampled) return
+    sampled = true
+    console.log(`Sample event that failed on "${why}":`)
+    console.log(JSON.stringify(obj).slice(0, 2000))
+  }
   for (const { obj, path } of entities(dir)) {
     files++
     const types = [].concat(obj['@type'] || [])
@@ -124,7 +135,11 @@ function parseDataTourisme(dir) {
         break
       }
     }
-    if (!start) continue
+    if (!start) {
+      noDate++
+      sample('date', obj)
+      continue
+    }
 
     // Location: isLocatedAt[].schema:geo + schema:address
     const loc = first(obj.isLocatedAt || obj['isLocatedAt'])
@@ -132,7 +147,15 @@ function parseDataTourisme(dir) {
     const lat = num(geo?.['schema:latitude'] ?? geo?.latitude)
     const lon = num(geo?.['schema:longitude'] ?? geo?.longitude)
     const km = lat != null && lon != null ? haversineKm(BASE.lat, BASE.lon, lat, lon) : null
-    if (km == null || km > MAX_KM) continue
+    if (km == null) {
+      noGeo++
+      sample('geo', obj)
+      continue
+    }
+    if (km > MAX_KM) {
+      tooFar++
+      continue
+    }
 
     const addr = first(loc?.['schema:address'] || loc?.address)
     const city = label(addr?.['schema:addressLocality'] ?? addr?.addressLocality) || ''
@@ -149,7 +172,10 @@ function parseDataTourisme(dir) {
         `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
     })
   }
-  console.log(`DataTourisme: scanned ${files} entities, ${parsed} events, ${events.length} nearby & upcoming.`)
+  console.log(
+    `DataTourisme: scanned ${files} entities, ${parsed} events, ${events.length} nearby & upcoming ` +
+      `(no usable date: ${noDate}, no coordinates: ${noGeo}, further than ${MAX_KM} km: ${tooFar}).`,
+  )
   return events
 }
 
