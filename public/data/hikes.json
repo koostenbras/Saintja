@@ -1,14 +1,14 @@
 [
   {
     "id": "saint-julien",
-    "name": "Rocher Saint-Julien",
+    "name": "Around Rocher Saint-Julien",
     "trailhead": "Buis-les-Baronnies",
     "driveMin": 25,
     "lat": 44.2848,
     "lon": 5.276,
-    "distanceKm": 8,
-    "ascentM": 620,
-    "timeH": 3.5,
+    "distanceKm": 8.5,
+    "ascentM": 479,
+    "timeH": 4,
     "difficulty": "moderate",
     "loop": true,
     "summary": "The emblematic limestone fin above Buis — a steady climb to a ridge with 360° Baronnies views.",
@@ -18,7 +18,8 @@
       "Climbers on the walls",
       "Lavender & pine"
     ],
-    "season": "Spring & autumn; hot and shadeless in high summer."
+    "season": "Spring & autumn; hot and shadeless in high summer.",
+    "visorando": "en/walk-autour-du-rocher-saint-julien/"
   },
   {
     "id": "angele",
@@ -39,7 +40,8 @@
       "Beech woods",
       "Quiet trails"
     ],
-    "season": "April–June and September–October are ideal."
+    "season": "April–June and September–October are ideal.",
+    "visorando": "en/walk-bellecombe-tarendol.html"
   },
   {
     "id": "caire",
@@ -60,7 +62,8 @@
       "Village panorama",
       "Raptor watching"
     ],
-    "season": "Year-round; best raptor soaring on warm, thermic days."
+    "season": "Year-round; best raptor soaring on warm, thermic days.",
+    "visorando": "en/walk-remuzat.html"
   },
   {
     "id": "saint-julien-buis",
@@ -81,7 +84,8 @@
       "Ridge views",
       "Rarely busy"
     ],
-    "season": "Great in spring and autumn; carry water in summer."
+    "season": "Great in spring and autumn; carry water in summer.",
+    "visorando": "en/walk-col-de-soubeyrand-900m.html"
   },
   {
     "id": "ventoux-gr4",
@@ -90,10 +94,10 @@
     "driveMin": 60,
     "lat": 44.155,
     "lon": 5.305,
-    "distanceKm": 12,
-    "ascentM": 700,
-    "timeH": 5,
-    "difficulty": "hard",
+    "distanceKm": 10.6,
+    "ascentM": 464,
+    "timeH": 4.5,
+    "difficulty": "moderate",
     "loop": false,
     "summary": "The classic summit push across the bare white scree to the 1,909 m top of the Giant of Provence.",
     "highlights": [
@@ -102,11 +106,12 @@
       "Immense panorama",
       "Iconic weather tower"
     ],
-    "season": "June–October; the summit is cold, windy and often snowbound off-season."
+    "season": "June–October; the summit is cold, windy and often snowbound off-season.",
+    "visorando": "en/walk-mont-ventoux-depuis-le-chalet-reynard/"
   },
   {
     "id": "dentelles-loop",
-    "name": "Dentelles de Montmirail ridge loop",
+    "name": "Tour of the Dentelles de Montmirail",
     "trailhead": "Col du Cayron (Gigondas)",
     "driveMin": 45,
     "lat": 44.172,
@@ -123,7 +128,8 @@
       "Vineyard views",
       "Gigondas below"
     ],
-    "season": "Spring and autumn; little shade, avoid the summer midday."
+    "season": "Spring and autumn; little shade, avoid the summer midday.",
+    "visorando": "en/walk-tour-des-dentelles-de-montmirail/"
   },
   {
     "id": "trois-becs",
@@ -132,8 +138,8 @@
     "driveMin": 65,
     "lat": 44.66,
     "lon": 5.16,
-    "distanceKm": 13,
-    "ascentM": 950,
+    "distanceKm": 9.5,
+    "ascentM": 1128,
     "timeH": 6,
     "difficulty": "hard",
     "loop": true,
@@ -144,7 +150,8 @@
       "Big drop-off views",
       "Drôme classic"
     ],
-    "season": "May–October; an early start beats afternoon heat and storms."
+    "season": "May–October; an early start beats afternoon heat and storms.",
+    "visorando": "en/walk-les-trois-becs/"
   },
   {
     "id": "nesque",
@@ -165,7 +172,8 @@
       "Chapelle Saint-Michel",
       "Gentle grades"
     ],
-    "season": "Good most of the year; shaded sections help in summer."
+    "season": "Good most of the year; shaded sections help in summer.",
+    "visorando": "en/walk-monieux.html"
   },
   {
     "id": "toulourenc-walk",
@@ -186,7 +194,8 @@
       "Family friendly",
       "Ventoux foothills"
     ],
-    "season": "Summer only — needs low, warm water; never enter if rain threatens."
+    "season": "Summer only — needs low, warm water; never enter if rain threatens.",
+    "visorando": "en/walk-gorges-du-toulourenc.html"
   },
   {
     "id": "vanige",
@@ -207,7 +216,8 @@
       "Spring orchids",
       "Hardly ever busy"
     ],
-    "season": "Best March–June and September–November."
+    "season": "Best March–June and September–November.",
+    "visorando": "en/walk-sainte-jalle.html"
   },
   {
     "id": "garde-grosse",
@@ -228,7 +238,8 @@
       "Nyons at your feet",
       "Combine with market day"
     ],
-    "season": "Autumn–spring; shadeless and hot in midsummer."
+    "season": "Autumn–spring; shadeless and hot in midsummer.",
+    "visorando": "en/walk-nyons.html"
   },
   {
     "id": "saint-may",
@@ -249,7 +260,8 @@
       "Vultures overhead",
       "Abbey ruins"
     ],
-    "season": "Year-round; glorious light in autumn."
+    "season": "Year-round; glorious light in autumn.",
+    "visorando": "en/walk-saint-may.html"
   },
   {
     "id": "ubrieux",
@@ -270,7 +282,8 @@
       "Climbing cliffs",
       "Short & sweet"
     ],
-    "season": "Year-round; bring swimwear in summer."
+    "season": "Year-round; bring swimwear in summer.",
+    "visorando": "en/walk-buis-les-baronnies.html"
   },
   {
     "id": "mevouillon",
@@ -291,7 +304,8 @@
       "High Baronnies scenery",
       "Family doable"
     ],
-    "season": "Spring–autumn; can be windy on top."
+    "season": "Spring–autumn; can be windy on top.",
+    "visorando": "en/walk-mevouillon.html"
   },
   {
     "id": "ventoux-mont-serein",
@@ -300,9 +314,9 @@
     "driveMin": 70,
     "lat": 44.187,
     "lon": 5.257,
-    "distanceKm": 9,
-    "ascentM": 500,
-    "timeH": 4,
+    "distanceKm": 13.5,
+    "ascentM": 643,
+    "timeH": 5.5,
     "difficulty": "moderate",
     "loop": false,
     "summary": "The gentler, shadier north-face route to the Giant’s 1,909 m summit — forest first, then the famous white scree.",
@@ -312,6 +326,7 @@
       "Summit panorama",
       "Cooler in summer"
     ],
-    "season": "June–October; check the summit forecast — wind is serious up there."
+    "season": "June–October; check the summit forecast — wind is serious up there.",
+    "visorando": "en/walk-le-mont-ventoux-depuis-le-camping-du-mon/"
   }
 ]
