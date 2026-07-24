@@ -65,19 +65,11 @@ export default function HikeCard({ h }) {
         </a>
         <a
           className="map-link"
-          href={`https://cartes.gouv.fr/explorer-les-cartes/?c=${h.lon},${h.lat}&z=15`}
+          href={`https://hiking.waymarkedtrails.org/#?map=15!${h.lat}!${h.lon}`}
           target="_blank"
           rel="noreferrer"
         >
-          🗺️ IGN map
-        </a>
-        <a
-          className="map-link"
-          href={`https://hiking.waymarkedtrails.org/#?map=14!${h.lat}!${h.lon}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          🥾 Trail map
+          🥾 Trail routes map
         </a>
         {VISORANDO_COMMUNE[h.id] && (
           <a

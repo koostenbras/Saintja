@@ -108,7 +108,7 @@ export default function HikesMap({ hikes }) {
             ? `<i>Exact route shown on the map.</i><br/>`
             : `<i>Zoom in — the coloured trail network is real (GR/PR).</i><br/>`) +
           `<a href="https://www.google.com/maps/dir/?api=1&origin=Saint-Jalle,France&destination=${h.lat},${h.lon}&travelmode=driving" target="_blank" rel="noreferrer">Directions</a> · ` +
-          `<a href="https://cartes.gouv.fr/explorer-les-cartes/?c=${h.lon},${h.lat}&z=15" target="_blank" rel="noreferrer">IGN map</a>`,
+          `<a href="https://hiking.waymarkedtrails.org/#?map=15!${h.lat}!${h.lon}" target="_blank" rel="noreferrer">Trail routes map</a>`,
       )
       // Clicking a pin zooms to its route (GPX bounds) or close to the trailhead
       marker.on('click', () => {
