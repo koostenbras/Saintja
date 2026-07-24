@@ -94,23 +94,45 @@ function* entities(dir) {
   }
 }
 
+// One date value: "2026-06-01" | {"@value":"2026-06-01","@type":"xsd:date"}
+function dateVal(x) {
+  const v = first(x)
+  const raw = v && typeof v === 'object' ? v['@value'] : v
+  if (!raw) return null
+  const d = new Date(raw)
+  return isNaN(d) ? null : d
+}
+
 function parseDataTourisme(dir) {
+  // A "normalized" compacted flux stores related entities (locations, geo,
+  // periods…) as separate @graph members and links them via {"@id": "…"}.
+  // Index everything by @id so those references can be resolved.
+  const all = []
+  for (const { obj } of entities(dir)) all.push(obj)
+  const byId = new Map()
+  for (const o of all) if (typeof o['@id'] === 'string') byId.set(o['@id'], o)
+  const deref = (x) => {
+    const v = first(x)
+    if (v && typeof v === 'object' && typeof v['@id'] === 'string') return byId.get(v['@id']) || v
+    return v
+  }
+
   const events = []
-  let files = 0
   let parsed = 0
+  let noTitle = 0
   let noDate = 0
   let noGeo = 0
   let tooFar = 0
-  let sampled = false
+  const sampledWhys = new Set()
   const sample = (why, obj) => {
-    // One raw entity in the log tells us which field names this flux uses.
-    if (sampled) return
-    sampled = true
+    // One raw entity per failure stage tells us which field names this flux uses.
+    if (sampledWhys.size >= 2 || sampledWhys.has(why)) return
+    sampledWhys.add(why)
     console.log(`Sample event that failed on "${why}":`)
     console.log(JSON.stringify(obj).slice(0, 2000))
   }
-  for (const { obj, path } of entities(dir)) {
-    files++
+
+  for (const obj of all) {
     const types = [].concat(obj['@type'] || [])
     const isEvent =
       types.some((t) => /Event|Manifestation|Festival|Concert|Exposition|Rambling/i.test(String(t)))
@@ -118,20 +140,29 @@ function parseDataTourisme(dir) {
     parsed++
 
     const title = label(obj['rdfs:label']) || label(obj.label) || null
-    if (!title) continue
+    if (!title) {
+      noTitle++
+      sample('title', obj)
+      continue
+    }
 
-    // Dates: takesPlace[].startDate / endDate
-    const periods = [].concat(obj.takesPlace || obj['takesPlace'] || [])
+    // Dates. Two shapes exist: schema:startDate/endDate directly on the
+    // event (possibly arrays for multiple occurrences), and/or takesPlace
+    // period entities (possibly {"@id"} references).
+    const periods = []
+    const starts = [].concat(obj['schema:startDate'] || [])
+    const ends = [].concat(obj['schema:endDate'] || [])
+    starts.forEach((s, i) => periods.push({ s: dateVal(s), e: dateVal(ends[i]) || dateVal(s) }))
+    for (const raw of [].concat(obj.takesPlace || obj.takesPlaceAt || [])) {
+      const p = deref(raw)
+      const s = dateVal(p?.startDate ?? p?.['schema:startDate'])
+      periods.push({ s, e: dateVal(p?.endDate ?? p?.['schema:endDate']) || s })
+    }
     let start = null
-    let end = null
-    for (const p of periods) {
-      const s = first(p?.startDate) ? new Date(first(p.startDate)) : null
-      const e = first(p?.endDate) ? new Date(first(p.endDate)) : s
-      if (!s || isNaN(s)) continue
+    for (const { s, e } of periods) {
       // keep the first period overlapping [now, until]
-      if (e >= now && s <= until) {
+      if (s && e >= now && s <= until) {
         start = s
-        end = e
         break
       }
     }
@@ -141,9 +172,9 @@ function parseDataTourisme(dir) {
       continue
     }
 
-    // Location: isLocatedAt[].schema:geo + schema:address
-    const loc = first(obj.isLocatedAt || obj['isLocatedAt'])
-    const geo = loc?.['schema:geo'] || loc?.geo
+    // Location: isLocatedAt -> schema:geo (both possibly references).
+    const loc = deref(obj.isLocatedAt)
+    const geo = deref(loc?.['schema:geo'] ?? loc?.geo)
     const lat = num(geo?.['schema:latitude'] ?? geo?.latitude)
     const lon = num(geo?.['schema:longitude'] ?? geo?.longitude)
     const km = lat != null && lon != null ? haversineKm(BASE.lat, BASE.lon, lat, lon) : null
@@ -157,24 +188,25 @@ function parseDataTourisme(dir) {
       continue
     }
 
-    const addr = first(loc?.['schema:address'] || loc?.address)
+    const addr = deref(loc?.['schema:address'] ?? loc?.address)
     const city = label(addr?.['schema:addressLocality'] ?? addr?.addressLocality) || ''
+
+    const rawUrl = first(obj['schema:url'] || obj.url)
+    const url = typeof rawUrl === 'string' ? rawUrl : rawUrl?.['@value']
 
     const displayDate = start >= now ? start : now
     events.push({
-      id: String(obj['@id'] || obj['dc:identifier'] || path),
+      id: String(obj['@id'] || obj['dc:identifier'] || title),
       title,
       city,
       date: displayDate.toISOString(),
       km,
-      url:
-        first(obj['schema:url'] || obj.url) ||
-        `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
+      url: url || `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
     })
   }
   console.log(
-    `DataTourisme: scanned ${files} entities, ${parsed} events, ${events.length} nearby & upcoming ` +
-      `(no usable date: ${noDate}, no coordinates: ${noGeo}, further than ${MAX_KM} km: ${tooFar}).`,
+    `DataTourisme: scanned ${all.length} entities, ${parsed} events, ${events.length} nearby & upcoming ` +
+      `(no title: ${noTitle}, no usable date: ${noDate}, no coordinates: ${noGeo}, further than ${MAX_KM} km: ${tooFar}).`,
   )
   return events
 }
