@@ -1,0 +1,17 @@
+name: Probe IGN URLs
+on:
+  push:
+    branches: [claude/saint-alle-activity-app-fz4ws5]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test candidate map URLs
+        run: |
+          test_url() {
+            echo "=== $1 ==="
+            curl -sS -o /dev/null -w "status:%{http_code} final:%{url_effective}\n" -L --max-time 20 "$1" || true
+          }
+          test_url "https://www.geoportail.gouv.fr/carte?c=5.2386,44.3839&z=15"
+          test_url "https://cartes.gouv.fr/cartes?c=5.2386,44.3839&z=15"
+          test_url "https://cartes.gouv.fr/cartes?c=5.2386,44.3839&z=15&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes"
