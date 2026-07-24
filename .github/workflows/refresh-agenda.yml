@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # to dispatch the Pages deploy after committing
 
 jobs:
   refresh:
@@ -26,6 +27,8 @@ jobs:
           DT_DIR: dt-feed
         run: node scripts/fetch-agenda.mjs
       - name: Commit if the agenda changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet public/data/agenda.json; then
             echo "Agenda unchanged — nothing to commit."
@@ -35,4 +38,7 @@ jobs:
             git add public/data/agenda.json
             git commit -m "chore: weekly agenda refresh"
             git push
+            # A GITHUB_TOKEN push does not fire the on-push deploy workflow,
+            # so dispatch it explicitly to get the new agenda on the live site.
+            gh workflow run deploy.yml --ref main || echo "Deploy dispatch failed — the agenda goes live with the next deploy."
           fi
