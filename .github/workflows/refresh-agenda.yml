@@ -19,18 +19,7 @@ jobs:
       - name: Download DataTourisme flux (if configured)
         env:
           DT_URL: ${{ secrets.DATATOURISME_WEBSERVICE_URL }}
-        run: |
-          if [ -n "$DT_URL" ]; then
-            echo "Downloading DataTourisme flux…"
-            if curl -sSL --max-time 300 "$DT_URL" -o feed.zip && unzip -q -o feed.zip -d dt-feed; then
-              echo "Flux downloaded: $(find dt-feed -name '*.json' | wc -l) files"
-            else
-              echo "Flux download/unzip failed — continuing without DataTourisme."
-              rm -rf dt-feed
-            fi
-          else
-            echo "DATATOURISME_WEBSERVICE_URL not set — skipping DataTourisme."
-          fi
+        run: bash scripts/download-flux.sh
       - name: Build agenda
         env:
           OPENAGENDA_KEY: ${{ secrets.OPENAGENDA_KEY }}
