@@ -1,4 +1,4 @@
-import { DIFFICULTY, VISORANDO_COMMUNE } from '../data/hikes.js'
+import { DIFFICULTY, VISORANDO_COMMUNE, ALLTRAILS } from '../data/hikes.js'
 
 function driveLabel(min) {
   if (min < 60) return `${min} min`
@@ -63,14 +63,16 @@ export default function HikeCard({ h }) {
         <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
           🚗 Directions
         </a>
-        <a
-          className="map-link"
-          href={`https://hiking.waymarkedtrails.org/#?map=15!${h.lat}!${h.lon}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          🥾 Trail routes map
-        </a>
+        {ALLTRAILS[h.id] && (
+          <a
+            className="map-link"
+            href={`https://www.alltrails.com/${ALLTRAILS[h.id]}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            🥾 AllTrails
+          </a>
+        )}
         {VISORANDO_COMMUNE[h.id] && (
           <a
             className="map-link"
