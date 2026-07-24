@@ -1,0 +1,47 @@
+name: Fetch RandoGPS route lists
+on:
+  push:
+    branches: [claude/saint-alle-activity-app-fz4ws5]
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and extract route lists
+        run: |
+          mkdir -p scratch
+          for page in randonnee-baronnies-provencales-pnr.php randonnee-pedestre-gps-vaucluse-84.php randonnee-pedestre-gps-drome-26.php; do
+            echo "===== $page =====" >> scratch/randogps-list.txt
+            curl -sSL --max-time 60 "https://www.randogps.net/$page" -o page.html || true
+            # Extract route links (num & meta) plus surrounding text with distances
+            python3 - "$page" <<'PY' >> scratch/randogps-list.txt
+import re, sys, html
+try:
+    src = open('page.html', encoding='utf-8', errors='replace').read()
+except Exception as e:
+    print('READ FAIL', e); sys.exit(0)
+# anchor tags to route pages
+seen = set()
+for m in re.finditer(r'href="([^"]*php\?[^"]*num=(\d+)[^"]*)"[^>]*>(.*?)</a>', src, re.S):
+    url, num, text = m.group(1), m.group(2), re.sub(r'<[^>]+>', ' ', m.group(3))
+    text = html.unescape(re.sub(r'\s+', ' ', text)).strip()
+    if num in seen or not text: continue
+    seen.add(num)
+    # find nearby km/deniv info within 400 chars after the anchor
+    tail = src[m.end():m.end()+400]
+    km = re.search(r'([\d.,]+)\s*[kK]m', tail)
+    den = re.search(r'([\d]+)\s*m', tail)
+    print(f"num={num} | {text[:70]} | km={km.group(1) if km else '?'} | deniv={den.group(1) if den else '?'} | {url[:100]}")
+print(f"TOTAL: {len(seen)} routes")
+PY
+          done
+          wc -l scratch/randogps-list.txt
+      - name: Commit the list
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add scratch/randogps-list.txt
+          git commit -m "scratch: RandoGPS route lists" || echo "nothing to commit"
+          git push
