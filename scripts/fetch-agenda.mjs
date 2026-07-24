@@ -17,6 +17,9 @@ const BASE = { lat: 44.3839, lon: 5.2386 } // Saint-Jalle
 const MAX_KM = 60
 const DAYS_AHEAD = 30
 const MAX_EVENTS = 30
+// Pin specific agendas here (guaranteed pickup). Find one on openagenda.com:
+// the UID is the number in the agenda's URL or settings page.
+const PINNED_UIDS = []
 const AGENDA_SEARCHES = [
   'Baronnies provençales',
   'Drôme provençale',
@@ -71,6 +74,7 @@ try {
 
   // 2. Find local agendas.
   const uids = new Map() // uid -> title
+  for (const uid of PINNED_UIDS) uids.set(uid, `pinned:${uid}`)
   for (const search of AGENDA_SEARCHES) {
     try {
       const json = await oa('agendas', { search, size: '5' })
