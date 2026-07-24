@@ -10,45 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Fetch commune pages and extract routes
-        run: |
-          mkdir -p scratch
-          rm -f scratch/visorando-list.txt
-          for slug in sainte-jalle buis-les-baronnies nyons remuzat saint-may bellecombe-tarendol mevouillon bedoin beaumont-du-ventoux gigondas saou monieux malaucene; do
-            echo "===== $slug =====" >> scratch/visorando-list.txt
-            curl -sSL --max-time 60 -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
-              "https://www.visorando.com/randonnee-$slug.html" -o page.html || true
-            python3 - <<'PY' >> scratch/visorando-list.txt
-import re, html
-try:
-    src = open('page.html', encoding='utf-8', errors='replace').read()
-except Exception as e:
-    print('READ FAIL', e); raise SystemExit
-print(f"(page size: {len(src)} bytes)")
-seen = set()
-count = 0
-for m in re.finditer(r'href="(/randonnee-[a-z0-9\-]+\.html)"[^>]*>(.*?)</a>', src, re.S):
-    url, text = m.group(1), re.sub(r'<[^>]+>', ' ', m.group(2))
-    text = html.unescape(re.sub(r'\s+', ' ', text)).strip()
-    if url in seen or len(text) < 8: continue
-    seen.add(url)
-    tail = re.sub(r'<[^>]+>', ' ', src[m.end():m.end()+900])
-    tail = html.unescape(re.sub(r'\s+', ' ', tail))
-    km = re.search(r'([\d]+[.,]\d+)\s*km', tail)
-    dplus = re.search(r'\+\s*([\d]+)\s*m', tail)
-    dur = re.search(r'(\d+h\s?\d*)', tail)
-    diff = re.search(r'(Facile|Moyenne|Difficile|Très facile|Très difficile)', tail)
-    print(f"{text[:65]} | km={km.group(1) if km else '?'} | D+={dplus.group(1) if dplus else '?'} | t={dur.group(1) if dur else '?'} | {diff.group(1) if diff else '?'} | https://www.visorando.com{url}")
-    count += 1
-    if count >= 15: break
-print(f"TOTAL: {count}")
-PY
-          done
-          wc -l scratch/visorando-list.txt
+        run: python3 scripts/scrape_visorando.py
       - name: Commit the list
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git pull --rebase || true
           git add scratch/
           git commit -m "scratch: Visorando route lists" || echo "nothing to commit"
-          git push
+          git push || true
