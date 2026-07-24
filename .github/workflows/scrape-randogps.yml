@@ -1,4 +1,4 @@
-name: Fetch RandoGPS route lists
+name: Fetch Visorando route lists
 on:
   push:
     branches: [claude/saint-alle-activity-app-fz4ws5]
@@ -9,39 +9,46 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch and extract route lists
+      - name: Fetch commune pages and extract routes
         run: |
           mkdir -p scratch
-          for page in randonnee-baronnies-provencales-pnr.php randonnee-pedestre-gps-vaucluse-84.php randonnee-pedestre-gps-drome-26.php; do
-            echo "===== $page =====" >> scratch/randogps-list.txt
-            curl -sSL --max-time 60 "https://www.randogps.net/$page" -o page.html || true
-            # Extract route links (num & meta) plus surrounding text with distances
-            python3 - "$page" <<'PY' >> scratch/randogps-list.txt
-import re, sys, html
+          rm -f scratch/visorando-list.txt
+          for slug in sainte-jalle buis-les-baronnies nyons remuzat saint-may bellecombe-tarendol mevouillon bedoin beaumont-du-ventoux gigondas saou monieux malaucene; do
+            echo "===== $slug =====" >> scratch/visorando-list.txt
+            curl -sSL --max-time 60 -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+              "https://www.visorando.com/randonnee-$slug.html" -o page.html || true
+            python3 - <<'PY' >> scratch/visorando-list.txt
+import re, html
 try:
     src = open('page.html', encoding='utf-8', errors='replace').read()
 except Exception as e:
-    print('READ FAIL', e); sys.exit(0)
-# anchor tags to route pages
+    print('READ FAIL', e); raise SystemExit
+print(f"(page size: {len(src)} bytes)")
 seen = set()
-for m in re.finditer(r'href="([^"]*php\?[^"]*num=(\d+)[^"]*)"[^>]*>(.*?)</a>', src, re.S):
-    url, num, text = m.group(1), m.group(2), re.sub(r'<[^>]+>', ' ', m.group(3))
+count = 0
+for m in re.finditer(r'href="(/randonnee-[a-z0-9\-]+\.html)"[^>]*>(.*?)</a>', src, re.S):
+    url, text = m.group(1), re.sub(r'<[^>]+>', ' ', m.group(2))
     text = html.unescape(re.sub(r'\s+', ' ', text)).strip()
-    if num in seen or not text: continue
-    seen.add(num)
-    # find nearby km/deniv info within 400 chars after the anchor
-    tail = src[m.end():m.end()+400]
-    km = re.search(r'([\d.,]+)\s*[kK]m', tail)
-    den = re.search(r'([\d]+)\s*m', tail)
-    print(f"num={num} | {text[:70]} | km={km.group(1) if km else '?'} | deniv={den.group(1) if den else '?'} | {url[:100]}")
-print(f"TOTAL: {len(seen)} routes")
+    if url in seen or len(text) < 8: continue
+    seen.add(url)
+    tail = re.sub(r'<[^>]+>', ' ', src[m.end():m.end()+900])
+    tail = html.unescape(re.sub(r'\s+', ' ', tail))
+    km = re.search(r'([\d]+[.,]\d+)\s*km', tail)
+    dplus = re.search(r'\+\s*([\d]+)\s*m', tail)
+    dur = re.search(r'(\d+h\s?\d*)', tail)
+    diff = re.search(r'(Facile|Moyenne|Difficile|Très facile|Très difficile)', tail)
+    print(f"{text[:65]} | km={km.group(1) if km else '?'} | D+={dplus.group(1) if dplus else '?'} | t={dur.group(1) if dur else '?'} | {diff.group(1) if diff else '?'} | https://www.visorando.com{url}")
+    count += 1
+    if count >= 15: break
+print(f"TOTAL: {count}")
 PY
           done
-          wc -l scratch/randogps-list.txt
+          wc -l scratch/visorando-list.txt
       - name: Commit the list
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add scratch/randogps-list.txt
-          git commit -m "scratch: RandoGPS route lists" || echo "nothing to commit"
+          git pull --rebase || true
+          git add scratch/
+          git commit -m "scratch: Visorando route lists" || echo "nothing to commit"
           git push
