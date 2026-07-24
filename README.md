@@ -27,13 +27,20 @@ Filter by category/difficulty and slide the **max drive time** to match your day
 
 ### Activating the automatic agenda
 
-The weekly script (`scripts/fetch-agenda.mjs`, run by `.github/workflows/refresh-agenda.yml`) needs a free OpenAgenda API key:
+The weekly workflow (`.github/workflows/refresh-agenda.yml` + `scripts/fetch-agenda.mjs`) supports two sources, tried in this order:
 
-1. Register at [openagenda.com](https://openagenda.com) and copy your API key.
-2. In the repo: **Settings → Secrets and variables → Actions → New repository secret**, name `OPENAGENDA_KEY`.
-3. Trigger the first run manually: **Actions → Refresh local agenda → Run workflow** (afterwards it runs every Sunday night).
+**1. DataTourisme (preferred — official French tourism open data):**
 
-Without the key the workflow simply skips — the site keeps working and shows how to activate the feed. The script is fail-safe: any API problem leaves the previous agenda in place.
+1. Create a free account on [diffuseur.datatourisme.fr](https://diffuseur.datatourisme.fr).
+2. Create an **Application** (this gives you an API key).
+3. Create a **Flux**: filter on event types (*Fêtes et manifestations*), zone **Drôme (26) + Vaucluse (84)**, format JSON-LD. Note: a new flux is generated on DataTourisme's daily schedule — the download may only work from the next day.
+4. Copy the flux's **webservice URL** (`https://diffuseur.datatourisme.fr/webservice/<fluxId>/<appKey>`).
+5. Repo → **Settings → Secrets and variables → Actions → New repository secret**: name `DATATOURISME_WEBSERVICE_URL`, value = that URL.
+6. First fill: **Actions → Refresh local agenda → Run workflow**. Afterwards it runs every Sunday night.
+
+**2. OpenAgenda (fallback):** set the `OPENAGENDA_KEY` secret (free key at openagenda.com → Settings → API keys). Used only when no DataTourisme feed is configured. Coverage for the rural Baronnies proved thin.
+
+Without any secret the workflow simply skips — the site keeps working and shows how to activate the feed. The script is fail-safe: any download or API problem leaves the previous agenda in place.
 
 ## The live database (`public/data/*.json`)
 
