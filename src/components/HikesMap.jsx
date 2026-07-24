@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { BASE } from '../data/base.js'
-import { DIFFICULTY, ALLTRAILS } from '../data/hikes.js'
+import { DIFFICULTY, RANDOGPS } from '../data/hikes.js'
 
 // Overview map of all trailheads, with two ways to see real routes:
 // 1. The "Marked hiking trails" overlay (Waymarked Trails / OpenStreetMap)
@@ -108,8 +108,8 @@ export default function HikesMap({ hikes }) {
             ? `<i>Exact route shown on the map.</i><br/>`
             : `<i>Zoom in — the coloured trail network is real (GR/PR).</i><br/>`) +
           `<a href="https://www.google.com/maps/dir/?api=1&origin=Saint-Jalle,France&destination=${h.lat},${h.lon}&travelmode=driving" target="_blank" rel="noreferrer">Directions</a> · ` +
-          (ALLTRAILS[h.id]
-            ? `<a href="https://www.alltrails.com/${ALLTRAILS[h.id]}" target="_blank" rel="noreferrer">AllTrails</a>`
+          (RANDOGPS[h.id]
+            ? `<a href="https://www.randogps.net/${RANDOGPS[h.id]}" target="_blank" rel="noreferrer">Free GPX</a>`
             : `<a href="https://hiking.waymarkedtrails.org/#?map=15!${h.lat}!${h.lon}" target="_blank" rel="noreferrer">Trail map</a>`),
       )
       // Clicking a pin zooms to its route (GPX bounds) or close to the trailhead
