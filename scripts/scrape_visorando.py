@@ -49,6 +49,11 @@ for slug in SLUGS:
         if count >= 15:
             break
     out.append(f'TOTAL: {count}')
+    # Diagnostic 2: markup around the first route-stats pattern (e.g. "+744m")
+    stats = re.search(r'.{800}\+\s?\d{2,4}\s?m.{400}', src, re.S)
+    if stats:
+        chunk = stats.group(0).replace('\n', ' ')
+        out.append('STATS CONTEXT: ' + chunk)
 
 Path('scratch').mkdir(exist_ok=True)
 Path('scratch/visorando-list.txt').write_text('\n'.join(out), encoding='utf-8')
