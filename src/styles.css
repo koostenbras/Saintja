@@ -266,6 +266,7 @@ body {
 }
 .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
 .leaflet-popup-content a { color: var(--lavender); font-weight: 700; }
+.map-note { font-size: 13px; color: var(--ink-soft); margin: -10px 2px 20px; line-height: 1.5; }
 
 /* ---------- misc ---------- */
 .loading, .error {

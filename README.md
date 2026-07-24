@@ -41,6 +41,7 @@ Without the key the workflow simply skips — the site keeps working and shows h
 |---|---|---|
 | `destinations.json` | Day trips (culture / food / nature) | hand |
 | `hikes.json` | Hiking routes with stats & GPS links | hand |
+| `gpx/*.gpx` | Exact route tracks drawn on the map (see `public/data/gpx/README.md`) | hand |
 | `restaurants.json` | Restaurants & terraces | hand |
 | `events.json` | Seasonal events, markets & brocantes | hand |
 | `agenda.json` | Upcoming local events (next 30 days) | **script, weekly** |
