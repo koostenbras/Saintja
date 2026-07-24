@@ -14,6 +14,7 @@ export function useWeather(lat, lon, days = 7) {
       latitude: lat,
       longitude: lon,
       current: 'temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m',
+      hourly: 'temperature_2m,precipitation_probability,weather_code,wind_speed_10m',
       daily:
         'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,sunrise,sunset',
       timezone: 'Europe/Paris',
