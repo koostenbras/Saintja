@@ -19,7 +19,10 @@ const DT_DIR = process.env.DT_DIR || 'dt-feed'
 const BASE = { lat: 44.3839, lon: 5.2386 } // Saint-Jalle
 const MAX_KM = 60
 const DAYS_AHEAD = 30
-const MAX_EVENTS = 30
+// Ongoing events (markets, exhibitions…) and dated one-offs get their own
+// quota so the many weekly markets can't crowd out concerts and fêtes.
+const MAX_ONGOING = 30
+const MAX_UPCOMING = 30
 
 const now = new Date()
 const until = new Date(now.getTime() + DAYS_AHEAD * 24 * 3600 * 1000)
@@ -35,14 +38,27 @@ function haversineKm(lat1, lon1, lat2, lon2) {
 }
 
 function finish(events, source) {
+  // Already-running events sorted by end date (ending soonest first),
+  // future one-offs chronologically by start date.
+  const ongoing = events
+    .filter((e) => e.ongoing)
+    .sort((a, b) => new Date(a.end || a.date) - new Date(b.end || b.date))
+    .slice(0, MAX_ONGOING)
+  const upcoming = events
+    .filter((e) => !e.ongoing)
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+    .slice(0, MAX_UPCOMING)
   const payload = {
     updatedAt: now.toISOString(),
     source,
     daysAhead: DAYS_AHEAD,
-    events: events.sort((a, b) => new Date(a.date) - new Date(b.date)).slice(0, MAX_EVENTS),
+    events: [...upcoming, ...ongoing],
   }
   writeFileSync(OUT, JSON.stringify(payload, null, 2))
-  console.log(`Wrote ${payload.events.length} events (within ${MAX_KM} km, next ${DAYS_AHEAD} days) from ${source}.`)
+  console.log(
+    `Wrote ${payload.events.length} events (${upcoming.length} upcoming, ${ongoing.length} ongoing; ` +
+      `within ${MAX_KM} km, next ${DAYS_AHEAD} days) from ${source}.`,
+  )
 }
 
 // ---------- DataTourisme (JSON-LD flux directory) ----------
@@ -159,10 +175,12 @@ function parseDataTourisme(dir) {
       periods.push({ s, e: dateVal(p?.endDate ?? p?.['schema:endDate']) || s })
     }
     let start = null
+    let end = null
     for (const { s, e } of periods) {
       // keep the first period overlapping [now, until]
       if (s && e >= now && s <= until) {
         start = s
+        end = e
         break
       }
     }
@@ -194,12 +212,13 @@ function parseDataTourisme(dir) {
     const rawUrl = first(obj['schema:url'] || obj.url)
     const url = typeof rawUrl === 'string' ? rawUrl : rawUrl?.['@value']
 
-    const displayDate = start >= now ? start : now
     events.push({
       id: String(obj['@id'] || obj['dc:identifier'] || title),
       title,
       city,
-      date: displayDate.toISOString(),
+      date: start.toISOString(),
+      end: end ? end.toISOString() : null,
+      ongoing: start < now,
       km,
       url: url || `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
     })
