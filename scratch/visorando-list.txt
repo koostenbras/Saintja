@@ -1,0 +1,39 @@
+===== sainte-jalle =====
+(page size: 339649)
+TOTAL: 0
+===== buis-les-baronnies =====
+(page size: 149446)
+TOTAL: 0
+===== nyons =====
+(page size: 143829)
+TOTAL: 0
+===== remuzat =====
+(page size: 259537)
+TOTAL: 0
+===== saint-may =====
+(page size: 150192)
+TOTAL: 0
+===== bellecombe-tarendol =====
+(page size: 293509)
+TOTAL: 0
+===== mevouillon =====
+(page size: 204752)
+TOTAL: 0
+===== bedoin =====
+(page size: 258052)
+TOTAL: 0
+===== beaumont-du-ventoux =====
+(page size: 213932)
+TOTAL: 0
+===== gigondas =====
+(page size: 239237)
+TOTAL: 0
+===== saou =====
+(page size: 275218)
+TOTAL: 0
+===== monieux =====
+(page size: 180647)
+TOTAL: 0
+===== malaucene =====
+(page size: 229689)
+TOTAL: 0
