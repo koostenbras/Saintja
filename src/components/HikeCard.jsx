@@ -1,4 +1,4 @@
-import { DIFFICULTY, VISORANDO_COMMUNE, RANDOGPS } from '../data/hikes.js'
+import { DIFFICULTY, RANDOGPS } from '../data/hikes.js'
 
 function driveLabel(min) {
   if (min < 60) return `${min} min`
@@ -63,6 +63,16 @@ export default function HikeCard({ h }) {
         <a className="map-link" href={mapUrl} target="_blank" rel="noreferrer">
           🚗 Directions
         </a>
+        {h.visorando && (
+          <a
+            className="map-link"
+            href={`https://www.visorando.com/${h.visorando}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            📥 Route & GPX (Visorando)
+          </a>
+        )}
         {RANDOGPS[h.id] && (
           <a
             className="map-link"
@@ -70,17 +80,7 @@ export default function HikeCard({ h }) {
             target="_blank"
             rel="noreferrer"
           >
-            🇫🇷 Free GPX (RandoGPS)
-          </a>
-        )}
-        {VISORANDO_COMMUNE[h.id] && (
-          <a
-            className="map-link"
-            href={`https://www.visorando.com/randonnee-${VISORANDO_COMMUNE[h.id]}.html`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            📥 GPX routes
+            🇫🇷 More GPX (RandoGPS)
           </a>
         )}
       </div>
