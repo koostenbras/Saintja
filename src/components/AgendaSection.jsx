@@ -38,6 +38,12 @@ export default function AgendaSection({ agenda }) {
             </li>
           ))}
         </ul>
+      ) : updated ? (
+        <p className="agenda-empty">
+          The feed is active but found no upcoming events within ~60 km right now — rural
+          agendas are thinly covered on OpenAgenda. It retries every Sunday night; the curated
+          seasonal highlights below are maintained by hand.
+        </p>
       ) : (
         <p className="agenda-empty">
           No automatic events yet. The feed updates every Sunday night once the{' '}

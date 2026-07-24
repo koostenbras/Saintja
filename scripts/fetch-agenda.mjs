@@ -17,8 +17,23 @@ const BASE = { lat: 44.3839, lon: 5.2386 } // Saint-Jalle
 const MAX_KM = 60
 const DAYS_AHEAD = 30
 const MAX_EVENTS = 30
-const AGENDA_SEARCHES = ['Baronnies', 'Drôme provençale', 'Nyons', 'Buis-les-Baronnies', 'Vaison-la-Romaine']
-const MAX_AGENDAS = 10
+const AGENDA_SEARCHES = [
+  'Baronnies provençales',
+  'Drôme provençale',
+  'Nyons Baronnies',
+  'Buis-les-Baronnies',
+  'Vaison Ventoux',
+  'Vaison-la-Romaine',
+  'Pays de Grignan',
+  'Ventoux Provence',
+  'Drôme sud',
+  'Haut Vaucluse',
+  'Rémuzat',
+  'Séderon',
+  'Montbrun-les-Bains',
+  'Valréas Enclave des Papes',
+]
+const MAX_AGENDAS = 30
 
 function haversineKm(lat1, lon1, lat2, lon2) {
   const R = 6371
