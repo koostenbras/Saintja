@@ -78,22 +78,28 @@ function* jsonFiles(dir) {
   }
 }
 
+// A flux is either a zip of one-entity-per-file documents, or a single
+// compacted JSON-LD document whose @graph holds every entity. Yield them all.
+function* entities(dir) {
+  for (const path of jsonFiles(dir)) {
+    let doc
+    try {
+      doc = JSON.parse(readFileSync(path, 'utf8'))
+    } catch {
+      continue
+    }
+    const graph = doc?.['@graph']
+    const list = Array.isArray(graph) ? graph : graph ? [graph] : Array.isArray(doc) ? doc : [doc]
+    for (const obj of list) if (obj && typeof obj === 'object') yield { obj, path }
+  }
+}
+
 function parseDataTourisme(dir) {
   const events = []
   let files = 0
   let parsed = 0
-  for (const path of jsonFiles(dir)) {
+  for (const { obj, path } of entities(dir)) {
     files++
-    let obj
-    try {
-      obj = JSON.parse(readFileSync(path, 'utf8'))
-    } catch {
-      continue
-    }
-    // Some flux exports wrap the entity in @graph.
-    if (obj['@graph']) obj = first(obj['@graph'])
-    if (!obj) continue
-
     const types = [].concat(obj['@type'] || [])
     const isEvent =
       types.some((t) => /Event|Manifestation|Festival|Concert|Exposition|Rambling/i.test(String(t)))
@@ -143,7 +149,7 @@ function parseDataTourisme(dir) {
         `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
     })
   }
-  console.log(`DataTourisme: scanned ${files} files, ${parsed} events, ${events.length} nearby & upcoming.`)
+  console.log(`DataTourisme: scanned ${files} entities, ${parsed} events, ${events.length} nearby & upcoming.`)
   return events
 }
 
