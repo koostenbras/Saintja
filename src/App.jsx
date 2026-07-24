@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react'
 import { BASE } from './data/base.js'
-import { DESTINATIONS, CATEGORIES } from './data/destinations.js'
-import { HIKES, DIFFICULTY } from './data/hikes.js'
-import { RESTAURANTS, STYLES } from './data/restaurants.js'
-import { EVENTS, SEASONS } from './data/events.js'
+import { CATEGORIES } from './data/destinations.js'
+import { DIFFICULTY } from './data/hikes.js'
+import { STYLES } from './data/restaurants.js'
+import { SEASONS } from './data/events.js'
+import { useData } from './hooks/useData.js'
 import WeatherPanel from './components/WeatherPanel.jsx'
 import DestinationCard from './components/DestinationCard.jsx'
 import HikeCard from './components/HikeCard.jsx'
@@ -27,6 +28,7 @@ export default function App() {
   const [styles, setStyles] = useState(new Set(Object.keys(STYLES)))
   const [seasons, setSeasons] = useState(new Set(Object.keys(SEASONS)))
   const [maxDrive, setMaxDrive] = useState(MAX_MIN)
+  const { loading, error, data } = useData()
 
   function toggle(set, updater, key) {
     const next = new Set(set)
@@ -37,26 +39,26 @@ export default function App() {
 
   const destinations = useMemo(
     () =>
-      DESTINATIONS.filter((d) => cats.has(d.category) && d.driveMin <= maxDrive).sort(
-        (a, b) => a.driveMin - b.driveMin,
-      ),
-    [cats, maxDrive],
+      (data?.destinations ?? [])
+        .filter((d) => cats.has(d.category) && d.driveMin <= maxDrive)
+        .sort((a, b) => a.driveMin - b.driveMin),
+    [data, cats, maxDrive],
   )
 
   const hikes = useMemo(
     () =>
-      HIKES.filter((h) => diffs.has(h.difficulty) && h.driveMin <= maxDrive).sort(
-        (a, b) => a.driveMin - b.driveMin,
-      ),
-    [diffs, maxDrive],
+      (data?.hikes ?? [])
+        .filter((h) => diffs.has(h.difficulty) && h.driveMin <= maxDrive)
+        .sort((a, b) => a.driveMin - b.driveMin),
+    [data, diffs, maxDrive],
   )
 
   const restaurants = useMemo(
     () =>
-      RESTAURANTS.filter((r) => styles.has(r.style) && r.driveMin <= maxDrive).sort(
-        (a, b) => a.driveMin - b.driveMin,
-      ),
-    [styles, maxDrive],
+      (data?.restaurants ?? [])
+        .filter((r) => styles.has(r.style) && r.driveMin <= maxDrive)
+        .sort((a, b) => a.driveMin - b.driveMin),
+    [data, styles, maxDrive],
   )
 
   const events = useMemo(() => {
@@ -64,15 +66,15 @@ export default function App() {
       [...seasons].flatMap((key) => SEASONS[key].months),
     )
     const now = new Date().getMonth() + 1
-    return EVENTS.filter(
-      (e) => e.driveMin <= maxDrive && e.months.some((m) => activeMonths.has(m)),
-    ).sort((a, b) => {
-      // seasonal events happening this month first (all-year events don't
-      // count as "now" — they'd otherwise crowd out the special ones)
-      const isNow = (e) => (e.months.includes(now) && e.months.length < 12 ? 0 : 1)
-      return isNow(a) - isNow(b) || a.driveMin - b.driveMin
-    })
-  }, [seasons, maxDrive])
+    return (data?.events ?? [])
+      .filter((e) => e.driveMin <= maxDrive && e.months.some((m) => activeMonths.has(m)))
+      .sort((a, b) => {
+        // seasonal events happening this month first (all-year events don't
+        // count as "now" — they'd otherwise crowd out the special ones)
+        const isNow = (e) => (e.months.includes(now) && e.months.length < 12 ? 0 : 1)
+        return isNow(a) - isNow(b) || a.driveMin - b.driveMin
+      })
+  }, [data, seasons, maxDrive])
 
   return (
     <div className="app">
@@ -89,6 +91,11 @@ export default function App() {
       </header>
 
       <WeatherPanel base={BASE} />
+
+      {loading && <p className="loading">Loading places, hikes and events…</p>}
+      {error && (
+        <p className="error">Couldn’t load the content data ({error}). Refresh to try again.</p>
+      )}
 
       <nav className="tabs">
         <button className={`tab ${tab === 'explore' ? 'active' : ''}`} onClick={() => setTab('explore')}>

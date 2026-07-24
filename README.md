@@ -12,11 +12,33 @@ Filter by category/difficulty and slide the **max drive time** to match your day
 
 ## Tech
 
-- [React 18](https://react.dev) + [Vite](https://vitejs.dev)
+- [React 18](https://react.dev) + [Vite](https://vitejs.dev), plus [Leaflet](https://leafletjs.com) for the trailhead map.
 - No backend and no API keys — weather is fetched client-side from Open-Meteo's free forecast API.
-- All content lives in plain data files under `src/data/` so it's easy to add your own spots.
+- **All content lives in JSON files under `public/data/`** — the app's "database". The app loads them at runtime, so updating content never requires touching code.
 
-## Run it
+## The live database (`public/data/*.json`)
+
+| File | Contents |
+|---|---|
+| `destinations.json` | Day trips (culture / food / nature) |
+| `hikes.json` | Hiking routes with stats & GPS links |
+| `restaurants.json` | Restaurants & terraces |
+| `events.json` | Seasonal events, markets & brocantes |
+
+### Updating content on GitHub (hosted on GitHub Pages)
+
+1. Open the file on GitHub, e.g. `public/data/restaurants.json`.
+2. Click the **pencil icon** (Edit this file).
+3. Add or change an entry — copy an existing block `{ … }` as a template and mind the commas.
+4. Click **Commit changes**.
+
+That's it: the deploy workflow rebuilds automatically and the live site shows your change **about a minute later**. No code, no local tools needed — it works from your phone, too.
+
+### Updating content on-prem
+
+The compose file mounts `./public/data` into the container, so just edit the JSON files on the server and refresh the browser — **no rebuild, no restart**.
+
+## Run it locally
 
 ```bash
 npm install
@@ -25,12 +47,17 @@ npm run build    # production build → dist/
 npm run preview  # preview the production build
 ```
 
-The build in `dist/` is a static site — drop it on any static host (Netlify, GitHub Pages, Vercel, an S3 bucket…).
+## Hosting
 
-## Add your own places
+**GitHub Pages (current setup):** every push to `main` triggers `.github/workflows/deploy.yml`, which builds and publishes to <https://koostenbras.github.io/Saintja/>.
 
-- **Day trips:** edit `src/data/destinations.js`. Each entry needs a `category` (`culture` / `food` / `nature`), a rough `driveMin` from Saint-Jalle, `lat`/`lon`, a short `summary`, some `highlights` and an optional `tip`. Set `tier` to `near` or `far`.
-- **Hikes:** edit `src/data/hikes.js` with distance, ascent, time, `difficulty` and `season`.
-- **Move the home base:** change `src/data/base.js` (name + coordinates) and drive times/weather follow automatically.
+**On-prem / self-hosted (Docker):**
+
+```bash
+docker compose up -d --build
+# → http://localhost:8080
+```
+
+Or without compose: `docker build -t saintja . && docker run -p 8080:80 saintja`. The image is a plain nginx serving static files, so it also runs on any NAS, Raspberry Pi or VM that has Docker. Without Docker, `npm run build` and point any web server (nginx, Apache, Caddy) at `dist/`.
 
 > Drive times are rough estimates on winding local roads. Always check trail conditions, opening hours and seasons before you set off.

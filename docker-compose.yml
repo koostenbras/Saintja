@@ -1,0 +1,10 @@
+services:
+  saintja:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # Live database on-prem: mount the JSON content over the baked-in copy.
+    # Edit files in ./public/data and refresh the browser — no rebuild needed.
+    volumes:
+      - ./public/data:/usr/share/nginx/html/data:ro

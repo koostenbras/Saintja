@@ -1,0 +1,495 @@
+[
+  {
+    "id": "nyons",
+    "name": "Nyons",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 25,
+    "lat": 44.3603,
+    "lon": 5.1408,
+    "summary": "Sun-trap olive town on the Eygues with a superb Provençal market and the medieval Rue des Grands Forts.",
+    "highlights": [
+      "Thursday morning market",
+      "Pont Roman (13th c.)",
+      "Olive oil & tapenade",
+      "Quartier des Forts"
+    ],
+    "tip": "Come Thursday for the market; oil mills sell direct year-round."
+  },
+  {
+    "id": "vaison",
+    "name": "Vaison-la-Romaine",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 35,
+    "lat": 44.241,
+    "lon": 5.0742,
+    "summary": "Two towns in one: extensive Roman ruins and a Roman bridge below, a cobbled medieval Haute Ville above.",
+    "highlights": [
+      "Roman archaeological sites",
+      "Roman bridge",
+      "Cité Médiévale",
+      "Tuesday market"
+    ],
+    "tip": "Combine ruins in the morning with the Haute Ville and lunch."
+  },
+  {
+    "id": "buis",
+    "name": "Buis-les-Baronnies",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 25,
+    "lat": 44.2755,
+    "lon": 5.2762,
+    "summary": "Lime-blossom capital tucked under the Rocher Saint-Julien, with arcaded squares and great climbing.",
+    "highlights": [
+      "Arcades du 15e siècle",
+      "Rocher Saint-Julien",
+      "Wednesday market",
+      "Tilleul (linden)"
+    ],
+    "tip": "The Saint-Julien cliffs above town are a classic climbing spot."
+  },
+  {
+    "id": "grignan",
+    "name": "Grignan",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 50,
+    "lat": 44.4194,
+    "lon": 4.908,
+    "summary": "Renaissance château on a rock, immortalised by Madame de Sévigné, ringed by lavender in summer.",
+    "highlights": [
+      "Château de Grignan",
+      "Lavender fields (Jun–Jul)",
+      "Book-village shops",
+      "Perched old town"
+    ],
+    "tip": "Lavender peaks late June to mid-July around the château."
+  },
+  {
+    "id": "montbrun",
+    "name": "Montbrun-les-Bains",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 45,
+    "lat": 44.1747,
+    "lon": 5.4396,
+    "summary": "One of France’s \"plus beaux villages\", stacked up a hillside facing Mont Ventoux, with a thermal spa.",
+    "highlights": [
+      "Perched medieval village",
+      "Thermes (spa)",
+      "Ventoux views",
+      "Renaissance château ruins"
+    ],
+    "tip": "Book the thermal baths ahead if you want a spa afternoon."
+  },
+  {
+    "id": "seguret",
+    "name": "Séguret",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 40,
+    "lat": 44.201,
+    "lon": 5,
+    "summary": "A \"plus beau village\" clinging to the Dentelles, with a covered lane, fountain and sweeping vineyard views.",
+    "highlights": [
+      "Rue des Poternes",
+      "Fontaine des Mascarons",
+      "Dentelles panorama",
+      "Côtes du Rhône villages"
+    ],
+    "tip": "Tiny lanes — park below and walk up."
+  },
+  {
+    "id": "dieulefit",
+    "name": "Dieulefit",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 50,
+    "lat": 44.5266,
+    "lon": 5.0611,
+    "summary": "Pottery town in a mild micro-climate, full of ceramic studios and a lively Friday market.",
+    "highlights": [
+      "Ceramic & pottery ateliers",
+      "Poët-Laval nearby",
+      "Friday market",
+      "Craft galleries"
+    ],
+    "tip": "Detour to the perched Templar village of Le Poët-Laval."
+  },
+  {
+    "id": "die",
+    "name": "Die",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 55,
+    "lat": 44.7539,
+    "lon": 5.3691,
+    "summary": "Gateway to the Diois and the Vercors, a Roman-walled town famous for its sparkling Clairette.",
+    "highlights": [
+      "Roman ramparts & Porte Saint-Marcel",
+      "Clairette de Die cellars",
+      "Vercors foothills",
+      "Saturday market"
+    ],
+    "tip": "Pair the town with a Clairette tasting or a Vercors drive."
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "category": "culture",
+    "tier": "near",
+    "driveMin": 60,
+    "lat": 44.138,
+    "lon": 4.8087,
+    "summary": "Home to the best-preserved Roman theatre in Europe and a triumphal arch, both UNESCO listed.",
+    "highlights": [
+      "Théâtre Antique (UNESCO)",
+      "Arc de Triomphe",
+      "Summer opera festival",
+      "Old town"
+    ],
+    "tip": "The Chorégies opera festival fills the Roman theatre in summer."
+  },
+  {
+    "id": "nyons-oil",
+    "name": "Nyons olive mills",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 25,
+    "lat": 44.355,
+    "lon": 5.142,
+    "summary": "Taste AOC Nyons olive oil and black olives straight from the mill — Vignolis co-op and the historic Autrand-Dozol mill.",
+    "highlights": [
+      "AOC Huile de Nyons",
+      "Tanche black olives",
+      "Tapenade tasting",
+      "Mill tours"
+    ],
+    "tip": "Olive harvest & new oil run roughly December–January."
+  },
+  {
+    "id": "vinsobres",
+    "name": "Vinsobres & Côtes du Rhône",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 30,
+    "lat": 44.335,
+    "lon": 5.064,
+    "summary": "Cru village of the southern Rhône — cellar-door tastings across Vinsobres, Rasteau and Cairanne.",
+    "highlights": [
+      "Vinsobres cru",
+      "Cave co-operatives",
+      "Grenache/Syrah reds",
+      "Vineyard drives"
+    ],
+    "tip": "Most caveaux welcome walk-ins; midweek is quietest."
+  },
+  {
+    "id": "gigondas",
+    "name": "Gigondas & the Dentelles wine road",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 45,
+    "lat": 44.19,
+    "lon": 5,
+    "summary": "Prestige reds beneath the Dentelles de Montmirail, with tasting rooms in Gigondas, Vacqueyras and Beaumes-de-Venise.",
+    "highlights": [
+      "Gigondas cru",
+      "Muscat de Beaumes-de-Venise",
+      "Caveau du Gigondas",
+      "Dentelles backdrop"
+    ],
+    "tip": "The village caveau pours dozens of estates in one stop."
+  },
+  {
+    "id": "die-clairette",
+    "name": "Clairette de Die cellars",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 55,
+    "lat": 44.7539,
+    "lon": 5.3691,
+    "summary": "Sparkling Clairette made by the ancestral method — visit the Jaillance cave in Die for a tour and tasting.",
+    "highlights": [
+      "Méthode ancestrale bubbles",
+      "Cave Jaillance tour",
+      "Muscat aromatics",
+      "Diois scenery"
+    ],
+    "tip": "Free self-guided tour + tasting at the co-op."
+  },
+  {
+    "id": "richerenches",
+    "name": "Richerenches truffle market",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 50,
+    "lat": 44.36,
+    "lon": 4.93,
+    "summary": "The Rhône’s black-truffle capital — a famous winter Saturday market in a Templar-walled village.",
+    "highlights": [
+      "Black truffle (Tuber melanosporum)",
+      "Saturday market (Nov–Mar)",
+      "Templar commandery",
+      "Truffle mass in Jan"
+    ],
+    "tip": "Season only — mid-November to mid-March, Saturday mornings."
+  },
+  {
+    "id": "montelimar",
+    "name": "Montélimar nougat",
+    "category": "food",
+    "tier": "near",
+    "driveMin": 65,
+    "lat": 44.558,
+    "lon": 4.75,
+    "summary": "The nougat capital, with historic makers you can tour, plus a lively old town and Saturday market.",
+    "highlights": [
+      "Nougat factory visits",
+      "Palais des Bonbons",
+      "Château des Adhémar",
+      "Old-town cafés"
+    ],
+    "tip": "Several nougateries offer free tastings and workshop tours."
+  },
+  {
+    "id": "remuzat-vultures",
+    "name": "Rémuzat vulture cliffs",
+    "category": "nature",
+    "tier": "near",
+    "driveMin": 30,
+    "lat": 44.33,
+    "lon": 5.36,
+    "summary": "Griffon vultures wheel over the Rocher du Caire — one of the best raptor-watching spots in France.",
+    "highlights": [
+      "Griffon & black vultures",
+      "Rocher du Caire viewpoint",
+      "Maison des Vautours",
+      "Paragliding launch"
+    ],
+    "tip": "Late morning thermals give the best soaring; bring binoculars."
+  },
+  {
+    "id": "toulourenc",
+    "name": "Gorges du Toulourenc",
+    "category": "nature",
+    "tier": "near",
+    "driveMin": 40,
+    "lat": 44.18,
+    "lon": 5.3,
+    "summary": "A walk *in* the river below Mont Ventoux — wade the shallow gorge between limestone walls on a hot day.",
+    "highlights": [
+      "River wading walk",
+      "Cool summer escape",
+      "Pont de Veaux start",
+      "Ventoux backdrop"
+    ],
+    "tip": "Summer only; wear water shoes and check the flow after rain."
+  },
+  {
+    "id": "dentelles",
+    "name": "Dentelles de Montmirail",
+    "category": "nature",
+    "tier": "near",
+    "driveMin": 45,
+    "lat": 44.17,
+    "lon": 5.05,
+    "summary": "Serrated limestone ridges rising out of the vineyards — walking, scrambling and world-class rock climbing.",
+    "highlights": [
+      "Jagged limestone combs",
+      "Climbing & vias",
+      "Vineyard trails",
+      "Col du Cayron"
+    ],
+    "tip": "Park at Col du Cayron for the classic ridge loop."
+  },
+  {
+    "id": "ventoux",
+    "name": "Mont Ventoux summit road",
+    "category": "nature",
+    "tier": "near",
+    "driveMin": 60,
+    "lat": 44.1741,
+    "lon": 5.2786,
+    "summary": "Drive (or cycle) to the 1,909 m \"Giant of Provence\" for a lunar summit and vast Alpine-to-sea views.",
+    "highlights": [
+      "1,909 m summit",
+      "Panoramic viewpoints",
+      "Cyclist mecca",
+      "Chalet Reynard"
+    ],
+    "tip": "Summit road usually closed by snow roughly Nov–Apr; it’s cold up top — bring a layer."
+  },
+  {
+    "id": "saou",
+    "name": "Forêt de Saoû",
+    "category": "nature",
+    "tier": "near",
+    "driveMin": 60,
+    "lat": 44.66,
+    "lon": 5.16,
+    "summary": "A hidden syncline forest ringed by cliffs — shady picnic meadows, easy trails and the Trois Becs skyline.",
+    "highlights": [
+      "Enclosed syncline valley",
+      "Picnic & family trails",
+      "Trois Becs peaks",
+      "Auberge des Dauphins"
+    ],
+    "tip": "Great shady option on scorching days; ideal for an easy family walk."
+  },
+  {
+    "id": "avignon",
+    "name": "Avignon",
+    "category": "culture",
+    "tier": "far",
+    "driveMin": 85,
+    "lat": 43.9493,
+    "lon": 4.8055,
+    "summary": "City of the Popes — the vast Gothic Palais des Papes, the half-bridge of the song, and a buzzing walled centre.",
+    "highlights": [
+      "Palais des Papes (UNESCO)",
+      "Pont Saint-Bénézet",
+      "Place de l’Horloge",
+      "July theatre festival"
+    ],
+    "tip": "Go early in July or you’ll share it with the whole festival."
+  },
+  {
+    "id": "pont-du-gard",
+    "name": "Pont du Gard",
+    "category": "culture",
+    "tier": "far",
+    "driveMin": 115,
+    "lat": 43.9475,
+    "lon": 4.535,
+    "summary": "The colossal three-tier Roman aqueduct over the Gardon — a UNESCO icon you can swim beneath in summer.",
+    "highlights": [
+      "Roman aqueduct (UNESCO)",
+      "River swimming beach",
+      "Museum & trails",
+      "Kayaking"
+    ],
+    "tip": "Bring swimwear — the pebble beach under the arches is the highlight in summer."
+  },
+  {
+    "id": "ardeche",
+    "name": "Gorges de l’Ardèche & Pont d’Arc",
+    "category": "nature",
+    "tier": "far",
+    "driveMin": 100,
+    "lat": 44.388,
+    "lon": 4.416,
+    "summary": "A canyon carved by the Ardèche with the natural Pont d’Arc bridge — kayaking, swimming and clifftop belvederes.",
+    "highlights": [
+      "Pont d’Arc natural arch",
+      "Canyon kayaking",
+      "Route des Gorges belvederes",
+      "Chauvet cave replica"
+    ],
+    "tip": "Kayak the gorge in summer, or just drive the belvedere road for the views."
+  },
+  {
+    "id": "verdon",
+    "name": "Gorges du Verdon",
+    "category": "nature",
+    "tier": "far",
+    "driveMin": 150,
+    "lat": 43.75,
+    "lon": 6.33,
+    "summary": "Europe’s grandest canyon — turquoise water, vertiginous rim roads and the Lac de Sainte-Croix.",
+    "highlights": [
+      "Turquoise canyon",
+      "Route des Crêtes",
+      "Lac de Sainte-Croix pedalos",
+      "Moustiers-Sainte-Marie"
+    ],
+    "tip": "A full day — go for the drama when you want something bigger than the Baronnies."
+  },
+  {
+    "id": "valensole",
+    "name": "Plateau de Valensole (lavender)",
+    "category": "nature",
+    "tier": "far",
+    "driveMin": 130,
+    "lat": 43.837,
+    "lon": 6.006,
+    "summary": "Endless lavender rows to the horizon — the postcard of Provence, at its peak in early July.",
+    "highlights": [
+      "Lavender fields (late Jun–mid Jul)",
+      "Distilleries",
+      "Valensole village",
+      "Sunset photo runs"
+    ],
+    "tip": "Strictly seasonal — bloom is roughly the first three weeks of July."
+  },
+  {
+    "id": "baux",
+    "name": "Les Baux-de-Provence & Alpilles",
+    "category": "culture",
+    "tier": "far",
+    "driveMin": 110,
+    "lat": 43.744,
+    "lon": 4.795,
+    "summary": "A dramatic clifftop citadel in the Alpilles, plus the immersive Carrières des Lumières light show.",
+    "highlights": [
+      "Château des Baux ruins",
+      "Carrières des Lumières",
+      "Alpilles hikes",
+      "Olive-oil country"
+    ],
+    "tip": "Pair the fortress with the projected-art quarry next door."
+  },
+  {
+    "id": "isle-sur-la-sorgue",
+    "name": "L’Isle-sur-la-Sorgue",
+    "category": "culture",
+    "tier": "far",
+    "driveMin": 70,
+    "lat": 43.919,
+    "lon": 5.051,
+    "summary": "The \"Venice of Provence\" — canals, waterwheels and the antiques capital of the south, with permanent dealer villages and a famous Sunday brocante.",
+    "highlights": [
+      "Antiques & brocante",
+      "Canals & waterwheels",
+      "Sunday market",
+      "Riverside cafés"
+    ],
+    "tip": "Sunday is the big brocante day; dealer villages also open Sat–Mon."
+  },
+  {
+    "id": "lyon",
+    "name": "Lyon",
+    "category": "food",
+    "tier": "far",
+    "driveMin": 120,
+    "lat": 45.764,
+    "lon": 4.8357,
+    "summary": "France’s gastronomic capital — Renaissance Vieux Lyon, traboules, bouchons and the Fourvière hill.",
+    "highlights": [
+      "Vieux Lyon & traboules",
+      "Bouchon dining",
+      "Basilique de Fourvière",
+      "Les Halles Paul Bocuse"
+    ],
+    "tip": "Book a bouchon for lunch; the city rewards a full day or an overnight."
+  },
+  {
+    "id": "grenoble",
+    "name": "Grenoble & the Vercors",
+    "category": "culture",
+    "tier": "far",
+    "driveMin": 110,
+    "lat": 45.1885,
+    "lon": 5.7245,
+    "summary": "Alpine city ringed by peaks — ride the Bastille bubble-cars, then escape into the Vercors plateau.",
+    "highlights": [
+      "Téléphérique de la Bastille",
+      "Alpine panoramas",
+      "Vercors natural park",
+      "Museums"
+    ],
+    "tip": "The Bastille cable-car gives instant mountain views over the city."
+  }
+]
