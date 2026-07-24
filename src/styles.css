@@ -130,6 +130,15 @@ body {
   border-radius: 12px;
   padding: 12px 6px;
   position: relative;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: transform 0.12s ease;
+}
+.day:hover { transform: translateY(-2px); }
+.day.sel {
+  border-color: var(--lavender);
+  box-shadow: 0 0 0 2px var(--lavender);
 }
 .day.good { box-shadow: inset 0 0 0 2px rgba(79, 111, 82, 0.35); }
 .day .dow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft); }
@@ -142,6 +151,32 @@ body {
 }
 
 .weather-note { margin: 14px 2px 0; font-size: 13px; color: var(--ink-soft); }
+
+/* Hour-by-hour strip (shown when a forecast day is selected) */
+.hours-wrap { margin-top: 14px; }
+.hours-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 2px;
+  background: var(--card);
+  border: 1px solid var(--lavender-soft);
+  border-radius: 12px;
+}
+.hour {
+  min-width: 62px;
+  text-align: center;
+  flex-shrink: 0;
+  padding: 4px 2px;
+  border-right: 1px dashed var(--line);
+}
+.hour:last-child { border-right: none; }
+.h-time { font-size: 11px; font-weight: 700; color: var(--ink-soft); }
+.h-em { font-size: 20px; margin: 3px 0; }
+.h-temp { font-weight: 800; font-size: 14px; }
+.h-rain { font-size: 11px; color: var(--lavender); margin-top: 2px; }
+.h-wind { font-size: 11px; color: var(--ink-soft); }
+.hours-legend { margin: 6px 2px 0; font-size: 12px; color: var(--ink-soft); }
 
 /* ---------- Filters ---------- */
 .filters {

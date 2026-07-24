@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useWeather } from '../hooks/useWeather.js'
 import { describeWeather, outdoorRating } from '../data/weatherCodes.js'
 
@@ -10,8 +11,38 @@ function dayLabel(iso, i) {
   return DOW[new Date(y, m - 1, d).getDay()]
 }
 
+function HourlyStrip({ hourly, day }) {
+  const idx = hourly.time
+    .map((t, i) => (t.startsWith(day) ? i : -1))
+    .filter((i) => i !== -1)
+  if (!idx.length) return null
+  return (
+    <div className="hours-wrap">
+      <div className="hours-strip">
+        {idx.map((i) => {
+          const [label, emoji] = describeWeather(hourly.weather_code[i])
+          const hh = hourly.time[i].slice(11, 16)
+          return (
+            <div key={hourly.time[i]} className="hour" title={label}>
+              <div className="h-time">{hh}</div>
+              <div className="h-em">{emoji}</div>
+              <div className="h-temp">{Math.round(hourly.temperature_2m[i])}°</div>
+              <div className="h-rain">
+                ☔ {hourly.precipitation_probability?.[i] ?? 0}%
+              </div>
+              <div className="h-wind">💨 {Math.round(hourly.wind_speed_10m[i])}</div>
+            </div>
+          )
+        })}
+      </div>
+      <p className="hours-legend">Per hour: temperature · rain chance · wind (km/h)</p>
+    </div>
+  )
+}
+
 export default function WeatherPanel({ base }) {
   const { loading, error, data } = useWeather(base.lat, base.lon, 7)
+  const [selected, setSelected] = useState(null)
 
   if (loading) return <div className="weather-panel loading">Loading live weather for {base.name}…</div>
   if (error)
@@ -59,8 +90,14 @@ export default function WeatherPanel({ base }) {
             daily.temperature_2m_max[i],
             daily.wind_speed_10m_max[i],
           )
+          const sel = selected === iso
           return (
-            <div key={iso} className={`day ${rating}`} title={label}>
+            <button
+              key={iso}
+              className={`day ${rating} ${sel ? 'sel' : ''}`}
+              title={`${label} — click for hourly details`}
+              onClick={() => setSelected(sel ? null : iso)}
+            >
               {rating === 'good' && <span className="flag">🥾</span>}
               <div className="dow">{dayLabel(iso, i)}</div>
               <div className="em">{emoji}</div>
@@ -69,13 +106,16 @@ export default function WeatherPanel({ base }) {
               {daily.precipitation_probability_max[i] != null && (
                 <div className="rain">☔ {daily.precipitation_probability_max[i]}%</div>
               )}
-            </div>
+            </button>
           )
         })}
       </div>
+
+      {selected && data.hourly && <HourlyStrip hourly={data.hourly} day={selected} />}
+
       <p className="weather-note">
-        🥾 marks the best days to be outside — clear-ish skies, comfortable temperatures and manageable wind.
-        Live data from Open-Meteo.
+        🥾 marks the best days to be outside. <b>Click a day for its hour-by-hour forecast.</b> Live
+        data from Open-Meteo.
       </p>
     </div>
   )

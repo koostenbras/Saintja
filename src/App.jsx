@@ -28,7 +28,8 @@ export default function App() {
   const [diffs, setDiffs] = useState(new Set(Object.keys(DIFFICULTY)))
   const [styles, setStyles] = useState(new Set(Object.keys(STYLES)))
   const [seasons, setSeasons] = useState(new Set(Object.keys(SEASONS)))
-  const [maxDrive, setMaxDrive] = useState(MAX_MIN)
+  // Default to day-trip range: 1 hour drive (slider goes up to MAX_MIN)
+  const [maxDrive, setMaxDrive] = useState(60)
   const { loading, error, data } = useData()
 
   function toggle(set, updater, key) {
