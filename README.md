@@ -2,13 +2,15 @@
 
 A personal **what-to-do app** for the area around **Saint-Jalle** in the Drôme Provençale (Baronnies Provençales, France).
 
-It answers a simple question — *"what should we do today?"* — with:
+It answers a simple question — *"what should we do today?"* — with four tabs:
 
-- 🧭 **Things to do** — curated day trips (villages & culture, food & wine, nature outings), each sorted by drive time from Saint-Jalle. Everything within ~90 minutes is flagged *Nearby*; longer trips are marked *Big day out* and are chosen to be worth the extra drive (Avignon, Pont du Gard, Gorges de l'Ardèche, the Verdon, lavender at Valensole…).
-- 🥾 **Hiking routes** — trails with distance, ascent, time, difficulty and the best season, from the ridge behind Saint-Jalle to Mont Ventoux.
-- 🌤️ **Live weather** — current conditions and a 7-day forecast for Saint-Jalle, with the best days for being outside flagged automatically. Data comes from [Open-Meteo](https://open-meteo.com) (no API key needed).
+- 🧭 **Things to do** — curated day trips (villages & culture, food & wine, nature outings), each sorted by drive time from Saint-Jalle. Everything within ~90 minutes is flagged *Nearby*; longer trips are marked *Big day out* and are chosen to be worth the extra drive (Avignon, Pont du Gard, Gorges de l'Ardèche, the Verdon, lavender at Valensole, the antiques capital L'Isle-sur-la-Sorgue…).
+- 🥾 **Hiking routes** — every hike is backed by a **[Visorando](https://www.visorando.com) route (English pages)** as the primary "Route & GPX" link, with **[RandoGPS](https://www.randogps.net)** (free French GPX library, no account) as the second source. An **interactive map** shows all trailheads as difficulty-coloured pins over the real marked GR/PR trail network; drop a real GPX file in `public/data/gpx/` and the exact track is drawn on the map (click the pin to zoom to the full route).
+- 🍽️ **Restaurants** — gastronomic tables, bistros/auberges and café terraces, from La Charrette Bleue (15 min) to the Crillon le Brave terraces, each with a Google Maps lookup so opening hours stay current.
+- 🎪 **Events & seasons** — a 📡 **auto-refreshed local agenda** (weekly script, DataTourisme/OpenAgenda) on top, followed by hand-curated seasonal highlights: lavender season, the winter truffle market of Richerenches, brocantes & vide-greniers, the Avignon/Orange/Vaison summer festivals… Events happening this month float to the top with a "Now!" badge.
+- 🌤️ **Live weather** — current conditions and a 7-day forecast for Saint-Jalle; the best outdoor days get a 🥾 flag, and **clicking any day opens its hour-by-hour forecast** (temperature, rain chance, wind). Data from [Open-Meteo](https://open-meteo.com), no API key.
 
-Filter by category/difficulty and slide the **max drive time** to match your day. Every card links straight to Google Maps driving directions from Saint-Jalle.
+Filter by category/difficulty/season and slide the **max drive time** (defaults to a 1-hour day-trip range, up to 3 h). Every card links straight to Google Maps driving directions from Saint-Jalle. Owners curate everything from the built-in **`/#admin`** page.
 
 ## Tech
 
@@ -20,9 +22,9 @@ Filter by category/difficulty and slide the **max drive time** to match your day
 
 | Content | How it updates |
 |---|---|
-| 🌤️ Weather | **Live** — fetched from Open-Meteo on every page visit |
-| 📡 Local agenda (Events tab) | **Automatic, weekly** — a scheduled script pulls upcoming events near Saint-Jalle from OpenAgenda every Sunday night |
-| 🧭 Day trips · 🥾 Hikes · 🍽️ Restaurants · ✍️ Seasonal highlights | **Curated by hand** — edit the JSON files below |
+| 🌤️ Weather (incl. hourly detail) | **Live** — fetched from Open-Meteo on every page visit |
+| 📡 Local agenda (Events tab) | **Automatic, weekly** — a scheduled script pulls upcoming events within ~60 km from DataTourisme (or OpenAgenda as fallback) every Sunday night |
+| 🧭 Day trips · 🥾 Hikes · 🍽️ Restaurants · ✍️ Seasonal highlights | **Curated by hand** — via `/#admin` or the JSON files below |
 | 🚀 Publishing | **Automatic** — every change to `main` deploys in ~1 minute |
 
 ### Activating the automatic agenda
@@ -33,8 +35,8 @@ The weekly workflow (`.github/workflows/refresh-agenda.yml` + `scripts/fetch-age
 
 1. Create a free account on [diffuseur.datatourisme.fr](https://diffuseur.datatourisme.fr).
 2. Create an **Application** (this gives you an API key).
-3. Create a **Flux**: filter on event types (*Fêtes et manifestations*), zone **Drôme (26) + Vaucluse (84)**, format JSON-LD. Note: a new flux is generated on DataTourisme's daily schedule — the download may only work from the next day.
-4. Copy the flux's **webservice URL** (`https://diffuseur.datatourisme.fr/webservice/<fluxId>/<appKey>`).
+3. Create a **Flux**: filter on event types (*Fêtes et manifestations*), zone **Drôme (26) + Vaucluse (84)**, format JSON-LD (compacted is fine). Note: each flux is (re)generated once a day at its own fixed slot (shown on the flux page, e.g. 22:00) — the first download only works after that first generation.
+4. Copy the flux's **webservice URL** and replace `{app_key}` with your application's API key: `https://diffuseur.datatourisme.fr/webservice/<fluxId>/<appKey>`.
 5. Repo → **Settings → Secrets and variables → Actions → New repository secret**: name `DATATOURISME_WEBSERVICE_URL`, value = that URL.
 6. First fill: **Actions → Refresh local agenda → Run workflow**. Afterwards it runs every Sunday night.
 
@@ -47,11 +49,11 @@ Without any secret the workflow simply skips — the site keeps working and show
 | File | Contents | Updated by |
 |---|---|---|
 | `destinations.json` | Day trips (culture / food / nature) | hand |
-| `hikes.json` | Hiking routes with stats & GPS links | hand |
+| `hikes.json` | Hiking routes with stats, Visorando route link (`visorando` field) and optional GPX (`gpx` field) | hand |
 | `gpx/*.gpx` | Exact route tracks drawn on the map (see `public/data/gpx/README.md`) | hand |
 | `restaurants.json` | Restaurants & terraces | hand |
 | `events.json` | Seasonal events, markets & brocantes | hand |
-| `agenda.json` | Upcoming local events (next 30 days) | **script, weekly** |
+| `agenda.json` | Upcoming local events (next 30 days, ≤ 60 km) | **script, weekly** |
 
 ### Updating content via the built-in admin (easiest)
 
