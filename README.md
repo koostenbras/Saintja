@@ -45,6 +45,12 @@ Without the key the workflow simply skips — the site keeps working and shows h
 | `events.json` | Seasonal events, markets & brocantes | hand |
 | `agenda.json` | Upcoming local events (next 30 days) | **script, weekly** |
 
+### Updating content via the built-in admin (easiest)
+
+Open **`/#admin`** on the site (link in the footer). There you can browse all four lists and **add, edit or delete entries with forms** — no JSON editing needed. Each save is a Git commit, so everything is versioned and revertible; the live site updates ~1 minute later.
+
+One-time setup: create a **fine-grained Personal Access Token** on GitHub (Settings → Developer settings → Fine-grained tokens) scoped to *only this repository* with *Contents: Read and write*, and paste it into the admin page. The token is stored only in your own browser (localStorage) — the page is useless to anyone without a token.
+
 ### Updating content on GitHub (hosted on GitHub Pages)
 
 1. Open the file on GitHub, e.g. `public/data/restaurants.json`.

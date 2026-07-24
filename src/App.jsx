@@ -315,8 +315,8 @@ export default function App() {
             rel="noreferrer"
           >
             public/data
-          </a>
-          .
+          </a>{' '}
+          — or via the <a href="#admin">admin page</a>.
         </p>
       </footer>
     </div>
