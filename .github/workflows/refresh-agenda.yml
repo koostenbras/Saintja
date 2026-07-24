@@ -1,0 +1,33 @@
+name: Refresh local agenda
+
+on:
+  schedule:
+    - cron: '0 3 * * 0' # Sunday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch upcoming events around Saint-Jalle
+        env:
+          OPENAGENDA_KEY: ${{ secrets.OPENAGENDA_KEY }}
+        run: node scripts/fetch-agenda.mjs
+      - name: Commit if the agenda changed
+        run: |
+          if git diff --quiet public/data/agenda.json; then
+            echo "Agenda unchanged — nothing to commit."
+          else
+            git config user.name "saintja-agenda-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add public/data/agenda.json
+            git commit -m "chore: weekly agenda refresh"
+            git push
+          fi

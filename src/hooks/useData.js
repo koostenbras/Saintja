@@ -11,17 +11,25 @@ export function useData() {
 
   useEffect(() => {
     let cancelled = false
-    Promise.all(
-      FILES.map((name) =>
+    Promise.all([
+      ...FILES.map((name) =>
         fetch(`${import.meta.env.BASE_URL}data/${name}.json`).then((r) => {
           if (!r.ok) throw new Error(`${name}.json: HTTP ${r.status}`)
           return r.json()
         }),
       ),
-    )
-      .then(([destinations, hikes, restaurants, events]) => {
+      // The auto-refreshed agenda is optional — its absence must never break the app.
+      fetch(`${import.meta.env.BASE_URL}data/agenda.json`)
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
+    ])
+      .then(([destinations, hikes, restaurants, events, agenda]) => {
         if (!cancelled)
-          setState({ loading: false, error: null, data: { destinations, hikes, restaurants, events } })
+          setState({
+            loading: false,
+            error: null,
+            data: { destinations, hikes, restaurants, events, agenda },
+          })
       })
       .catch((err) => {
         if (!cancelled) setState({ loading: false, error: err.message, data: null })

@@ -11,6 +11,7 @@ import HikeCard from './components/HikeCard.jsx'
 import RestaurantCard from './components/RestaurantCard.jsx'
 import EventCard from './components/EventCard.jsx'
 import HikesMap from './components/HikesMap.jsx'
+import AgendaSection from './components/AgendaSection.jsx'
 
 const MAX_MIN = 180
 
@@ -248,6 +249,10 @@ export default function App() {
 
       {tab === 'events' && (
         <>
+          <AgendaSection agenda={data?.agenda} />
+          <h2 className="section-head">
+            ✍️ Seasonal highlights <span className="curated-badge">curated by hand</span>
+          </h2>
           <div className="filters">
             {Object.entries(SEASONS).map(([key, s]) => {
               const active = seasons.has(key)
@@ -294,11 +299,24 @@ export default function App() {
       <footer>
         <p>
           <b>Saintja</b> — a personal what-to-do guide for the Baronnies Provençales around Saint-Jalle.
-          Drive times are rough estimates on winding local roads. Weather is live from{' '}
+          Drive times are rough estimates on winding local roads. Always check trail conditions,
+          opening hours and seasons before you go.
+        </p>
+        <p>
+          <b>What updates itself:</b> 🌤️ weather is live from{' '}
           <a href="https://open-meteo.com" target="_blank" rel="noreferrer">
             Open-Meteo
+          </a>{' '}
+          on every visit · 📡 the local agenda refreshes automatically every week · ✍️ day trips,
+          hikes, restaurants and seasonal highlights are curated by hand in{' '}
+          <a
+            href="https://github.com/koostenbras/Saintja/tree/main/public/data"
+            target="_blank"
+            rel="noreferrer"
+          >
+            public/data
           </a>
-          . Always check trail conditions, opening hours and seasons before you go.
+          .
         </p>
       </footer>
     </div>

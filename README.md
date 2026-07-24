@@ -16,14 +16,34 @@ Filter by category/difficulty and slide the **max drive time** to match your day
 - No backend and no API keys — weather is fetched client-side from Open-Meteo's free forecast API.
 - **All content lives in JSON files under `public/data/`** — the app's "database". The app loads them at runtime, so updating content never requires touching code.
 
+## What updates automatically vs. by hand
+
+| Content | How it updates |
+|---|---|
+| 🌤️ Weather | **Live** — fetched from Open-Meteo on every page visit |
+| 📡 Local agenda (Events tab) | **Automatic, weekly** — a scheduled script pulls upcoming events near Saint-Jalle from OpenAgenda every Sunday night |
+| 🧭 Day trips · 🥾 Hikes · 🍽️ Restaurants · ✍️ Seasonal highlights | **Curated by hand** — edit the JSON files below |
+| 🚀 Publishing | **Automatic** — every change to `main` deploys in ~1 minute |
+
+### Activating the automatic agenda
+
+The weekly script (`scripts/fetch-agenda.mjs`, run by `.github/workflows/refresh-agenda.yml`) needs a free OpenAgenda API key:
+
+1. Register at [openagenda.com](https://openagenda.com) and copy your API key.
+2. In the repo: **Settings → Secrets and variables → Actions → New repository secret**, name `OPENAGENDA_KEY`.
+3. Trigger the first run manually: **Actions → Refresh local agenda → Run workflow** (afterwards it runs every Sunday night).
+
+Without the key the workflow simply skips — the site keeps working and shows how to activate the feed. The script is fail-safe: any API problem leaves the previous agenda in place.
+
 ## The live database (`public/data/*.json`)
 
-| File | Contents |
-|---|---|
-| `destinations.json` | Day trips (culture / food / nature) |
-| `hikes.json` | Hiking routes with stats & GPS links |
-| `restaurants.json` | Restaurants & terraces |
-| `events.json` | Seasonal events, markets & brocantes |
+| File | Contents | Updated by |
+|---|---|---|
+| `destinations.json` | Day trips (culture / food / nature) | hand |
+| `hikes.json` | Hiking routes with stats & GPS links | hand |
+| `restaurants.json` | Restaurants & terraces | hand |
+| `events.json` | Seasonal events, markets & brocantes | hand |
+| `agenda.json` | Upcoming local events (next 30 days) | **script, weekly** |
 
 ### Updating content on GitHub (hosted on GitHub Pages)
 
