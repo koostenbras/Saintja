@@ -44,6 +44,7 @@ const COLLECTIONS = {
       { key: 'summary', label: 'Summary', type: 'textarea' },
       { key: 'highlights', label: 'Highlights (comma separated)', type: 'tags' },
       { key: 'season', label: 'Best season', type: 'text' },
+      { key: 'gpx', label: 'GPX file name (upload to public/data/gpx/ first)', type: 'text' },
     ],
   },
   restaurants: {
