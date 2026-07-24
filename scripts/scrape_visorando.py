@@ -25,7 +25,10 @@ for slug in SLUGS:
     out.append(f'(page size: {len(src)})')
     seen = set()
     count = 0
-    for m in re.finditer(r'href="(/randonnee-[a-z0-9\-]+\.html)"[^>]*>(.*?)</a>', src, re.S):
+    # Diagnostic: how do route links look on this page?
+    sample = re.findall(r'href="([^"]*randonnee[^"]*)"', src)[:8]
+    out.append('SAMPLE HREFS: ' + ' || '.join(sample))
+    for m in re.finditer(r'href="(?:https?://www\.visorando\.com)?(/randonnee-[a-z0-9\-]+\.html)"[^>]*>(.*?)</a>', src, re.S):
         href, text = m.group(1), re.sub(r'<[^>]+>', ' ', m.group(2))
         text = html.unescape(re.sub(r'\s+', ' ', text)).strip()
         if href in seen or len(text) < 8:
