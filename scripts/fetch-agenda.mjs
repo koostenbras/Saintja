@@ -208,9 +208,20 @@ function parseDataTourisme(dir) {
 
     const addr = deref(loc?.['schema:address'] ?? loc?.address)
     const city = label(addr?.['schema:addressLocality'] ?? addr?.addressLocality) || ''
+    const postal = label(addr?.['schema:postalCode'] ?? addr?.postalCode) || ''
 
     const rawUrl = first(obj['schema:url'] || obj.url)
     const url = typeof rawUrl === 'string' ? rawUrl : rawUrl?.['@value']
+
+    // Markets & brocantes without their own website: link the department
+    // agenda on vide-greniers.org instead of a generic web search.
+    const isMarket =
+      types.some((t) => /Market|SaleEvent|BricABrac|FleaMarket/i.test(String(t))) ||
+      /march[ée]|market|brocante|vide[- ]?grenier|puces|foire/i.test(title)
+    const dept = postal.startsWith('84') ? 'Vaucluse' : 'Drome'
+    const fallback = isMarket
+      ? `https://vide-greniers.org/evenements/${dept}`
+      : `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`
 
     events.push({
       id: String(obj['@id'] || obj['dc:identifier'] || title),
@@ -220,7 +231,7 @@ function parseDataTourisme(dir) {
       end: end ? end.toISOString() : null,
       ongoing: start < now,
       km,
-      url: url || `https://www.google.com/search?q=${encodeURIComponent(`${title} ${city}`)}`,
+      url: url || fallback,
     })
   }
   console.log(
