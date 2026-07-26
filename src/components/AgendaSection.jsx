@@ -22,7 +22,13 @@ function AgendaItem({ e }) {
 
 export default function AgendaSection({ agenda }) {
   const updated = agenda?.updatedAt ? new Date(agenda.updatedAt) : null
-  const events = agenda?.events ?? []
+  // Hide events that ended before today, so the list stays correct even
+  // between automatic refreshes.
+  const t = new Date()
+  const todayStart = new Date(t.getFullYear(), t.getMonth(), t.getDate())
+  const events = (agenda?.events ?? []).filter(
+    (e) => new Date(e.end || e.date) >= todayStart,
+  )
   const upcoming = events.filter((e) => !e.ongoing)
   const ongoing = events.filter((e) => e.ongoing)
 
@@ -30,7 +36,7 @@ export default function AgendaSection({ agenda }) {
     <div className="agenda-panel">
       <div className="agenda-head">
         <h2>
-          📡 Local agenda <span className="auto-badge">AUTO · refreshed weekly</span>
+          📡 Local agenda <span className="auto-badge">AUTO · refreshed daily</span>
         </h2>
         <span className="agenda-meta">
           {updated
@@ -71,11 +77,11 @@ export default function AgendaSection({ agenda }) {
       ) : updated ? (
         <p className="agenda-empty">
           The feed is active but found no upcoming events within ~60 km right now. It retries
-          every Sunday night; the curated seasonal highlights below are maintained by hand.
+          every night; the curated seasonal highlights below are maintained by hand.
         </p>
       ) : (
         <p className="agenda-empty">
-          No automatic events yet. The feed updates every Sunday night once the{' '}
+          No automatic events yet. The feed updates nightly once the{' '}
           <code>DATATOURISME_WEBSERVICE_URL</code> secret is configured in the repository (see
           the README for the step-by-step guide). The curated seasonal highlights below are
           maintained by hand.

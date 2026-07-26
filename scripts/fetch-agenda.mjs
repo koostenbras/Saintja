@@ -25,6 +25,7 @@ const MAX_ONGOING = 30
 const MAX_UPCOMING = 30
 
 const now = new Date()
+const todayStart = new Date(now.toISOString().slice(0, 10)) // midnight UTC today
 const until = new Date(now.getTime() + DAYS_AHEAD * 24 * 3600 * 1000)
 
 function haversineKm(lat1, lon1, lat2, lon2) {
@@ -111,11 +112,14 @@ function* entities(dir) {
 }
 
 // One date value: "2026-06-01" | {"@value":"2026-06-01","@type":"xsd:date"}
-function dateVal(x) {
+// Date-only values parse as midnight, which made same-day events look
+// already over — for end dates, stretch them to the end of that day.
+function dateVal(x, endOfDay = false) {
   const v = first(x)
   const raw = v && typeof v === 'object' ? v['@value'] : v
   if (!raw) return null
-  const d = new Date(raw)
+  const iso = endOfDay && typeof raw === 'string' && raw.length === 10 ? `${raw}T23:59:59Z` : raw
+  const d = new Date(iso)
   return isNaN(d) ? null : d
 }
 
@@ -168,11 +172,16 @@ function parseDataTourisme(dir) {
     const periods = []
     const starts = [].concat(obj['schema:startDate'] || [])
     const ends = [].concat(obj['schema:endDate'] || [])
-    starts.forEach((s, i) => periods.push({ s: dateVal(s), e: dateVal(ends[i]) || dateVal(s) }))
+    starts.forEach((s, i) =>
+      periods.push({ s: dateVal(s), e: dateVal(ends[i], true) || dateVal(s, true) }),
+    )
     for (const raw of [].concat(obj.takesPlace || obj.takesPlaceAt || [])) {
       const p = deref(raw)
       const s = dateVal(p?.startDate ?? p?.['schema:startDate'])
-      periods.push({ s, e: dateVal(p?.endDate ?? p?.['schema:endDate']) || s })
+      const e =
+        dateVal(p?.endDate ?? p?.['schema:endDate'], true) ||
+        dateVal(p?.startDate ?? p?.['schema:startDate'], true)
+      periods.push({ s, e })
     }
     let start = null
     let end = null
@@ -229,7 +238,9 @@ function parseDataTourisme(dir) {
       city,
       date: start.toISOString(),
       end: end ? end.toISOString() : null,
-      ongoing: start < now,
+      // "Ongoing" means it started before today — an event that begins
+      // today still belongs under "Coming up" with today's date.
+      ongoing: start < todayStart,
       km,
       url: url || fallback,
     })
