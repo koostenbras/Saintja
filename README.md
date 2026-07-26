@@ -7,7 +7,7 @@ It answers a simple question — *"what should we do today?"* — with four tabs
 - 🧭 **Things to do** — curated day trips (villages & culture, food & wine, nature outings), each sorted by drive time from Saint-Jalle. Everything within ~90 minutes is flagged *Nearby*; longer trips are marked *Big day out* and are chosen to be worth the extra drive (Avignon, Pont du Gard, Gorges de l'Ardèche, the Verdon, lavender at Valensole, the antiques capital L'Isle-sur-la-Sorgue…).
 - 🥾 **Hiking routes** — every hike is backed by a **[Visorando](https://www.visorando.com) route (English pages)** as the primary "Route & GPX" link, with **[RandoGPS](https://www.randogps.net)** (free French GPX library, no account) as the second source. An **interactive map** shows all trailheads as difficulty-coloured pins over the real marked GR/PR trail network; drop a real GPX file in `public/data/gpx/` and the exact track is drawn on the map (click the pin to zoom to the full route).
 - 🍽️ **Restaurants** — gastronomic tables, bistros/auberges and café terraces, from La Charrette Bleue (15 min) to the Crillon le Brave terraces, each with a Google Maps lookup so opening hours stay current.
-- 🎪 **Events & seasons** — a 📡 **auto-refreshed local agenda** (weekly script, DataTourisme/OpenAgenda) on top, followed by hand-curated seasonal highlights: lavender season, the winter truffle market of Richerenches, brocantes & vide-greniers, the Avignon/Orange/Vaison summer festivals… Events happening this month float to the top with a "Now!" badge.
+- 🎪 **Events & seasons** — a 📡 **auto-refreshed local agenda** (nightly script, DataTourisme/OpenAgenda) on top, followed by hand-curated seasonal highlights: lavender season, the winter truffle market of Richerenches, brocantes & vide-greniers, the Avignon/Orange/Vaison summer festivals… Events happening this month float to the top with a "Now!" badge.
 - 🌤️ **Live weather** — current conditions and a 7-day forecast for Saint-Jalle; the best outdoor days get a 🥾 flag, and **clicking any day opens its hour-by-hour forecast** (temperature, rain chance, wind). Data from [Open-Meteo](https://open-meteo.com), no API key.
 
 Filter by category/difficulty/season and slide the **max drive time** (defaults to a 1-hour day-trip range, up to 3 h). Every card links straight to Google Maps driving directions from Saint-Jalle. Owners curate everything from the built-in **`/#admin`** page.
@@ -23,13 +23,13 @@ Filter by category/difficulty/season and slide the **max drive time** (defaults 
 | Content | How it updates |
 |---|---|
 | 🌤️ Weather (incl. hourly detail) | **Live** — fetched from Open-Meteo on every page visit |
-| 📡 Local agenda (Events tab) | **Automatic, weekly** — a scheduled script pulls upcoming events within ~60 km from DataTourisme (or OpenAgenda as fallback) every Sunday night |
+| 📡 Local agenda (Events tab) | **Automatic, nightly** — a scheduled script pulls upcoming events within ~60 km from DataTourisme (or OpenAgenda as fallback) every night |
 | 🧭 Day trips · 🥾 Hikes · 🍽️ Restaurants · ✍️ Seasonal highlights | **Curated by hand** — via `/#admin` or the JSON files below |
 | 🚀 Publishing | **Automatic** — every change to `main` deploys in ~1 minute |
 
 ### Activating the automatic agenda
 
-The weekly workflow (`.github/workflows/refresh-agenda.yml` + `scripts/fetch-agenda.mjs`) supports two sources, tried in this order:
+The nightly workflow (`.github/workflows/refresh-agenda.yml` + `scripts/fetch-agenda.mjs`) supports two sources, tried in this order:
 
 **1. DataTourisme (preferred — official French tourism open data):**
 
@@ -38,7 +38,7 @@ The weekly workflow (`.github/workflows/refresh-agenda.yml` + `scripts/fetch-age
 3. Create a **Flux**: filter on event types (*Fêtes et manifestations*), zone **Drôme (26) + Vaucluse (84)**, format JSON-LD (compacted is fine). Note: each flux is (re)generated once a day at its own fixed slot (shown on the flux page, e.g. 22:00) — the first download only works after that first generation.
 4. Copy the flux's **webservice URL** and replace `{app_key}` with your application's API key: `https://diffuseur.datatourisme.fr/webservice/<fluxId>/<appKey>`.
 5. Repo → **Settings → Secrets and variables → Actions → New repository secret**: name `DATATOURISME_WEBSERVICE_URL`, value = that URL.
-6. First fill: **Actions → Refresh local agenda → Run workflow**. Afterwards it runs every Sunday night.
+6. First fill: **Actions → Refresh local agenda → Run workflow**. Afterwards it runs every night (03:00 UTC).
 
 **2. OpenAgenda (fallback):** set the `OPENAGENDA_KEY` secret (free key at openagenda.com → Settings → API keys). Used only when no DataTourisme feed is configured. Coverage for the rural Baronnies proved thin.
 
@@ -53,7 +53,7 @@ Without any secret the workflow simply skips — the site keeps working and show
 | `gpx/*.gpx` | Exact route tracks drawn on the map (see `public/data/gpx/README.md`) | hand |
 | `restaurants.json` | Restaurants & terraces | hand |
 | `events.json` | Seasonal events, markets & brocantes | hand |
-| `agenda.json` | Upcoming local events (next 30 days, ≤ 60 km) | **script, weekly** |
+| `agenda.json` | Upcoming local events (next 30 days, ≤ 60 km) | **script, nightly** |
 
 ### Updating content via the built-in admin (easiest)
 
