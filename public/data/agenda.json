@@ -1,88 +1,8 @@
 {
-  "updatedAt": "2026-07-26T08:49:38.705Z",
+  "updatedAt": "2026-07-27T06:22:20.560Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/43c086ef-bdfc-3f64-828b-e3b512c2c6ed",
-      "title": "Fête votive Jour 2 Rousset les Vignes",
-      "city": "Rousset-les-Vignes",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 15,
-      "url": "https://www.google.com/search?q=F%C3%AAte%20votive%20Jour%202%20Rousset%20les%20Vignes%20Rousset-les-Vignes"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
-      "title": "A Summer Evening in Grignan",
-      "city": "Grignan",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
-      "title": "Shilpa Gupta, Geumhyung Jeong, Jumana Manna - The whisper of the Free",
-      "city": "Avignon",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-08-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Shilpa%20Gupta%2C%20Geumhyung%20Jeong%2C%20Jumana%20Manna%20-%20The%20whisper%20of%20the%20Free%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/853f6339-f640-3f59-bb23-21e9b7a4c01b",
-      "title": "Images, bodies, power The 80s in the Lambert Collection",
-      "city": "Avignon",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-08-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Images%2C%20bodies%2C%20power%20The%2080s%20in%20the%20Lambert%20Collection%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/8e5561ae-6e76-3a5a-8ced-4d6df3d699da",
-      "title": "Kim Gordon - Stories for a body",
-      "city": "Avignon",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-08-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
-      "title": "PEEK! Peek! PEEK!",
-      "city": "Avignon",
-      "date": "2026-07-26T00:00:00.000Z",
-      "end": "2026-08-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=PEEK!%20Peek!%20PEEK!%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -102,6 +22,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
+      "title": "Tour of the L'Abeille du Vercors Honey Farm",
+      "city": "Die",
+      "date": "2026-07-27T00:00:00.000Z",
+      "end": "2026-08-17T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
@@ -142,6 +72,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Laurent%20Voulzy%20in%20concert%20at%20the%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-07-29T00:00:00.000Z",
+      "end": "2026-07-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/ba422c8d-ae9b-3b88-930c-861271efa94f",
@@ -234,6 +174,16 @@
       "url": "https://www.google.com/search?q=1st%20night%20outing%20from%20Corso%20de%20la%20Lavande%20Valr%C3%A9as"
     },
     {
+      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
+      "title": "A Summer Evening in Grignan",
+      "city": "Grignan",
+      "date": "2026-08-02T00:00:00.000Z",
+      "end": "2026-08-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/69be6d10-6097-3164-ae6d-00134c34177c",
       "title": "2nd night outing from Corso de la Lavande",
       "city": "Valréas",
@@ -242,6 +192,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=2nd%20night%20outing%20from%20Corso%20de%20la%20Lavande%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-08-02T00:00:00.000Z",
+      "end": "2026-08-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/be41a4d9-ad68-388a-83be-7db675ea30f9",
@@ -304,24 +264,44 @@
       "url": "https://www.google.com/search?q=Marine%20en%20concert%20au%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
     },
     {
-      "id": "https://data.datatourisme.fr/13/89fdf617-8851-398b-be59-a23869cb83e9",
-      "title": "Enclave Nights Festival",
-      "city": "Valréas",
-      "date": "2026-07-17T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Enclave%20Nights%20Festival%20Valr%C3%A9as"
+      "id": "https://data.datatourisme.fr/13/2bf2e811-c630-3619-a02e-cbda77510ad4",
+      "title": "Festival Arts et Vigne 2026 - Programme for Wednesday 5 August",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-08-05T00:00:00.000Z",
+      "end": "2026-08-05T23:59:59.000Z",
+      "ongoing": false,
+      "km": 40,
+      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20Programme%20for%20Wednesday%205%20August%20Ch%C3%A2tillon-en-Diois"
     },
     {
-      "id": "https://data.datatourisme.fr/13/9172dec7-0dee-3714-b99d-14bd166aba24",
-      "title": "Fête Votive",
-      "city": "Grignan",
-      "date": "2026-07-24T00:00:00.000Z",
-      "end": "2026-07-26T23:59:59.000Z",
-      "ongoing": true,
-      "km": 27,
-      "url": "https://www.google.com/search?q=F%C3%AAte%20Votive%20Grignan"
+      "id": "https://data.datatourisme.fr/13/44e54ced-f47d-312b-9113-d274fd53fc8b",
+      "title": "L'Étape du Tour de France Femmes with Zwift",
+      "city": "Vaison-la-Romaine",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=L'%C3%89tape%20du%20Tour%20de%20France%20Femmes%20with%20Zwift%20Vaison-la-Romaine"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
+      "title": "A Drink in the Gardens",
+      "city": "Avignon",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/797d1c6a-d850-3be4-af0d-534fecc4804d",
+      "title": "Truffe en fête",
+      "city": "Suze-la-Rousse",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 33,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/491176b8-95e8-3a4d-a6c7-f13b59d1a438",
@@ -494,6 +474,16 @@
       "url": "https://www.google.com/search?q=Exposition%20Galerie%20Imprit%20-%20M%C3%B6glichkeitsr%C3%A4ume%20Crest"
     },
     {
+      "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
+      "title": "Shilpa Gupta, Geumhyung Jeong, Jumana Manna - The whisper of the Free",
+      "city": "Avignon",
+      "date": "2026-07-26T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Shilpa%20Gupta%2C%20Geumhyung%20Jeong%2C%20Jumana%20Manna%20-%20The%20whisper%20of%20the%20Free%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/83f6d6f3-01c6-311f-b6bb-63c94f80ffa4",
       "title": "Les loisirs au château",
       "city": "Suze-la-Rousse",
@@ -502,6 +492,16 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=Les%20loisirs%20au%20ch%C3%A2teau%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/853f6339-f640-3f59-bb23-21e9b7a4c01b",
+      "title": "Images, bodies, power The 80s in the Lambert Collection",
+      "city": "Avignon",
+      "date": "2026-07-26T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Images%2C%20bodies%2C%20power%20The%2080s%20in%20the%20Lambert%20Collection%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/86ae823a-5810-3243-ba7f-46428da38e88",
@@ -524,6 +524,16 @@
       "url": "https://www.google.com/search?q=Le%20petit%20naturaliste%20Suze-la-Rousse"
     },
     {
+      "id": "https://data.datatourisme.fr/13/8e5561ae-6e76-3a5a-8ced-4d6df3d699da",
+      "title": "Kim Gordon - Stories for a body",
+      "city": "Avignon",
+      "date": "2026-07-26T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/986d842c-92ee-3d88-9db9-55622f9f9a42",
       "title": "Weekly Market Monieux",
       "city": "Monieux",
@@ -532,6 +542,16 @@
       "ongoing": true,
       "km": 37,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
+      "title": "PEEK! Peek! PEEK!",
+      "city": "Avignon",
+      "date": "2026-07-26T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=PEEK!%20Peek!%20PEEK!%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f771a5c8-8afb-39dc-9629-36132712e2c8",
@@ -582,26 +602,6 @@
       "ongoing": true,
       "km": 8,
       "url": "https://www.google.com/search?q=Guided%20tour%20in%20old%20town%20of%20Nyons%20Nyons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/56417369-b0a1-32b6-a8a7-2a2ee1159806",
-      "title": "Le boom des biquets",
-      "city": "Saint-Sauveur-Gouvernet",
-      "date": "2026-07-06T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Le%20boom%20des%20biquets%20Saint-Sauveur-Gouvernet"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/78485b30-272a-398b-969a-005724aec579",
-      "title": "Weekly market",
-      "city": "Lus-la-Croix-Haute",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 49,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
