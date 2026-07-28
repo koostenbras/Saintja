@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-07-27T06:22:20.560Z",
+  "updatedAt": "2026-07-28T05:40:47.365Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-07-27T00:00:00.000Z",
-      "end": "2026-07-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-07-27T00:00:00.000Z",
-      "end": "2026-07-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
-      "title": "Tour of the L'Abeille du Vercors Honey Farm",
-      "city": "Die",
-      "date": "2026-07-27T00:00:00.000Z",
-      "end": "2026-08-17T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
       "title": "Jazz Avignon Musics Festival",
@@ -72,6 +42,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Laurent%20Voulzy%20in%20concert%20at%20the%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-07-29T00:00:00.000Z",
+      "end": "2026-07-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
@@ -152,6 +132,16 @@
       "ongoing": false,
       "km": 49,
       "url": "https://www.google.com/search?q=F%C3%AAte%20de%20la%20V%C3%A9raison%20Ch%C3%A2teauneuf-du-Pape"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-08-01T00:00:00.000Z",
+      "end": "2026-08-01T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/63b2ce9a-be46-3475-b7fe-5b7d0dc7c7a9",
@@ -304,6 +294,16 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
+      "id": "https://data.datatourisme.fr/13/905b5649-75be-32a6-90c3-28042ce3124f",
+      "title": "Festival Arts et Vigne 2026 - programme for Thursday 6 August - NIGHT OF THE SHEDS",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20programme%20for%20Thursday%206%20August%20-%20NIGHT%20OF%20THE%20SHEDS%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/491176b8-95e8-3a4d-a6c7-f13b59d1a438",
       "title": "Collective exhibition \"Turbulence des arts\"",
       "city": "Crest",
@@ -362,6 +362,16 @@
       "ongoing": true,
       "km": 42,
       "url": "https://www.google.com/search?q=Exposition%20Flor%C3%A8s%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
+      "title": "Tour of the L'Abeille du Vercors Honey Farm",
+      "city": "Die",
+      "date": "2026-07-27T00:00:00.000Z",
+      "end": "2026-08-17T23:59:59.000Z",
+      "ongoing": true,
+      "km": 42,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/bddcea90-a9b5-3390-87a6-a8e152f4723a",
@@ -592,16 +602,6 @@
       "ongoing": true,
       "km": 28,
       "url": "https://www.google.com/search?q=Visite%20du%20village%20m%C3%A9di%C3%A9val%20de%20Montbrun%20les%20Bains%20Montbrun-les-Bains"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4318646c-238e-3000-aaa7-1b5e7167a15b",
-      "title": "Guided tour in old town of Nyons",
-      "city": "Nyons",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Guided%20tour%20in%20old%20town%20of%20Nyons%20Nyons"
     }
   ]
 }
