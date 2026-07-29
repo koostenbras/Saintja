@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-07-28T05:40:47.365Z",
+  "updatedAt": "2026-07-29T05:45:00.757Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
-      "title": "Jazz Avignon Musics Festival",
-      "city": "Avignon",
-      "date": "2026-07-28T00:00:00.000Z",
-      "end": "2026-07-28T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Jazz%20Avignon%20Musics%20Festival%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
-      "title": "In the Service of His Majesty",
-      "city": "Grignan",
-      "date": "2026-07-28T00:00:00.000Z",
-      "end": "2026-07-28T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/8e595e92-6d1e-388c-b511-25bbdbbe7088",
-      "title": "Menons l'enquête au Refuge Camping de la Clairette",
-      "city": "Espenel",
-      "date": "2026-07-28T00:00:00.000Z",
-      "end": "2026-07-28T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Menons%20l'enqu%C3%AAte%20au%20Refuge%20Camping%20de%20la%20Clairette%20Espenel"
-    },
     {
       "id": "https://data.datatourisme.fr/13/407dc28c-be9f-310b-bd04-22315dcb9e06",
       "title": "Laurent Voulzy in concert at the Théâtre Antique",
@@ -64,6 +34,16 @@
       "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
     },
     {
+      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
+      "title": "In the Service of His Majesty",
+      "city": "Grignan",
+      "date": "2026-07-30T00:00:00.000Z",
+      "end": "2026-07-30T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/ba422c8d-ae9b-3b88-930c-861271efa94f",
       "title": "Benjamin Biolay in concert at the Théâtre Antique",
       "city": "Vaison-la-Romaine",
@@ -82,6 +62,16 @@
       "ongoing": false,
       "km": 43,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Du%20moulin%20au%20rocher%22%20Pierrelatte"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
+      "title": "Jazz Avignon Musics Festival",
+      "city": "Avignon",
+      "date": "2026-07-31T00:00:00.000Z",
+      "end": "2026-08-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Jazz%20Avignon%20Musics%20Festival%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/c75f910c-78e4-3c6c-9150-5720ce1fc645",
@@ -302,6 +292,16 @@
       "ongoing": false,
       "km": 38,
       "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20programme%20for%20Thursday%206%20August%20-%20NIGHT%20OF%20THE%20SHEDS%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a8006ee2-0b87-3b9f-abd2-eddd578ffc57",
+      "title": "Yann Muller live at the Ancient Theatre",
+      "city": "Vaison-la-Romaine",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Yann%20Muller%20live%20at%20the%20Ancient%20Theatre%20Vaison-la-Romaine"
     },
     {
       "id": "https://data.datatourisme.fr/13/491176b8-95e8-3a4d-a6c7-f13b59d1a438",
