@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-07-29T05:45:00.757Z",
+  "updatedAt": "2026-07-30T05:33:33.508Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/407dc28c-be9f-310b-bd04-22315dcb9e06",
-      "title": "Laurent Voulzy in concert at the Théâtre Antique",
-      "city": "Vaison-la-Romaine",
-      "date": "2026-07-29T00:00:00.000Z",
-      "end": "2026-07-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Laurent%20Voulzy%20in%20concert%20at%20the%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-07-29T00:00:00.000Z",
-      "end": "2026-07-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-07-29T00:00:00.000Z",
-      "end": "2026-07-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
       "title": "In the Service of His Majesty",
@@ -72,6 +42,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Jazz%20Avignon%20Musics%20Festival%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-07-31T00:00:00.000Z",
+      "end": "2026-07-31T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/c75f910c-78e4-3c6c-9150-5720ce1fc645",
@@ -184,6 +164,16 @@
       "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-08-02T00:00:00.000Z",
+      "end": "2026-08-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/be41a4d9-ad68-388a-83be-7db675ea30f9",
       "title": "Festival of Jewish Music",
       "city": "Carpentras",
@@ -262,6 +252,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=L'%C3%89tape%20du%20Tour%20de%20France%20Femmes%20with%20Zwift%20Vaison-la-Romaine"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4aaf0ba5-56f4-3752-a246-c12f00a8813d",
+      "title": "Storytelling Walk: Die Insolite",
+      "city": "Die",
+      "date": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Storytelling%20Walk%3A%20Die%20Insolite%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
