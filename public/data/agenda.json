@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-07-30T05:33:33.508Z",
+  "updatedAt": "2026-07-31T05:59:30.121Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
-      "title": "In the Service of His Majesty",
-      "city": "Grignan",
-      "date": "2026-07-30T00:00:00.000Z",
-      "end": "2026-07-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ba422c8d-ae9b-3b88-930c-861271efa94f",
-      "title": "Benjamin Biolay in concert at the Théâtre Antique",
-      "city": "Vaison-la-Romaine",
-      "date": "2026-07-30T00:00:00.000Z",
-      "end": "2026-07-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Benjamin%20Biolay%20in%20concert%20at%20the%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/d1fc79e0-682d-31bc-af22-8cf4ed492434",
-      "title": "Visite commentée \"Du moulin au rocher\"",
-      "city": "Pierrelatte",
-      "date": "2026-07-30T00:00:00.000Z",
-      "end": "2026-07-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 43,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Du%20moulin%20au%20rocher%22%20Pierrelatte"
-    },
     {
       "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
       "title": "Jazz Avignon Musics Festival",
@@ -134,6 +104,16 @@
       "url": "https://www.google.com/search?q=1st%20night%20outing%20from%20Corso%20de%20la%20Lavande%20Valr%C3%A9as"
     },
     {
+      "id": "https://data.datatourisme.fr/13/043b8a43-375a-305b-8f11-4747c1014f06",
+      "title": "St Dominic’s Fair and the Wine, Local Produce & Crafts Fair",
+      "city": "Valréas",
+      "date": "2026-08-02T00:00:00.000Z",
+      "end": "2026-08-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
       "title": "A Summer Evening in Grignan",
       "city": "Grignan",
@@ -214,6 +194,16 @@
       "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20Programme%20for%20Monday%203%20August%20Ch%C3%A2tillon-en-Diois"
     },
     {
+      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
+      "title": "In the Service of His Majesty",
+      "city": "Grignan",
+      "date": "2026-08-04T00:00:00.000Z",
+      "end": "2026-08-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/68b4e374-5849-38ef-9ebf-ae7f9c28e91d",
       "title": "Festival Arts et Vigne 2026 - programme for Tuesday 4 August",
       "city": "Châtillon-en-Diois",
@@ -242,6 +232,16 @@
       "ongoing": false,
       "km": 40,
       "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20Programme%20for%20Wednesday%205%20August%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e55aa32-14f9-381a-92da-d978892d060a",
+      "title": "Farmers’ Night Market",
+      "city": "Pernes-les-Fontaines",
+      "date": "2026-08-05T00:00:00.000Z",
+      "end": "2026-08-05T23:59:59.000Z",
+      "ongoing": false,
+      "km": 45,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/44e54ced-f47d-312b-9113-d274fd53fc8b",
@@ -302,16 +302,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Yann%20Muller%20live%20at%20the%20Ancient%20Theatre%20Vaison-la-Romaine"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/491176b8-95e8-3a4d-a6c7-f13b59d1a438",
-      "title": "Collective exhibition \"Turbulence des arts\"",
-      "city": "Crest",
-      "date": "2026-07-09T00:00:00.000Z",
-      "end": "2026-07-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Collective%20exhibition%20%22Turbulence%20des%20arts%22%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/3a31d508-61f4-37fa-b3f5-260726c6f76e",
@@ -602,6 +592,16 @@
       "ongoing": true,
       "km": 28,
       "url": "https://www.google.com/search?q=Visite%20du%20village%20m%C3%A9di%C3%A9val%20de%20Montbrun%20les%20Bains%20Montbrun-les-Bains"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4318646c-238e-3000-aaa7-1b5e7167a15b",
+      "title": "Guided tour in old town of Nyons",
+      "city": "Nyons",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 8,
+      "url": "https://www.google.com/search?q=Guided%20tour%20in%20old%20town%20of%20Nyons%20Nyons"
     }
   ]
 }
