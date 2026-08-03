@@ -1,98 +1,8 @@
 {
-  "updatedAt": "2026-08-02T05:50:00.883Z",
+  "updatedAt": "2026-08-03T06:14:15.819Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/043b8a43-375a-305b-8f11-4747c1014f06",
-      "title": "St Dominic’s Fair and the Wine, Local Produce & Crafts Fair",
-      "city": "Valréas",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
-      "title": "A Summer Evening in Grignan",
-      "city": "Grignan",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/69be6d10-6097-3164-ae6d-00134c34177c",
-      "title": "2nd night outing from Corso de la Lavande",
-      "city": "Valréas",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=2nd%20night%20outing%20from%20Corso%20de%20la%20Lavande%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/be41a4d9-ad68-388a-83be-7db675ea30f9",
-      "title": "Festival of Jewish Music",
-      "city": "Carpentras",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://www.google.com/search?q=Festival%20of%20Jewish%20Music%20Carpentras"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/d3a4f287-6050-3af3-81a5-497bad7d184b",
-      "title": "Vaison Night Fever' - 90s / 2000s at the Théâtre Antique",
-      "city": "Vaison-la-Romaine",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Vaison%20Night%20Fever'%20-%2090s%20%2F%202000s%20at%20the%20Th%C3%A9%C3%A2tre%20Antique%20Vaison-la-Romaine"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/da8b77d6-3988-3966-b5a9-c865347a676c",
-      "title": "Festival Arts et Vigne 2026 - Open on Sunday, August 2",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20Open%20on%20Sunday%2C%20August%202%20Ch%C3%A2tillon-en-Diois"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -102,6 +12,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/69be6d10-6097-3164-ae6d-00134c34177c",
+      "title": "2nd night outing from Corso de la Lavande",
+      "city": "Valréas",
+      "date": "2026-08-03T00:00:00.000Z",
+      "end": "2026-08-03T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=2nd%20night%20outing%20from%20Corso%20de%20la%20Lavande%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/890036fb-fa91-3696-8fa9-45cb4d588cff",
@@ -122,6 +42,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-04T00:00:00.000Z",
+      "end": "2026-08-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/68b4e374-5849-38ef-9ebf-ae7f9c28e91d",
@@ -162,6 +92,16 @@
       "ongoing": false,
       "km": 45,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-08-05T00:00:00.000Z",
+      "end": "2026-08-05T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/44e54ced-f47d-312b-9113-d274fd53fc8b",
@@ -284,6 +224,16 @@
       "url": "https://www.google.com/search?q=Font'Arts%20Pernes-les-Fontaines"
     },
     {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-08-09T00:00:00.000Z",
+      "end": "2026-08-09T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/c4cb9b81-fe13-37c9-97dc-083a983984f5",
       "title": "Festival Arts et Vigne 2026 - End Sunday 9 August",
       "city": "Châtillon-en-Diois",
@@ -304,34 +254,54 @@
       "url": "https://www.google.com/search?q=M%C3%A9lo%20dimanche%20%3A%20Pauline%20et%20Alex%20Mont%C3%A9limar"
     },
     {
-      "id": "https://data.datatourisme.fr/13/273c088e-0eee-3711-920b-917267120754",
-      "title": "Jazz Avignon Musics Festival",
-      "city": "Avignon",
-      "date": "2026-07-31T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": true,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Jazz%20Avignon%20Musics%20Festival%20Avignon"
+      "id": "https://data.datatourisme.fr/13/85906f04-282a-3f87-88f1-22c19b9c6031",
+      "title": "Lecture by Bernard Mondon",
+      "city": "Piégon",
+      "date": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 13,
+      "url": "https://www.google.com/search?q=Lecture%20by%20Bernard%20Mondon%20Pi%C3%A9gon"
     },
     {
-      "id": "https://data.datatourisme.fr/13/cc1d7433-45d9-3a06-9a77-27dc83cc9104",
-      "title": "Fête de la véraison Ateliers tissage aux cartes",
-      "city": "Châteauneuf-du-Pape",
-      "date": "2026-07-31T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": true,
-      "km": 49,
-      "url": "https://www.google.com/search?q=F%C3%AAte%20de%20la%20v%C3%A9raison%20Ateliers%20tissage%20aux%20cartes%20Ch%C3%A2teauneuf-du-Pape"
+      "id": "https://data.datatourisme.fr/13/b8b5a430-f98b-3045-9e30-adbf192d91e6",
+      "title": "International Antiques and Brocante Fair",
+      "city": "L'Isle-sur-la-Sorgue",
+      "date": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 54,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f9146d7f-4eaa-3ab6-9a0a-7248f17550c7",
-      "title": "Fête de la Véraison",
-      "city": "Châteauneuf-du-Pape",
-      "date": "2026-07-31T00:00:00.000Z",
-      "end": "2026-08-02T23:59:59.000Z",
-      "ongoing": true,
-      "km": 49,
-      "url": "https://www.google.com/search?q=F%C3%AAte%20de%20la%20V%C3%A9raison%20Ch%C3%A2teauneuf-du-Pape"
+      "id": "https://data.datatourisme.fr/13/fe393ca7-38f9-37a3-9013-ae8437bc9f75",
+      "title": "Visite commentée \"Histoire des hôtels particuliers\"",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 37,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Histoire%20des%20h%C3%B4tels%20particuliers%22%20Saint-Paul-Trois-Ch%C3%A2teaux"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/92b097ca-5326-30b1-ba67-509124ad751c",
+      "title": "Balade gourmande : les saveurs secrètes des plantes",
+      "city": "Roussas",
+      "date": "2026-08-14T00:00:00.000Z",
+      "end": "2026-08-14T23:59:59.000Z",
+      "ongoing": false,
+      "km": 35,
+      "url": "https://www.google.com/search?q=Balade%20gourmande%20%3A%20les%20saveurs%20secr%C3%A8tes%20des%20plantes%20Roussas"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a4c80c04-e4ba-3bcc-b709-a1ac26919bf5",
+      "title": "Positiv - Electronic Festival",
+      "city": "Orange",
+      "date": "2026-08-14T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 44,
+      "url": "https://www.google.com/search?q=Positiv%20-%20Electronic%20Festival%20Orange"
     },
     {
       "id": "https://data.datatourisme.fr/13/63b2ce9a-be46-3475-b7fe-5b7d0dc7c7a9",
@@ -344,6 +314,16 @@
       "url": "https://www.google.com/search?q=Vogue%20de%20Chabrillan%20Chabrillan"
     },
     {
+      "id": "https://data.datatourisme.fr/13/9fc5bb58-f7c2-349b-b708-1484caa694d6",
+      "title": "Choralies 2028",
+      "city": "Vaison-la-Romaine",
+      "date": "2026-07-26T00:00:00.000Z",
+      "end": "2026-08-03T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Choralies%202028%20Vaison-la-Romaine"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/cc525287-58db-3855-a6df-e13453a64c38",
       "title": "Postponed - Lavander Festival",
       "city": "Valréas",
@@ -352,6 +332,16 @@
       "ongoing": true,
       "km": 20,
       "url": "https://www.google.com/search?q=Postponed%20-%20Lavander%20Festival%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/be41a4d9-ad68-388a-83be-7db675ea30f9",
+      "title": "Festival of Jewish Music",
+      "city": "Carpentras",
+      "date": "2026-08-02T00:00:00.000Z",
+      "end": "2026-08-04T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://www.google.com/search?q=Festival%20of%20Jewish%20Music%20Carpentras"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
@@ -602,6 +592,16 @@
       "ongoing": true,
       "km": 4,
       "url": "https://www.google.com/search?q=The%20invisible%20forest%20Sahune"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2e1be2cf-46fb-3398-9a52-304932d530bd",
+      "title": "Visite du village médiéval de Montbrun les Bains",
+      "city": "Montbrun-les-Bains",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 28,
+      "url": "https://www.google.com/search?q=Visite%20du%20village%20m%C3%A9di%C3%A9val%20de%20Montbrun%20les%20Bains%20Montbrun-les-Bains"
     }
   ]
 }
