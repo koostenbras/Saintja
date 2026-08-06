@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-05T05:40:24.751Z",
+  "updatedAt": "2026-08-06T05:41:37.694Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/2bf2e811-c630-3619-a02e-cbda77510ad4",
-      "title": "Festival Arts et Vigne 2026 - Programme for Wednesday 5 August",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-08-05T00:00:00.000Z",
-      "end": "2026-08-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20Programme%20for%20Wednesday%205%20August%20Ch%C3%A2tillon-en-Diois"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4e55aa32-14f9-381a-92da-d978892d060a",
-      "title": "Farmers’ Night Market",
-      "city": "Pernes-les-Fontaines",
-      "date": "2026-08-05T00:00:00.000Z",
-      "end": "2026-08-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 45,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-08-05T00:00:00.000Z",
-      "end": "2026-08-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
       "title": "In the Service of His Majesty",
@@ -194,6 +164,16 @@
       "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-08-09T00:00:00.000Z",
+      "end": "2026-08-09T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/c4cb9b81-fe13-37c9-97dc-083a983984f5",
       "title": "Festival Arts et Vigne 2026 - End Sunday 9 August",
       "city": "Châtillon-en-Diois",
@@ -302,6 +282,26 @@
       "ongoing": false,
       "km": 35,
       "url": "https://www.google.com/search?q=Vogue%20de%20Saillans%20Saillans"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/d35a5e25-0b56-32fe-b449-0111feadb622",
+      "title": "Valreas Bike X-perience",
+      "city": "Valréas",
+      "date": "2026-08-22T00:00:00.000Z",
+      "end": "2026-08-22T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Valreas%20Bike%20X-perience%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/fb9e932c-2203-370a-bfdc-5f2c5fc0a54e",
+      "title": "Ventoux celebrates at Mont Serein",
+      "city": "Beaumont-du-Ventoux",
+      "date": "2026-08-23T00:00:00.000Z",
+      "end": "2026-08-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 22,
+      "url": "https://www.google.com/search?q=Ventoux%20celebrates%20at%20Mont%20Serein%20Beaumont-du-Ventoux"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
