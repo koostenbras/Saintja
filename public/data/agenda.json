@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-07T04:50:26.736Z",
+  "updatedAt": "2026-08-08T04:06:55.664Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/85e84f17-c41b-3311-97bd-74edc857be56",
-      "title": "Festival Arts et Vigne 2026 - programme for Friday 7 August",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-08-07T00:00:00.000Z",
-      "end": "2026-08-07T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20programme%20for%20Friday%207%20August%20Ch%C3%A2tillon-en-Diois"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
-      "title": "Les défis du seigneur",
-      "city": "Suze-la-Rousse",
-      "date": "2026-08-07T00:00:00.000Z",
-      "end": "2026-08-21T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -244,6 +224,16 @@
       "url": "https://www.google.com/search?q=Ventoux%20celebrates%20at%20Mont%20Serein%20Beaumont-du-Ventoux"
     },
     {
+      "id": "https://data.datatourisme.fr/13/984c9564-7228-346f-9471-a3687c8da9a1",
+      "title": "Marché laine et soie de Saou - Artisanat textile et fibres naturelles",
+      "city": "Saou",
+      "date": "2026-08-25T00:00:00.000Z",
+      "end": "2026-08-25T23:59:59.000Z",
+      "ongoing": false,
+      "km": 32,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/472d07f7-c800-3a35-9361-048a17f4208e",
       "title": "Visite commentée \"Mystérieux Val des Nymphes\"",
       "city": "La Garde-Adhémar",
@@ -252,6 +242,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Myst%C3%A9rieux%20Val%20des%20Nymphes%22%20La%20Garde-Adh%C3%A9mar"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/1f904079-f6ae-32c9-83d5-39ffdef22da0",
+      "title": "Tournoi de Beach-Volley à Crest",
+      "city": "Crest",
+      "date": "2026-08-29T00:00:00.000Z",
+      "end": "2026-08-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 41,
+      "url": "https://www.google.com/search?q=Tournoi%20de%20Beach-Volley%20%C3%A0%20Crest%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/ef5edd33-4195-3ca1-9844-51bb731abf15",
@@ -292,6 +292,16 @@
       "ongoing": true,
       "km": 42,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
+      "title": "Les défis du seigneur",
+      "city": "Suze-la-Rousse",
+      "date": "2026-08-07T00:00:00.000Z",
+      "end": "2026-08-21T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
     },
     {
       "id": "https://data.datatourisme.fr/13/bddcea90-a9b5-3390-87a6-a8e152f4723a",
@@ -552,16 +562,6 @@
       "ongoing": true,
       "km": 49,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b014e0e4-f431-3a85-bc22-a8240f5ff720",
-      "title": "Guided Tour of the 12th C Cistercian Abbey of Notre Dame de Valcroissant",
-      "city": "Die",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 43,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%2012th%20C%20Cistercian%20Abbey%20of%20Notre%20Dame%20de%20Valcroissant%20Die"
     }
   ]
 }
