@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-09T04:13:25.652Z",
+  "updatedAt": "2026-08-10T04:25:15.234Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-08-09T00:00:00.000Z",
-      "end": "2026-08-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-08-09T00:00:00.000Z",
-      "end": "2026-08-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c4cb9b81-fe13-37c9-97dc-083a983984f5",
-      "title": "Festival Arts et Vigne 2026 - End Sunday 9 August",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-08-09T00:00:00.000Z",
-      "end": "2026-08-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://www.google.com/search?q=Festival%20Arts%20et%20Vigne%202026%20-%20End%20Sunday%209%20August%20Ch%C3%A2tillon-en-Diois"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f4a934ad-636f-3d07-b392-f5ea7188b6ae",
-      "title": "Mélo dimanche : Pauline et Alex",
-      "city": "Montélimar",
-      "date": "2026-08-09T00:00:00.000Z",
-      "end": "2026-08-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 44,
-      "url": "https://www.google.com/search?q=M%C3%A9lo%20dimanche%20%3A%20Pauline%20et%20Alex%20Mont%C3%A9limar"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -72,6 +32,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-08-12T00:00:00.000Z",
+      "end": "2026-08-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
@@ -154,6 +124,16 @@
       "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
     },
     {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-08-16T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
       "title": "Visite commentée \"2000 ans d'histoire\"",
       "city": "La Baume-de-Transit",
@@ -232,16 +212,6 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c8eef1f3-513f-3ed9-8df9-0f5451c8d8e3",
-      "title": "Font'Arts",
-      "city": "Pernes-les-Fontaines",
-      "date": "2026-08-08T00:00:00.000Z",
-      "end": "2026-08-09T23:59:59.000Z",
-      "ongoing": true,
-      "km": 45,
-      "url": "https://www.google.com/search?q=Font'Arts%20Pernes-les-Fontaines"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
@@ -532,6 +502,16 @@
       "ongoing": true,
       "km": 8,
       "url": "https://www.google.com/search?q=Le%20boom%20des%20biquets%20Saint-Sauveur-Gouvernet"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/78485b30-272a-398b-969a-005724aec579",
+      "title": "Weekly market",
+      "city": "Lus-la-Croix-Haute",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 49,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
