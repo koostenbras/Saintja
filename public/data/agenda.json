@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-08-11T04:14:04.479Z",
+  "updatedAt": "2026-08-12T04:43:21.003Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
-      "title": "In the Service of His Majesty",
-      "city": "Grignan",
-      "date": "2026-08-11T00:00:00.000Z",
-      "end": "2026-08-11T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -32,6 +22,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
+      "title": "In the Service of His Majesty",
+      "city": "Grignan",
+      "date": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
@@ -212,6 +212,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
+      "title": "Bridge to Hell Metal Fest #6",
+      "city": "Crest",
+      "date": "2026-09-11T00:00:00.000Z",
+      "end": "2026-09-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Bridge%20to%20Hell%20Metal%20Fest%20%236%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
