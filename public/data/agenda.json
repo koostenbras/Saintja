@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-12T04:43:21.003Z",
+  "updatedAt": "2026-08-13T04:46:54.369Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-12T00:00:00.000Z",
-      "end": "2026-08-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-08-12T00:00:00.000Z",
-      "end": "2026-08-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
       "title": "In the Service of His Majesty",
@@ -72,6 +52,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Histoire%20des%20h%C3%B4tels%20particuliers%22%20Saint-Paul-Trois-Ch%C3%A2teaux"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-14T00:00:00.000Z",
+      "end": "2026-08-14T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/92b097ca-5326-30b1-ba67-509124ad751c",
@@ -132,6 +122,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
+      "title": "Les matinales de Grignan",
+      "city": "Grignan",
+      "date": "2026-08-16T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
@@ -222,6 +222,46 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=Bridge%20to%20Hell%20Metal%20Fest%20%236%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/062219d3-76fb-3feb-bfc5-5b59cdd6f723",
+      "title": "The Big Ball",
+      "city": "Grignan",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=The%20Big%20Ball%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3c42f5c8-ee50-38da-b040-dfefe4f7e0b4",
+      "title": "Place aux Images - Rencontres AD HOC #9",
+      "city": "Mirabel-et-Blacons",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/7f962ab0-7209-318f-88c2-b4f11e5a3e54",
+      "title": "Le Temps du Film - Rencontres AD HOC #9",
+      "city": "Mirabel-et-Blacons",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Le%20Temps%20du%20Film%20-%20Rencontres%20AD%20HOC%20%239%20Mirabel-et-Blacons"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/9c79badc-9559-3ef4-8d61-7c121df8043b",
+      "title": "Deadly Coffee from the Diois Region",
+      "city": "Recoubeau-Jansac",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 33,
+      "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
