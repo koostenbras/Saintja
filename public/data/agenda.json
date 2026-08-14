@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-08-13T04:46:54.369Z",
+  "updatedAt": "2026-08-14T04:44:36.593Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/2f5c9ae0-d85c-3da0-a482-c6c521b80107",
-      "title": "In the Service of His Majesty",
-      "city": "Grignan",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=In%20the%20Service%20of%20His%20Majesty%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
-      "title": "A Drink in the Gardens",
-      "city": "Avignon",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/85906f04-282a-3f87-88f1-22c19b9c6031",
-      "title": "Lecture by Bernard Mondon",
-      "city": "Piégon",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Lecture%20by%20Bernard%20Mondon%20Pi%C3%A9gon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b8b5a430-f98b-3045-9e30-adbf192d91e6",
-      "title": "International Antiques and Brocante Fair",
-      "city": "L'Isle-sur-la-Sorgue",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 54,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fe393ca7-38f9-37a3-9013-ae8437bc9f75",
-      "title": "Visite commentée \"Histoire des hôtels particuliers\"",
-      "city": "Saint-Paul-Trois-Châteaux",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Histoire%20des%20h%C3%B4tels%20particuliers%22%20Saint-Paul-Trois-Ch%C3%A2teaux"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -132,6 +82,26 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
+      "title": "En garde!",
+      "city": "Grignan",
+      "date": "2026-08-18T00:00:00.000Z",
+      "end": "2026-08-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=En%20garde!%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
+      "title": "A Drink in the Gardens",
+      "city": "Avignon",
+      "date": "2026-08-20T00:00:00.000Z",
+      "end": "2026-08-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
@@ -264,14 +234,14 @@
       "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
     },
     {
-      "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
-      "title": "En garde!",
-      "city": "Grignan",
-      "date": "2026-07-14T00:00:00.000Z",
-      "end": "2026-08-13T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=En%20garde!%20Grignan"
+      "id": "https://data.datatourisme.fr/13/c2357211-efed-3297-9f2f-9a1248816151",
+      "title": "Censure et Autocensure - Rencontres #9",
+      "city": "Mirabel-et-Blacons",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Censure%20et%20Autocensure%20-%20Rencontres%20%239%20Mirabel-et-Blacons"
     },
     {
       "id": "https://data.datatourisme.fr/13/c535a82b-57f7-3f2e-a7bb-f0535ecca5bc",
@@ -282,6 +252,16 @@
       "ongoing": true,
       "km": 42,
       "url": "https://www.google.com/search?q=Exposition%20Flor%C3%A8s%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/b8b5a430-f98b-3045-9e30-adbf192d91e6",
+      "title": "International Antiques and Brocante Fair",
+      "city": "L'Isle-sur-la-Sorgue",
+      "date": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": true,
+      "km": 54,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
