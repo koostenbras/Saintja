@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-14T04:44:36.593Z",
+  "updatedAt": "2026-08-15T03:33:05.216Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-14T00:00:00.000Z",
-      "end": "2026-08-14T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/92b097ca-5326-30b1-ba67-509124ad751c",
-      "title": "Balade gourmande : les saveurs secrètes des plantes",
-      "city": "Roussas",
-      "date": "2026-08-14T00:00:00.000Z",
-      "end": "2026-08-14T23:59:59.000Z",
-      "ongoing": false,
-      "km": 35,
-      "url": "https://www.google.com/search?q=Balade%20gourmande%20%3A%20les%20saveurs%20secr%C3%A8tes%20des%20plantes%20Roussas"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a4c80c04-e4ba-3bcc-b709-a1ac26919bf5",
-      "title": "Positiv - Electronic Festival",
-      "city": "Orange",
-      "date": "2026-08-14T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 44,
-      "url": "https://www.google.com/search?q=Positiv%20-%20Electronic%20Festival%20Orange"
-    },
     {
       "id": "https://data.datatourisme.fr/13/174edde7-313a-3f0c-9ead-57d726ad6f97",
       "title": "Car boot sale",
@@ -52,6 +22,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-16T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
@@ -154,6 +134,16 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
+      "id": "https://data.datatourisme.fr/13/d98d4aa7-55b6-38f8-bc7c-a1f2b5d3e356",
+      "title": "C'est pas bidon !",
+      "city": "Crest",
+      "date": "2026-08-26T00:00:00.000Z",
+      "end": "2026-08-26T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=C'est%20pas%20bidon%20!%20Crest"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/472d07f7-c800-3a35-9361-048a17f4208e",
       "title": "Visite commentée \"Mystérieux Val des Nymphes\"",
       "city": "La Garde-Adhémar",
@@ -182,6 +172,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e5d376f8-d572-3a39-91ab-63b6ac3eba8c",
+      "title": "Exposition véhicules anciens et sportifs",
+      "city": "Montoison",
+      "date": "2026-08-30T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": false,
+      "km": 52,
+      "url": "https://www.google.com/search?q=Exposition%20v%C3%A9hicules%20anciens%20et%20sportifs%20Montoison"
     },
     {
       "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
@@ -252,6 +252,16 @@
       "ongoing": true,
       "km": 42,
       "url": "https://www.google.com/search?q=Exposition%20Flor%C3%A8s%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a4c80c04-e4ba-3bcc-b709-a1ac26919bf5",
+      "title": "Positiv - Electronic Festival",
+      "city": "Orange",
+      "date": "2026-08-14T00:00:00.000Z",
+      "end": "2026-08-16T23:59:59.000Z",
+      "ongoing": true,
+      "km": 44,
+      "url": "https://www.google.com/search?q=Positiv%20-%20Electronic%20Festival%20Orange"
     },
     {
       "id": "https://data.datatourisme.fr/13/b8b5a430-f98b-3045-9e30-adbf192d91e6",
@@ -532,16 +542,6 @@
       "ongoing": true,
       "km": 8,
       "url": "https://www.google.com/search?q=Le%20boom%20des%20biquets%20Saint-Sauveur-Gouvernet"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/78485b30-272a-398b-969a-005724aec579",
-      "title": "Weekly market",
-      "city": "Lus-la-Croix-Haute",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 49,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
