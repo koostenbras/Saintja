@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-16T03:42:06.042Z",
+  "updatedAt": "2026-08-17T03:43:16.992Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-16T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
-      "title": "A Summer Evening in Grignan",
-      "city": "Grignan",
-      "date": "2026-08-16T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-08-16T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a1145d09-0503-3543-a259-04fae0df9323",
-      "title": "Les matinales de Grignan",
-      "city": "Grignan",
-      "date": "2026-08-16T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Les%20matinales%20de%20Grignan%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -52,6 +12,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-18T00:00:00.000Z",
+      "end": "2026-08-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
@@ -102,6 +72,26 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Valreas%20Bike%20X-perience%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
+      "title": "A Summer Evening in Grignan",
+      "city": "Grignan",
+      "date": "2026-08-23T00:00:00.000Z",
+      "end": "2026-08-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-08-23T00:00:00.000Z",
+      "end": "2026-08-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/fb9e932c-2203-370a-bfdc-5f2c5fc0a54e",
@@ -232,26 +222,6 @@
       "ongoing": false,
       "km": 38,
       "url": "https://www.google.com/search?q=Censure%20et%20Autocensure%20-%20Rencontres%20%239%20Mirabel-et-Blacons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a4c80c04-e4ba-3bcc-b709-a1ac26919bf5",
-      "title": "Positiv - Electronic Festival",
-      "city": "Orange",
-      "date": "2026-08-14T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": true,
-      "km": 44,
-      "url": "https://www.google.com/search?q=Positiv%20-%20Electronic%20Festival%20Orange"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b8b5a430-f98b-3045-9e30-adbf192d91e6",
-      "title": "International Antiques and Brocante Fair",
-      "city": "L'Isle-sur-la-Sorgue",
-      "date": "2026-08-13T00:00:00.000Z",
-      "end": "2026-08-16T23:59:59.000Z",
-      "ongoing": true,
-      "km": 54,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
@@ -532,6 +502,26 @@
       "ongoing": true,
       "km": 49,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/b014e0e4-f431-3a85-bc22-a8240f5ff720",
+      "title": "Guided Tour of the 12th C Cistercian Abbey of Notre Dame de Valcroissant",
+      "city": "Die",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%2012th%20C%20Cistercian%20Abbey%20of%20Notre%20Dame%20de%20Valcroissant%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ee01a243-82c2-310d-99c5-8c8741a5e973",
+      "title": "Exposition : Voyages au Levant",
+      "city": "Montélimar",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
+      "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
     }
   ]
 }
