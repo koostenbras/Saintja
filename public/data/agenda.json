@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-08-17T03:43:16.992Z",
+  "updatedAt": "2026-08-18T03:38:38.174Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-08-17T00:00:00.000Z",
-      "end": "2026-08-17T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -52,6 +42,16 @@
       "ongoing": false,
       "km": 30,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%222000%20ans%20d'histoire%22%20La%20Baume-de-Transit"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-08-22T00:00:00.000Z",
+      "end": "2026-08-22T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/75c4ff70-73a4-3815-b115-9871fe914eca",
@@ -224,14 +224,14 @@
       "url": "https://www.google.com/search?q=Censure%20et%20Autocensure%20-%20Rencontres%20%239%20Mirabel-et-Blacons"
     },
     {
-      "id": "https://data.datatourisme.fr/13/df5c4f56-1917-33bb-b865-ce2d1a59f505",
-      "title": "Tour of the L'Abeille du Vercors Honey Farm",
-      "city": "Die",
-      "date": "2026-07-27T00:00:00.000Z",
-      "end": "2026-08-17T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://vide-greniers.org/evenements/Drome"
+      "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
+      "title": "Festival Résonance",
+      "city": "Avignon",
+      "date": "2026-09-17T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
@@ -522,6 +522,16 @@
       "ongoing": true,
       "km": 43,
       "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
+      "title": "Discover the vultures",
+      "city": "Saint-May",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 8,
+      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
     }
   ]
 }
