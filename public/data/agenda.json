@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-18T03:38:38.174Z",
+  "updatedAt": "2026-08-19T03:40:32.764Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-18T00:00:00.000Z",
-      "end": "2026-08-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
-      "title": "En garde!",
-      "city": "Grignan",
-      "date": "2026-08-18T00:00:00.000Z",
-      "end": "2026-08-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=En%20garde!%20Grignan"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
       "title": "A Drink in the Gardens",
@@ -32,6 +12,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-20T00:00:00.000Z",
+      "end": "2026-08-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
@@ -232,6 +222,26 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/df8270f4-636c-34a1-a137-b053e4d9bd42",
+      "title": "19th Edition of La Drômoise Cycle Race",
+      "city": "Die",
+      "date": "2026-09-18T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
+      "title": "En garde!",
+      "city": "Grignan",
+      "date": "2026-08-18T00:00:00.000Z",
+      "end": "2026-08-20T23:59:59.000Z",
+      "ongoing": true,
+      "km": 26,
+      "url": "https://www.google.com/search?q=En%20garde!%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
@@ -522,16 +532,6 @@
       "ongoing": true,
       "km": 43,
       "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
-      "title": "Discover the vultures",
-      "city": "Saint-May",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
     }
   ]
 }
