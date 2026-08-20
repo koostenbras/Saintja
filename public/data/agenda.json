@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T03:40:32.764Z",
+  "updatedAt": "2026-08-20T03:40:32.836Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -232,6 +232,26 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/25ba075c-4f7e-35a2-b69b-5e9434977973",
+      "title": "43rd European Heritage Days in Avignon",
+      "city": "Avignon",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=43rd%20European%20Heritage%20Days%20in%20Avignon%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/39acad29-cb8b-362e-acd3-956b94a92c56",
+      "title": "Heritage days: Unaccompanied tour of the Roman Theatre and the Art and History museum",
+      "city": "Orange",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 44,
+      "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
     },
     {
       "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
