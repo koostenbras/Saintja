@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-20T03:40:32.836Z",
+  "updatedAt": "2026-08-21T03:44:16.060Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
-      "title": "A Drink in the Gardens",
-      "city": "Avignon",
-      "date": "2026-08-20T00:00:00.000Z",
-      "end": "2026-08-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-20T00:00:00.000Z",
-      "end": "2026-08-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
-      "title": "Visite commentée \"2000 ans d'histoire\"",
-      "city": "La Baume-de-Transit",
-      "date": "2026-08-20T00:00:00.000Z",
-      "end": "2026-08-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 30,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%222000%20ans%20d'histoire%22%20La%20Baume-de-Transit"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -42,6 +12,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-22T00:00:00.000Z",
+      "end": "2026-08-22T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/75c4ff70-73a4-3815-b115-9871fe914eca",
@@ -122,6 +102,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Myst%C3%A9rieux%20Val%20des%20Nymphes%22%20La%20Garde-Adh%C3%A9mar"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
+      "title": "A Drink in the Gardens",
+      "city": "Avignon",
+      "date": "2026-08-27T00:00:00.000Z",
+      "end": "2026-08-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/1f904079-f6ae-32c9-83d5-39ffdef22da0",
@@ -252,16 +242,6 @@
       "ongoing": false,
       "km": 44,
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fe7dfc29-a55e-3ca6-aeb1-207f183a65e4",
-      "title": "En garde!",
-      "city": "Grignan",
-      "date": "2026-08-18T00:00:00.000Z",
-      "end": "2026-08-20T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=En%20garde!%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
@@ -552,6 +532,16 @@
       "ongoing": true,
       "km": 43,
       "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
+      "title": "Discover the vultures",
+      "city": "Saint-May",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 8,
+      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
     }
   ]
 }
