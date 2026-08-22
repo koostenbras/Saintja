@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T03:44:16.060Z",
+  "updatedAt": "2026-08-22T03:36:09.157Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -82,6 +82,16 @@
       "ongoing": false,
       "km": 32,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
+      "title": "Les défis du seigneur",
+      "city": "Suze-la-Rousse",
+      "date": "2026-08-25T00:00:00.000Z",
+      "end": "2026-08-25T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
     },
     {
       "id": "https://data.datatourisme.fr/13/d98d4aa7-55b6-38f8-bc7c-a1f2b5d3e356",
@@ -242,16 +252,6 @@
       "ongoing": false,
       "km": 44,
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
-      "title": "Les défis du seigneur",
-      "city": "Suze-la-Rousse",
-      "date": "2026-08-07T00:00:00.000Z",
-      "end": "2026-08-21T23:59:59.000Z",
-      "ongoing": true,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
     },
     {
       "id": "https://data.datatourisme.fr/13/bddcea90-a9b5-3390-87a6-a8e152f4723a",
@@ -542,6 +542,16 @@
       "ongoing": true,
       "km": 8,
       "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f98e672f-8ad6-36fc-81ea-f43115e0aef5",
+      "title": "Distillerie Artisanale Vallon des Lavande",
+      "city": "Montbrun-les-Bains",
+      "date": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 35,
+      "url": "https://www.google.com/search?q=Distillerie%20Artisanale%20Vallon%20des%20Lavande%20Montbrun-les-Bains"
     }
   ]
 }
