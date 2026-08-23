@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-22T03:36:09.157Z",
+  "updatedAt": "2026-08-23T03:44:01.419Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-08-22T00:00:00.000Z",
-      "end": "2026-08-22T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-22T00:00:00.000Z",
-      "end": "2026-08-22T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/75c4ff70-73a4-3815-b115-9871fe914eca",
-      "title": "Vogue de Saillans",
-      "city": "Saillans",
-      "date": "2026-08-22T00:00:00.000Z",
-      "end": "2026-08-22T23:59:59.000Z",
-      "ongoing": false,
-      "km": 35,
-      "url": "https://www.google.com/search?q=Vogue%20de%20Saillans%20Saillans"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/d35a5e25-0b56-32fe-b449-0111feadb622",
-      "title": "Valreas Bike X-perience",
-      "city": "Valréas",
-      "date": "2026-08-22T00:00:00.000Z",
-      "end": "2026-08-22T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Valreas%20Bike%20X-perience%20Valr%C3%A9as"
-    },
     {
       "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
       "title": "A Summer Evening in Grignan",
@@ -74,6 +34,26 @@
       "url": "https://www.google.com/search?q=Ventoux%20celebrates%20at%20Mont%20Serein%20Beaumont-du-Ventoux"
     },
     {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-08-24T00:00:00.000Z",
+      "end": "2026-08-24T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-24T00:00:00.000Z",
+      "end": "2026-08-24T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/984c9564-7228-346f-9471-a3687c8da9a1",
       "title": "Marché laine et soie de Saou - Artisanat textile et fibres naturelles",
       "city": "Saou",
@@ -92,6 +72,16 @@
       "ongoing": false,
       "km": 34,
       "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
+      "title": "Visite commentée \"2000 ans d'histoire\"",
+      "city": "La Baume-de-Transit",
+      "date": "2026-08-26T00:00:00.000Z",
+      "end": "2026-08-26T23:59:59.000Z",
+      "ongoing": false,
+      "km": 30,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%222000%20ans%20d'histoire%22%20La%20Baume-de-Transit"
     },
     {
       "id": "https://data.datatourisme.fr/13/d98d4aa7-55b6-38f8-bc7c-a1f2b5d3e356",
@@ -252,16 +242,6 @@
       "ongoing": false,
       "km": 44,
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/bddcea90-a9b5-3390-87a6-a8e152f4723a",
-      "title": "Fêtes nocturnes : Nighttime play",
-      "city": "Grignan",
-      "date": "2026-06-24T00:00:00.000Z",
-      "end": "2026-08-22T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=F%C3%AAtes%20nocturnes%20%3A%20Nighttime%20play%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/9f6da42b-5b11-37a7-9c91-2e97047fe7ee",
@@ -552,6 +532,16 @@
       "ongoing": true,
       "km": 35,
       "url": "https://www.google.com/search?q=Distillerie%20Artisanale%20Vallon%20des%20Lavande%20Montbrun-les-Bains"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/1b138963-4e2b-3689-a310-84851aa2815c",
+      "title": "Wednesday evening farmers market",
+      "city": "Maubec",
+      "date": "2026-06-10T00:00:00.000Z",
+      "end": "2026-09-02T23:59:59.000Z",
+      "ongoing": true,
+      "km": 58,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
