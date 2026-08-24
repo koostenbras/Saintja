@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-23T03:44:01.419Z",
+  "updatedAt": "2026-08-24T03:48:03.338Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/5e9180dd-404c-3638-b812-7ddf8deb9fe1",
-      "title": "A Summer Evening in Grignan",
-      "city": "Grignan",
-      "date": "2026-08-23T00:00:00.000Z",
-      "end": "2026-08-23T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=A%20Summer%20Evening%20in%20Grignan%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-08-23T00:00:00.000Z",
-      "end": "2026-08-23T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fb9e932c-2203-370a-bfdc-5f2c5fc0a54e",
-      "title": "Ventoux celebrates at Mont Serein",
-      "city": "Beaumont-du-Ventoux",
-      "date": "2026-08-23T00:00:00.000Z",
-      "end": "2026-08-23T23:59:59.000Z",
-      "ongoing": false,
-      "km": 22,
-      "url": "https://www.google.com/search?q=Ventoux%20celebrates%20at%20Mont%20Serein%20Beaumont-du-Ventoux"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -132,6 +102,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-08-30T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/e5d376f8-d572-3a39-91ab-63b6ac3eba8c",
