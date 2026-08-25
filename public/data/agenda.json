@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-24T03:48:03.338Z",
+  "updatedAt": "2026-08-25T03:42:35.418Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-08-24T00:00:00.000Z",
-      "end": "2026-08-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-24T00:00:00.000Z",
-      "end": "2026-08-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/984c9564-7228-346f-9471-a3687c8da9a1",
       "title": "Marché laine et soie de Saou - Artisanat textile et fibres naturelles",
@@ -42,6 +22,16 @@
       "ongoing": false,
       "km": 34,
       "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-26T00:00:00.000Z",
+      "end": "2026-08-26T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
@@ -92,6 +82,16 @@
       "ongoing": false,
       "km": 41,
       "url": "https://www.google.com/search?q=Tournoi%20de%20Beach-Volley%20%C3%A0%20Crest%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-08-29T00:00:00.000Z",
+      "end": "2026-08-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/ef5edd33-4195-3ca1-9844-51bb731abf15",
