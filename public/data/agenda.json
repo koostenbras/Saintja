@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-25T03:42:35.418Z",
+  "updatedAt": "2026-08-26T03:48:09.847Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/984c9564-7228-346f-9471-a3687c8da9a1",
-      "title": "Marché laine et soie de Saou - Artisanat textile et fibres naturelles",
-      "city": "Saou",
-      "date": "2026-08-25T00:00:00.000Z",
-      "end": "2026-08-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 32,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c77686f4-da6f-32aa-b3f1-bd71427ac26e",
-      "title": "Les défis du seigneur",
-      "city": "Suze-la-Rousse",
-      "date": "2026-08-25T00:00:00.000Z",
-      "end": "2026-08-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Les%20d%C3%A9fis%20du%20seigneur%20Suze-la-Rousse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -42,6 +22,16 @@
       "ongoing": false,
       "km": 30,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%222000%20ans%20d'histoire%22%20La%20Baume-de-Transit"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/9f6da42b-5b11-37a7-9c91-2e97047fe7ee",
+      "title": "Guided tour – Bleudiois Lavender Distillery",
+      "city": "Solaure en Diois",
+      "date": "2026-08-26T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": false,
+      "km": 36,
+      "url": "https://www.google.com/search?q=Guided%20tour%20%E2%80%93%20Bleudiois%20Lavender%20Distillery%20Solaure%20en%20Diois"
     },
     {
       "id": "https://data.datatourisme.fr/13/d98d4aa7-55b6-38f8-bc7c-a1f2b5d3e356",
@@ -224,14 +214,14 @@
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
     },
     {
-      "id": "https://data.datatourisme.fr/13/9f6da42b-5b11-37a7-9c91-2e97047fe7ee",
-      "title": "Guided tour – Bleudiois Lavender Distillery",
-      "city": "Solaure en Diois",
-      "date": "2026-07-10T00:00:00.000Z",
-      "end": "2026-08-25T23:59:59.000Z",
-      "ongoing": true,
-      "km": 36,
-      "url": "https://www.google.com/search?q=Guided%20tour%20%E2%80%93%20Bleudiois%20Lavender%20Distillery%20Solaure%20en%20Diois"
+      "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
+      "title": "MERLUSSE de Marcel PAGNOL",
+      "city": "Valréas",
+      "date": "2026-09-25T00:00:00.000Z",
+      "end": "2026-09-25T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/3fa1860e-d913-3cc8-ae00-dfae2a6c01e9",
@@ -521,6 +511,16 @@
       "end": "2026-09-02T23:59:59.000Z",
       "ongoing": true,
       "km": 58,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
+      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
+      "city": "Pernes-les-Fontaines",
+      "date": "2026-03-25T00:00:00.000Z",
+      "end": "2026-09-09T23:59:59.000Z",
+      "ongoing": true,
+      "km": 45,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
