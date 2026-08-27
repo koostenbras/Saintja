@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-26T03:48:09.847Z",
+  "updatedAt": "2026-08-27T13:28:29.297Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-26T00:00:00.000Z",
-      "end": "2026-08-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/980194e0-8aa1-391d-bd7c-bb1ab6137224",
-      "title": "Visite commentée \"2000 ans d'histoire\"",
-      "city": "La Baume-de-Transit",
-      "date": "2026-08-26T00:00:00.000Z",
-      "end": "2026-08-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 30,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%222000%20ans%20d'histoire%22%20La%20Baume-de-Transit"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/9f6da42b-5b11-37a7-9c91-2e97047fe7ee",
-      "title": "Guided tour – Bleudiois Lavender Distillery",
-      "city": "Solaure en Diois",
-      "date": "2026-08-26T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": false,
-      "km": 36,
-      "url": "https://www.google.com/search?q=Guided%20tour%20%E2%80%93%20Bleudiois%20Lavender%20Distillery%20Solaure%20en%20Diois"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/d98d4aa7-55b6-38f8-bc7c-a1f2b5d3e356",
-      "title": "C'est pas bidon !",
-      "city": "Crest",
-      "date": "2026-08-26T00:00:00.000Z",
-      "end": "2026-08-26T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=C'est%20pas%20bidon%20!%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/472d07f7-c800-3a35-9361-048a17f4208e",
       "title": "Visite commentée \"Mystérieux Val des Nymphes\"",
@@ -62,6 +22,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-28T00:00:00.000Z",
+      "end": "2026-08-28T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/1f904079-f6ae-32c9-83d5-39ffdef22da0",
@@ -164,6 +134,16 @@
       "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
     },
     {
+      "id": "https://data.datatourisme.fr/13/aef91b74-92a8-375a-9784-ee98a9c77e62",
+      "title": "Ventoux Saveurs Festival: “Jazz aperitif at Le Chat Blanc” – Loïc Fauche and the Avignon Conservatoire workshops",
+      "city": "Saint-Didier",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 44,
+      "url": "https://www.google.com/search?q=Ventoux%20Saveurs%20Festival%3A%20%E2%80%9CJazz%20aperitif%20at%20Le%20Chat%20Blanc%E2%80%9D%20%E2%80%93%20Lo%C3%AFc%20Fauche%20and%20the%20Avignon%20Conservatoire%20workshops%20Saint-Didier"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/c2357211-efed-3297-9f2f-9a1248816151",
       "title": "Censure et Autocensure - Rencontres #9",
       "city": "Mirabel-et-Blacons",
@@ -222,26 +202,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/3fa1860e-d913-3cc8-ae00-dfae2a6c01e9",
-      "title": "Les Évasions Gourmandes",
-      "city": "Crest",
-      "date": "2026-07-02T00:00:00.000Z",
-      "end": "2026-08-26T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Les%20%C3%89vasions%20Gourmandes%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a877dd34-1654-3378-aa7f-9e6f217f08cb",
-      "title": "Madame de Sévigné and the Enchanted Rose",
-      "city": "Grignan",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-26T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Madame%20de%20S%C3%A9vign%C3%A9%20and%20the%20Enchanted%20Rose%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/7ab1043b-be21-3d0a-8d30-aa39dcf5d019",
@@ -522,6 +482,26 @@
       "ongoing": true,
       "km": 45,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e5363a8f-1fbf-3af5-aa5c-c8498cc746ef",
+      "title": "Evening market in Malemort du comtat",
+      "city": "Malemort-du-Comtat",
+      "date": "2026-06-10T00:00:00.000Z",
+      "end": "2026-09-10T23:59:59.000Z",
+      "ongoing": true,
+      "km": 41,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4a210032-af99-3ca0-b1bd-a4bae23579a7",
+      "title": "Provencal Market of Nyons",
+      "city": "Nyons",
+      "date": "2026-05-03T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": true,
+      "km": 8,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
