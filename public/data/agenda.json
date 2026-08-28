@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-27T13:28:29.297Z",
+  "updatedAt": "2026-08-28T14:47:07.178Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/472d07f7-c800-3a35-9361-048a17f4208e",
-      "title": "Visite commentée \"Mystérieux Val des Nymphes\"",
-      "city": "La Garde-Adhémar",
-      "date": "2026-08-27T00:00:00.000Z",
-      "end": "2026-08-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Myst%C3%A9rieux%20Val%20des%20Nymphes%22%20La%20Garde-Adh%C3%A9mar"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4ad6d194-c61f-37fa-b364-10ff3a61e490",
-      "title": "A Drink in the Gardens",
-      "city": "Avignon",
-      "date": "2026-08-27T00:00:00.000Z",
-      "end": "2026-08-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=A%20Drink%20in%20the%20Gardens%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -202,36 +182,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/7ab1043b-be21-3d0a-8d30-aa39dcf5d019",
-      "title": "The mystery of the forgotten letter",
-      "city": "Grignan",
-      "date": "2026-07-02T00:00:00.000Z",
-      "end": "2026-08-27T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=The%20mystery%20of%20the%20forgotten%20letter%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e317c85e-1ef1-308f-9cb1-03b60cc06eb6",
-      "title": "Guided Visit of the Gallo-Roman Town of Die (in French)",
-      "city": "Die",
-      "date": "2026-07-09T00:00:00.000Z",
-      "end": "2026-08-27T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Guided%20Visit%20of%20the%20Gallo-Roman%20Town%20of%20Die%20(in%20French)%20Die"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f236464d-26d5-3418-87d2-630b3718379f",
-      "title": "On a volé les bijoux de la marquise !",
-      "city": "Grignan",
-      "date": "2026-07-02T00:00:00.000Z",
-      "end": "2026-08-27T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=On%20a%20vol%C3%A9%20les%20bijoux%20de%20la%20marquise%20!%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/0723b9f5-57a4-36f6-97e5-8272e61af593",
@@ -502,6 +452,36 @@
       "ongoing": true,
       "km": 8,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/92c96a28-d44d-335b-bcda-7db70b60df47",
+      "title": "Ferris wheel",
+      "city": "Avignon",
+      "date": "2026-06-06T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Ferris%20wheel%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/11f7add9-fe32-36cf-b4a1-41cff4543d76",
+      "title": "Les conviviales de Méthamis - Festive evening market",
+      "city": "Méthamis",
+      "date": "2026-05-11T00:00:00.000Z",
+      "end": "2026-09-14T23:59:59.000Z",
+      "ongoing": true,
+      "km": 41,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/490ccf7d-6b64-3ca0-b15d-b4cf7ded5441",
+      "title": "Les Instants Bivouak",
+      "city": "Nyons",
+      "date": "2026-04-30T00:00:00.000Z",
+      "end": "2026-09-18T23:59:59.000Z",
+      "ongoing": true,
+      "km": 11,
+      "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
     }
   ]
 }
