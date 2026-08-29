@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-08-28T14:47:07.178Z",
+  "updatedAt": "2026-08-29T09:37:40.272Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-08-28T00:00:00.000Z",
-      "end": "2026-08-28T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/1f904079-f6ae-32c9-83d5-39ffdef22da0",
       "title": "Tournoi de Beach-Volley à Crest",
@@ -44,6 +34,16 @@
       "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-08-30T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
       "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
       "city": "Avignon",
@@ -62,6 +62,26 @@
       "ongoing": false,
       "km": 52,
       "url": "https://www.google.com/search?q=Exposition%20v%C3%A9hicules%20anciens%20et%20sportifs%20Montoison"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
+      "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
+      "city": "Mirmande",
+      "date": "2026-09-05T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 47,
+      "url": "https://www.google.com/search?q=Exposition%20%3A%20La%20Route%20de%20la%20Pierre%2C%20de%20l'Europe%20%C3%A0%20l'Asie%2C%20une%20d%C3%A9couverte%20de%20la%20taille%20de%20pierre%20Mirmande"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/16647765-b903-39b7-b63d-99d978c3f37e",
+      "title": "41 ème Big Bazar Allex",
+      "city": "Allex",
+      "date": "2026-09-06T00:00:00.000Z",
+      "end": "2026-09-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 49,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
@@ -182,16 +202,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/0723b9f5-57a4-36f6-97e5-8272e61af593",
-      "title": "Visite guidée de la Cave Union des Jeunes Viticulteurs Récoltants (UJVR)",
-      "city": "Vercheny",
-      "date": "2026-07-03T00:00:00.000Z",
-      "end": "2026-08-28T23:59:59.000Z",
-      "ongoing": true,
-      "km": 36,
-      "url": "https://www.google.com/search?q=Visite%20guid%C3%A9e%20de%20la%20Cave%20Union%20des%20Jeunes%20Viticulteurs%20R%C3%A9coltants%20(UJVR)%20Vercheny"
     },
     {
       "id": "https://data.datatourisme.fr/13/314a6c73-ee2c-38a2-8a91-249b55de5865",
@@ -344,16 +354,6 @@
       "url": "https://www.google.com/search?q=Visite%20du%20village%20m%C3%A9di%C3%A9val%20de%20Montbrun%20les%20Bains%20Montbrun-les-Bains"
     },
     {
-      "id": "https://data.datatourisme.fr/13/4318646c-238e-3000-aaa7-1b5e7167a15b",
-      "title": "Guided tour in old town of Nyons",
-      "city": "Nyons",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-08-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Guided%20tour%20in%20old%20town%20of%20Nyons%20Nyons"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/56417369-b0a1-32b6-a8a7-2a2ee1159806",
       "title": "Le boom des biquets",
       "city": "Saint-Sauveur-Gouvernet",
@@ -482,6 +482,26 @@
       "ongoing": true,
       "km": 11,
       "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e038c901-ee35-3631-8da3-22ba215527a3",
+      "title": "Around the Palace - guided city tour",
+      "city": "Avignon",
+      "date": "2026-08-01T00:00:00.000Z",
+      "end": "2026-09-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Around%20the%20Palace%20-%20guided%20city%20tour%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f01af29c-317a-37a8-8656-c4d7f5bf170a",
+      "title": "Guided Tour of the Aroma Plantes Distillery",
+      "city": "Montbrun-les-Bains",
+      "date": "2026-04-01T00:00:00.000Z",
+      "end": "2026-09-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 28,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%20Aroma%20Plantes%20Distillery%20Montbrun-les-Bains"
     }
   ]
 }
