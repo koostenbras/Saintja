@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T09:37:40.272Z",
+  "updatedAt": "2026-08-30T08:49:34.229Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -7,31 +7,11 @@
       "id": "https://data.datatourisme.fr/13/1f904079-f6ae-32c9-83d5-39ffdef22da0",
       "title": "Tournoi de Beach-Volley à Crest",
       "city": "Crest",
-      "date": "2026-08-29T00:00:00.000Z",
-      "end": "2026-08-29T23:59:59.000Z",
+      "date": "2026-08-30T00:00:00.000Z",
+      "end": "2026-08-30T23:59:59.000Z",
       "ongoing": false,
       "km": 41,
       "url": "https://www.google.com/search?q=Tournoi%20de%20Beach-Volley%20%C3%A0%20Crest%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-08-29T00:00:00.000Z",
-      "end": "2026-08-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ef5edd33-4195-3ca1-9844-51bb731abf15",
-      "title": "Côtes du Rhône wine festival",
-      "city": "Avignon",
-      "date": "2026-08-29T00:00:00.000Z",
-      "end": "2026-08-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=C%C3%B4tes%20du%20Rh%C3%B4ne%20wine%20festival%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
@@ -62,6 +42,16 @@
       "ongoing": false,
       "km": 52,
       "url": "https://www.google.com/search?q=Exposition%20v%C3%A9hicules%20anciens%20et%20sportifs%20Montoison"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-08-31T00:00:00.000Z",
+      "end": "2026-08-31T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
@@ -202,16 +192,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/314a6c73-ee2c-38a2-8a91-249b55de5865",
-      "title": "Suivez le Major Montrond – Visite guidée de l’intérieur de la Tour de Crest",
-      "city": "Crest",
-      "date": "2026-07-04T00:00:00.000Z",
-      "end": "2026-08-29T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Suivez%20le%20Major%20Montrond%20%E2%80%93%20Visite%20guid%C3%A9e%20de%20l%E2%80%99int%C3%A9rieur%20de%20la%20Tour%20de%20Crest%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/024b139a-2db9-339b-b5fc-b21cd2950da5",
@@ -502,6 +482,16 @@
       "ongoing": true,
       "km": 28,
       "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%20Aroma%20Plantes%20Distillery%20Montbrun-les-Bains"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f09f6c82-721e-3661-adf0-977f7b11c3d4",
+      "title": "Outstanding Farmers' Market of Velleron",
+      "city": "Velleron",
+      "date": "2026-04-01T00:00:00.000Z",
+      "end": "2026-09-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 51,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
