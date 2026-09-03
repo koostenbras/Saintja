@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-09-02T07:30:23.588Z",
+  "updatedAt": "2026-09-03T07:36:46.082Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
-      "title": "Shilpa Gupta, Geumhyung Jeong, Jumana Manna - The whisper of the Free",
-      "city": "Avignon",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Shilpa%20Gupta%2C%20Geumhyung%20Jeong%2C%20Jumana%20Manna%20-%20The%20whisper%20of%20the%20Free%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/853f6339-f640-3f59-bb23-21e9b7a4c01b",
-      "title": "Images, bodies, power The 80s in the Lambert Collection",
-      "city": "Avignon",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Images%2C%20bodies%2C%20power%20The%2080s%20in%20the%20Lambert%20Collection%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/8e5561ae-6e76-3a5a-8ced-4d6df3d699da",
-      "title": "Kim Gordon - Stories for a body",
-      "city": "Avignon",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
-      "title": "PEEK! Peek! PEEK!",
-      "city": "Avignon",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-06T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=PEEK!%20Peek!%20PEEK!%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e4cb5984-268f-3894-9898-ccc12a370286",
-      "title": "La Rivière aux trésors",
-      "city": "Crest",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=La%20Rivi%C3%A8re%20aux%20tr%C3%A9sors%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
       "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
@@ -76,12 +26,12 @@
     {
       "id": "https://data.datatourisme.fr/13/56bbc382-fc86-32ec-b5e7-5af35e3b1333",
       "title": "Soirée de soutien pour Aoustock - Guinguette de Aouste",
-      "city": "Crest",
+      "city": "Aouste-sur-Sye",
       "date": "2026-09-05T00:00:00.000Z",
       "end": "2026-09-05T23:59:59.000Z",
       "ongoing": false,
       "km": 39,
-      "url": "https://www.google.com/search?q=Soir%C3%A9e%20de%20soutien%20pour%20Aoustock%20-%20Guinguette%20de%20Aouste%20Crest"
+      "url": "https://www.google.com/search?q=Soir%C3%A9e%20de%20soutien%20pour%20Aoustock%20-%20Guinguette%20de%20Aouste%20Aouste-sur-Sye"
     },
     {
       "id": "https://data.datatourisme.fr/13/16647765-b903-39b7-b63d-99d978c3f37e",
@@ -244,6 +194,16 @@
       "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
     },
     {
+      "id": "https://data.datatourisme.fr/13/cae0250b-b216-3898-85b0-bfee2009a50b",
+      "title": "Open days",
+      "city": "Pierrelatte",
+      "date": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Open%20days%20Pierrelatte"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/f09f6c82-721e-3661-adf0-977f7b11c3d4",
       "title": "Outstanding Farmers' Market of Velleron",
       "city": "Velleron",
@@ -274,14 +234,44 @@
       "url": "https://www.google.com/search?q=Salon%20des%20Auteurs%20Amoureux%20des%20Villages%20Valr%C3%A9as"
     },
     {
-      "id": "https://data.datatourisme.fr/13/1b138963-4e2b-3689-a310-84851aa2815c",
-      "title": "Wednesday evening farmers market",
-      "city": "Maubec",
-      "date": "2026-06-10T00:00:00.000Z",
-      "end": "2026-09-02T23:59:59.000Z",
-      "ongoing": true,
-      "km": 58,
+      "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
+      "title": "Plume et punchline",
+      "city": "Grignan",
+      "date": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/b8a6b108-accb-3c42-97fe-6901e1742a85",
+      "title": "Potters' market",
+      "city": "Avignon",
+      "date": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-03T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/c971d295-52fd-3464-a027-9d557cc74713",
+      "title": "Jouer à peindre et à modeler : Ateliers gratuits au Parc Sainte-Anne",
+      "city": "Crest",
+      "date": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-03T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Jouer%20%C3%A0%20peindre%20et%20%C3%A0%20modeler%20%3A%20Ateliers%20gratuits%20au%20Parc%20Sainte-Anne%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
+      "title": "PEEK! Peek! PEEK!",
+      "city": "Avignon",
+      "date": "2026-09-02T00:00:00.000Z",
+      "end": "2026-09-06T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=PEEK!%20Peek!%20PEEK!%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
@@ -344,6 +334,26 @@
       "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
     },
     {
+      "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
+      "title": "Shilpa Gupta, Geumhyung Jeong, Jumana Manna - The whisper of the Free",
+      "city": "Avignon",
+      "date": "2026-09-02T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Shilpa%20Gupta%2C%20Geumhyung%20Jeong%2C%20Jumana%20Manna%20-%20The%20whisper%20of%20the%20Free%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/8e5561ae-6e76-3a5a-8ced-4d6df3d699da",
+      "title": "Kim Gordon - Stories for a body",
+      "city": "Avignon",
+      "date": "2026-09-02T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/2e1be2cf-46fb-3398-9a52-304932d530bd",
       "title": "Visite du village médiéval de Montbrun les Bains",
       "city": "Montbrun-les-Bains",
@@ -372,6 +382,16 @@
       "ongoing": true,
       "km": 59,
       "url": "https://www.google.com/search?q=Around%20the%20Palace%20-%20guided%20city%20tour%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e4cb5984-268f-3894-9898-ccc12a370286",
+      "title": "La Rivière aux trésors",
+      "city": "Crest",
+      "date": "2026-09-02T00:00:00.000Z",
+      "end": "2026-09-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 42,
+      "url": "https://www.google.com/search?q=La%20Rivi%C3%A8re%20aux%20tr%C3%A9sors%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/f01af29c-317a-37a8-8656-c4d7f5bf170a",
@@ -542,36 +562,6 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=1000%20years%20of%20history%20at%20Suze-la-Rousse%20Suze-la-Rousse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/020f3d54-5399-3ce5-892c-285428ac5f60",
-      "title": "Lettres d'encre et sceaux de cire",
-      "city": "Grignan",
-      "date": "2026-02-07T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Lettres%20d'encre%20et%20sceaux%20de%20cire%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/03308726-ea9c-3b05-8189-0c27bb3be83c",
-      "title": "Marché de producteurs",
-      "city": "Buis-les-Baronnies",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 12,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/05a35ae9-cb4e-352b-8054-193fdc55c0d5",
-      "title": "weekly market",
-      "city": "Donzère",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 43,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
