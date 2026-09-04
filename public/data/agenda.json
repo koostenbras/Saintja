@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T07:36:46.082Z",
+  "updatedAt": "2026-09-04T07:36:16.619Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -262,6 +262,26 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=Jouer%20%C3%A0%20peindre%20et%20%C3%A0%20modeler%20%3A%20Ateliers%20gratuits%20au%20Parc%20Sainte-Anne%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/7a50ea13-4ae9-3f2d-bff5-d9e214a1c63c",
+      "title": "La Balade des Saveurs #3",
+      "city": "Malataverne",
+      "date": "2026-10-04T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=La%20Balade%20des%20Saveurs%20%233%20Malataverne"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/81ba53c6-1b6a-3508-b80d-d08ad6ca48f9",
+      "title": "Vide Grenier de Valaurie",
+      "city": "Valaurie",
+      "date": "2026-10-04T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
