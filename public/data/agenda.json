@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-09-05T07:17:04.449Z",
+  "updatedAt": "2026-09-06T07:29:33.640Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
-      "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
-      "city": "Mirmande",
-      "date": "2026-09-05T00:00:00.000Z",
-      "end": "2026-09-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 47,
-      "url": "https://www.google.com/search?q=Exposition%20%3A%20La%20Route%20de%20la%20Pierre%2C%20de%20l'Europe%20%C3%A0%20l'Asie%2C%20une%20d%C3%A9couverte%20de%20la%20taille%20de%20pierre%20Mirmande"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-09-05T00:00:00.000Z",
-      "end": "2026-09-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/56bbc382-fc86-32ec-b5e7-5af35e3b1333",
-      "title": "Soirée de soutien pour Aoustock - Guinguette de Aouste",
-      "city": "Aouste-sur-Sye",
-      "date": "2026-09-05T00:00:00.000Z",
-      "end": "2026-09-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 39,
-      "url": "https://www.google.com/search?q=Soir%C3%A9e%20de%20soutien%20pour%20Aoustock%20-%20Guinguette%20de%20Aouste%20Aouste-sur-Sye"
-    },
     {
       "id": "https://data.datatourisme.fr/13/16647765-b903-39b7-b63d-99d978c3f37e",
       "title": "41 ème Big Bazar Allex",
@@ -74,6 +44,16 @@
       "url": "https://www.google.com/search?q=Bridge%20to%20Hell%20Metal%20Fest%20%236%20Crest"
     },
     {
+      "id": "https://data.datatourisme.fr/13/f14da93e-07e4-37fb-a006-1df644fa6c1c",
+      "title": "Exposition de Charlotte Rodon \"Récits des sols\"",
+      "city": "Valaurie",
+      "date": "2026-09-11T00:00:00.000Z",
+      "end": "2026-10-11T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Exposition%20de%20Charlotte%20Rodon%20%22R%C3%A9cits%20des%20sols%22%20Valaurie"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/062219d3-76fb-3feb-bfc5-5b59cdd6f723",
       "title": "The Big Ball",
       "city": "Grignan",
@@ -92,6 +72,16 @@
       "ongoing": false,
       "km": 38,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/7f962ab0-7209-318f-88c2-b4f11e5a3e54",
@@ -132,6 +122,16 @@
       "ongoing": false,
       "km": 38,
       "url": "https://www.google.com/search?q=Censure%20et%20Autocensure%20-%20Rencontres%20%239%20Mirabel-et-Blacons"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/fb17d23d-5bca-38f7-b847-7e04298a0d35",
+      "title": "Musicales de Gadagne Concert de piano Clément LEFEBVRE",
+      "city": "Châteauneuf-de-Gadagne",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 55,
+      "url": "https://www.google.com/search?q=Musicales%20de%20Gadagne%20Concert%20de%20piano%20Cl%C3%A9ment%20LEFEBVRE%20Ch%C3%A2teauneuf-de-Gadagne"
     },
     {
       "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
@@ -374,6 +374,16 @@
       "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
+      "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
+      "city": "Mirmande",
+      "date": "2026-09-05T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": true,
+      "km": 47,
+      "url": "https://www.google.com/search?q=Exposition%20%3A%20La%20Route%20de%20la%20Pierre%2C%20de%20l'Europe%20%C3%A0%20l'Asie%2C%20une%20d%C3%A9couverte%20de%20la%20taille%20de%20pierre%20Mirmande"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/2e1be2cf-46fb-3398-9a52-304932d530bd",
       "title": "Visite du village médiéval de Montbrun les Bains",
       "city": "Montbrun-les-Bains",
@@ -572,16 +582,6 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=Le%20petit%20naturaliste%20Suze-la-Rousse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f771a5c8-8afb-39dc-9629-36132712e2c8",
-      "title": "1000 years of history at Suze-la-Rousse",
-      "city": "Suze-la-Rousse",
-      "date": "2026-08-31T00:00:00.000Z",
-      "end": "2026-12-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 34,
-      "url": "https://www.google.com/search?q=1000%20years%20of%20history%20at%20Suze-la-Rousse%20Suze-la-Rousse"
     }
   ]
 }
