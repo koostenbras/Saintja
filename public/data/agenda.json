@@ -1,37 +1,17 @@
 {
-  "updatedAt": "2026-09-06T07:29:33.640Z",
+  "updatedAt": "2026-09-07T07:46:11.914Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
     {
-      "id": "https://data.datatourisme.fr/13/16647765-b903-39b7-b63d-99d978c3f37e",
-      "title": "41 ème Big Bazar Allex",
-      "city": "Allex",
-      "date": "2026-09-06T00:00:00.000Z",
-      "end": "2026-09-06T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/516de331-22d5-3470-9375-c3e255f792ad",
+      "title": "Prix Pauline de Simiane 2026",
+      "city": "Valréas",
+      "date": "2026-09-10T00:00:00.000Z",
+      "end": "2026-09-10T23:59:59.000Z",
       "ongoing": false,
-      "km": 49,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-09-06T00:00:00.000Z",
-      "end": "2026-09-06T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-09-06T00:00:00.000Z",
-      "end": "2026-09-06T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+      "km": 20,
+      "url": "https://www.google.com/search?q=Prix%20Pauline%20de%20Simiane%202026%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
@@ -104,6 +84,26 @@
       "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
     },
     {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/aef91b74-92a8-375a-9784-ee98a9c77e62",
       "title": "Ventoux Saveurs Festival: “Jazz aperitif at Le Chat Blanc” – Loïc Fauche and the Avignon Conservatoire workshops",
       "city": "Saint-Didier",
@@ -174,6 +174,16 @@
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
     },
     {
+      "id": "https://data.datatourisme.fr/13/823e2e63-9044-3550-895a-b0225b49f48c",
+      "title": "Journées du patrimoine au Château",
+      "city": "Suze-la-Rousse",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Journ%C3%A9es%20du%20patrimoine%20au%20Ch%C3%A2teau%20Suze-la-Rousse"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/e4106323-bbfd-31f2-b551-e1614d73e898",
       "title": "« Apprentis apothicaires »",
       "city": "Crest",
@@ -182,6 +192,16 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=%C2%AB%20Apprentis%20apothicaires%20%C2%BB%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f9c74c27-111c-3d5a-b217-13ea6c5684c5",
+      "title": "Concert Rooftop Barbershop",
+      "city": "Montségur-sur-Lauzon",
+      "date": "2026-09-24T00:00:00.000Z",
+      "end": "2026-09-24T23:59:59.000Z",
+      "ongoing": false,
+      "km": 30,
+      "url": "https://www.google.com/search?q=Concert%20Rooftop%20Barbershop%20Monts%C3%A9gur-sur-Lauzon"
     },
     {
       "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
@@ -282,16 +302,6 @@
       "ongoing": false,
       "km": 34,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a2e19b62-40e3-3a0d-b35d-dce3f0591d78",
-      "title": "PEEK! Peek! PEEK!",
-      "city": "Avignon",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-06T23:59:59.000Z",
-      "ongoing": true,
-      "km": 60,
-      "url": "https://www.google.com/search?q=PEEK!%20Peek!%20PEEK!%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
@@ -582,6 +592,16 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=Le%20petit%20naturaliste%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f771a5c8-8afb-39dc-9629-36132712e2c8",
+      "title": "1000 years of history at Suze-la-Rousse",
+      "city": "Suze-la-Rousse",
+      "date": "2026-08-31T00:00:00.000Z",
+      "end": "2026-12-30T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://www.google.com/search?q=1000%20years%20of%20history%20at%20Suze-la-Rousse%20Suze-la-Rousse"
     }
   ]
 }
