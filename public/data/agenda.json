@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T07:46:11.914Z",
+  "updatedAt": "2026-09-08T07:40:38.864Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -154,6 +154,16 @@
       "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
     },
     {
+      "id": "https://data.datatourisme.fr/13/190aa54e-cd9c-330c-be03-d2c476a9d597",
+      "title": "Slideshow of heritage postcards from Châtillon - Heritage Days",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 40,
+      "url": "https://www.google.com/search?q=Slideshow%20of%20heritage%20postcards%20from%20Ch%C3%A2tillon%20-%20Heritage%20Days%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/25ba075c-4f7e-35a2-b69b-5e9434977973",
       "title": "43rd European Heritage Days in Avignon",
       "city": "Avignon",
@@ -174,14 +184,44 @@
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
     },
     {
+      "id": "https://data.datatourisme.fr/13/69ebf917-5135-303f-a788-7845dad9b61c",
+      "title": "European Heritage Days at the Castle",
+      "city": "Grignan",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=European%20Heritage%20Days%20at%20the%20Castle%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/6a0d1e84-c4b3-3b6e-85e8-53b771f58693",
+      "title": "Tour of the Châtillon Clock Tower",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 40,
+      "url": "https://www.google.com/search?q=Tour%20of%20the%20Ch%C3%A2tillon%20Clock%20Tower%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/823e2e63-9044-3550-895a-b0225b49f48c",
-      "title": "Journées du patrimoine au Château",
+      "title": "Heritage Days at the Castle",
       "city": "Suze-la-Rousse",
       "date": "2026-09-19T00:00:00.000Z",
       "end": "2026-09-20T23:59:59.000Z",
       "ongoing": false,
       "km": 34,
-      "url": "https://www.google.com/search?q=Journ%C3%A9es%20du%20patrimoine%20au%20Ch%C3%A2teau%20Suze-la-Rousse"
+      "url": "https://www.google.com/search?q=Heritage%20Days%20at%20the%20Castle%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/94f7b605-3704-3f80-9d17-5dd2d1bbee40",
+      "title": "Heritage Days at Simiane Castle",
+      "city": "Valréas",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Heritage%20Days%20at%20Simiane%20Castle%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/e4106323-bbfd-31f2-b551-e1614d73e898",
@@ -262,46 +302,6 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b8a6b108-accb-3c42-97fe-6901e1742a85",
-      "title": "Potters' market",
-      "city": "Avignon",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c971d295-52fd-3464-a027-9d557cc74713",
-      "title": "Jouer à peindre et à modeler : Ateliers gratuits au Parc Sainte-Anne",
-      "city": "Crest",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Jouer%20%C3%A0%20peindre%20et%20%C3%A0%20modeler%20%3A%20Ateliers%20gratuits%20au%20Parc%20Sainte-Anne%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/7a50ea13-4ae9-3f2d-bff5-d9e214a1c63c",
-      "title": "La Balade des Saveurs #3",
-      "city": "Malataverne",
-      "date": "2026-10-04T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=La%20Balade%20des%20Saveurs%20%233%20Malataverne"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/81ba53c6-1b6a-3508-b80d-d08ad6ca48f9",
-      "title": "Vide Grenier de Valaurie",
-      "city": "Valaurie",
-      "date": "2026-10-04T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
