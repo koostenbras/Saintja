@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T07:44:45.971Z",
+  "updatedAt": "2026-09-10T07:45:16.666Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -74,16 +74,6 @@
       "url": "https://www.google.com/search?q=Le%20Temps%20du%20Film%20-%20Rencontres%20AD%20HOC%20%239%20Mirabel-et-Blacons"
     },
     {
-      "id": "https://data.datatourisme.fr/13/9c79badc-9559-3ef4-8d61-7c121df8043b",
-      "title": "Deadly Coffee from the Diois Region",
-      "city": "Recoubeau-Jansac",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 33,
-      "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
       "city": "Avignon",
@@ -134,6 +124,16 @@
       "url": "https://www.google.com/search?q=Musicales%20de%20Gadagne%20Concert%20de%20piano%20Cl%C3%A9ment%20LEFEBVRE%20Ch%C3%A2teauneuf-de-Gadagne"
     },
     {
+      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
+      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
+      "city": "Pernes-les-Fontaines",
+      "date": "2026-09-16T00:00:00.000Z",
+      "end": "2026-10-28T23:59:59.000Z",
+      "ongoing": false,
+      "km": 45,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
       "title": "Festival Résonance",
       "city": "Avignon",
@@ -142,6 +142,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/490ccf7d-6b64-3ca0-b15d-b4cf7ded5441",
+      "title": "Les Instants Bivouak",
+      "city": "Nyons",
+      "date": "2026-09-18T00:00:00.000Z",
+      "end": "2026-09-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 11,
+      "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
     },
     {
       "id": "https://data.datatourisme.fr/13/df8270f4-636c-34a1-a137-b053e4d9bd42",
@@ -264,6 +274,16 @@
       "url": "https://www.google.com/search?q=Open%20days%20Pierrelatte"
     },
     {
+      "id": "https://data.datatourisme.fr/13/9c79badc-9559-3ef4-8d61-7c121df8043b",
+      "title": "Deadly Coffee from the Diois Region",
+      "city": "Recoubeau-Jansac",
+      "date": "2026-09-27T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 33,
+      "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/f09f6c82-721e-3661-adf0-977f7b11c3d4",
       "title": "Outstanding Farmers' Market of Velleron",
       "city": "Velleron",
@@ -282,36 +302,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/68d4cca7-5b5b-3586-9a9e-5be07fffed31",
-      "title": "Salon des Auteurs Amoureux des Villages",
-      "city": "Valréas",
-      "date": "2026-10-02T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Salon%20des%20Auteurs%20Amoureux%20des%20Villages%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
-      "title": "Plume et punchline",
-      "city": "Grignan",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
-      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
-      "city": "Pernes-les-Fontaines",
-      "date": "2026-03-25T00:00:00.000Z",
-      "end": "2026-09-09T23:59:59.000Z",
-      "ongoing": true,
-      "km": 45,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/e5363a8f-1fbf-3af5-aa5c-c8498cc746ef",
@@ -352,16 +342,6 @@
       "ongoing": true,
       "km": 41,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/490ccf7d-6b64-3ca0-b15d-b4cf7ded5441",
-      "title": "Les Instants Bivouak",
-      "city": "Nyons",
-      "date": "2026-04-30T00:00:00.000Z",
-      "end": "2026-09-18T23:59:59.000Z",
-      "ongoing": true,
-      "km": 11,
-      "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
     },
     {
       "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
@@ -602,6 +582,26 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=1000%20years%20of%20history%20at%20Suze-la-Rousse%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/020f3d54-5399-3ce5-892c-285428ac5f60",
+      "title": "Lettres d'encre et sceaux de cire",
+      "city": "Grignan",
+      "date": "2026-02-07T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Lettres%20d'encre%20et%20sceaux%20de%20cire%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/03308726-ea9c-3b05-8189-0c27bb3be83c",
+      "title": "Marché de producteurs",
+      "city": "Buis-les-Baronnies",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 12,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
