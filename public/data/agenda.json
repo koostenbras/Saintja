@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-10T07:45:16.666Z",
+  "updatedAt": "2026-09-11T07:39:59.613Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
     {
-      "id": "https://data.datatourisme.fr/13/516de331-22d5-3470-9375-c3e255f792ad",
-      "title": "Prix Pauline de Simiane 2026",
-      "city": "Valréas",
-      "date": "2026-09-10T00:00:00.000Z",
-      "end": "2026-09-10T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/1dcbd488-338a-3e3e-9f35-7c3e11a1ab38",
+      "title": "Fête votive",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-09-11T00:00:00.000Z",
+      "end": "2026-09-11T23:59:59.000Z",
       "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Prix%20Pauline%20de%20Simiane%202026%20Valr%C3%A9as"
+      "km": 37,
+      "url": "https://www.google.com/search?q=F%C3%AAte%20votive%20Saint-Paul-Trois-Ch%C3%A2teaux"
     },
     {
       "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
@@ -124,6 +124,16 @@
       "url": "https://www.google.com/search?q=Musicales%20de%20Gadagne%20Concert%20de%20piano%20Cl%C3%A9ment%20LEFEBVRE%20Ch%C3%A2teauneuf-de-Gadagne"
     },
     {
+      "id": "https://data.datatourisme.fr/13/a6eb4bc4-7146-3d57-8a8c-9f93483b5205",
+      "title": "Catherine Sarasin Concert",
+      "city": "Piégon",
+      "date": "2026-09-15T00:00:00.000Z",
+      "end": "2026-09-15T23:59:59.000Z",
+      "ongoing": false,
+      "km": 13,
+      "url": "https://www.google.com/search?q=Catherine%20Sarasin%20Concert%20Pi%C3%A9gon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
       "title": "Evening Farmers' Market at Pernes-les-Fontaines",
       "city": "Pernes-les-Fontaines",
@@ -184,6 +194,26 @@
       "url": "https://www.google.com/search?q=43rd%20European%20Heritage%20Days%20in%20Avignon%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/340d3323-3042-39f9-85ee-bbbdbb6c0501",
+      "title": "Guided tour of Valcroissant Abbey as part of Heritage Days",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 43,
+      "url": "https://www.google.com/search?q=Guided%20tour%20of%20Valcroissant%20Abbey%20as%20part%20of%20Heritage%20Days%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/358e1cef-d43f-3685-9a8e-ea4cf5f1a2de",
+      "title": "Tour of the Restoration Site at the Salières Chapel",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 41,
+      "url": "https://www.google.com/search?q=Tour%20of%20the%20Restoration%20Site%20at%20the%20Sali%C3%A8res%20Chapel%20Die"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/39acad29-cb8b-362e-acd3-956b94a92c56",
       "title": "Heritage days: Unaccompanied tour of the Roman Theatre and the Art and History museum",
       "city": "Orange",
@@ -192,6 +222,16 @@
       "ongoing": false,
       "km": 44,
       "url": "https://www.google.com/search?q=Heritage%20days%3A%20Unaccompanied%20tour%20of%20the%20Roman%20Theatre%20and%20the%20Art%20and%20History%20museum%20Orange"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4c558dc3-f1f2-3fb3-8066-5924a3b81f1d",
+      "title": "A Tour of the \"Maillet\" Blacksmith Shop",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=A%20Tour%20of%20the%20%22Maillet%22%20Blacksmith%20Shop%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/69ebf917-5135-303f-a788-7845dad9b61c",
@@ -234,6 +274,16 @@
       "url": "https://www.google.com/search?q=Heritage%20Days%20at%20Simiane%20Castle%20Valr%C3%A9as"
     },
     {
+      "id": "https://data.datatourisme.fr/13/c00090fe-3cae-367f-8f7f-c84b6f7f813b",
+      "title": "Screenings of Old Films and Heritage Photo Exhibitions at Les Nonières",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 47,
+      "url": "https://www.google.com/search?q=Screenings%20of%20Old%20Films%20and%20Heritage%20Photo%20Exhibitions%20at%20Les%20Noni%C3%A8res%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/e4106323-bbfd-31f2-b551-e1614d73e898",
       "title": "« Apprentis apothicaires »",
       "city": "Crest",
@@ -244,74 +294,14 @@
       "url": "https://www.google.com/search?q=%C2%AB%20Apprentis%20apothicaires%20%C2%BB%20Crest"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f9c74c27-111c-3d5a-b217-13ea6c5684c5",
-      "title": "Concert Rooftop Barbershop",
-      "city": "Montségur-sur-Lauzon",
-      "date": "2026-09-24T00:00:00.000Z",
-      "end": "2026-09-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 30,
-      "url": "https://www.google.com/search?q=Concert%20Rooftop%20Barbershop%20Monts%C3%A9gur-sur-Lauzon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
-      "title": "MERLUSSE de Marcel PAGNOL",
-      "city": "Valréas",
-      "date": "2026-09-25T00:00:00.000Z",
-      "end": "2026-09-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/cae0250b-b216-3898-85b0-bfee2009a50b",
-      "title": "Open days",
-      "city": "Pierrelatte",
-      "date": "2026-09-26T00:00:00.000Z",
-      "end": "2026-09-27T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/fb67c146-e960-3155-9210-bbb59939fe2f",
+      "title": "Climbing the cathedral bell tower",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
       "ongoing": false,
       "km": 42,
-      "url": "https://www.google.com/search?q=Open%20days%20Pierrelatte"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/9c79badc-9559-3ef4-8d61-7c121df8043b",
-      "title": "Deadly Coffee from the Diois Region",
-      "city": "Recoubeau-Jansac",
-      "date": "2026-09-27T00:00:00.000Z",
-      "end": "2026-09-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 33,
-      "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f09f6c82-721e-3661-adf0-977f7b11c3d4",
-      "title": "Outstanding Farmers' Market of Velleron",
-      "city": "Velleron",
-      "date": "2026-10-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 51,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4c60c81c-3039-38bf-b924-c929bf601a6d",
-      "title": "WALL de Marion FRAPPAT",
-      "city": "Valréas",
-      "date": "2026-10-02T00:00:00.000Z",
-      "end": "2026-10-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e5363a8f-1fbf-3af5-aa5c-c8498cc746ef",
-      "title": "Evening market in Malemort du comtat",
-      "city": "Malemort-du-Comtat",
-      "date": "2026-06-10T00:00:00.000Z",
-      "end": "2026-09-10T23:59:59.000Z",
-      "ongoing": true,
-      "km": 41,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
+      "url": "https://www.google.com/search?q=Climbing%20the%20cathedral%20bell%20tower%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/4a210032-af99-3ca0-b1bd-a4bae23579a7",
@@ -342,6 +332,16 @@
       "ongoing": true,
       "km": 41,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
+      "title": "Exhibition on Firefighters",
+      "city": "Die",
+      "date": "2026-07-18T00:00:00.000Z",
+      "end": "2026-09-18T23:59:59.000Z",
+      "ongoing": true,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
