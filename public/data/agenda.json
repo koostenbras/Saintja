@@ -1,57 +1,17 @@
 {
-  "updatedAt": "2026-09-12T07:33:36.775Z",
+  "updatedAt": "2026-09-13T07:53:26.140Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
     {
-      "id": "https://data.datatourisme.fr/13/062219d3-76fb-3feb-bfc5-5b59cdd6f723",
-      "title": "The Big Ball",
-      "city": "Grignan",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=The%20Big%20Ball%20Grignan"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/1dcbd488-338a-3e3e-9f35-7c3e11a1ab38",
       "title": "Fête votive",
       "city": "Saint-Paul-Trois-Châteaux",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
+      "date": "2026-09-13T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=F%C3%AAte%20votive%20Saint-Paul-Trois-Ch%C3%A2teaux"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/3c42f5c8-ee50-38da-b040-dfefe4f7e0b4",
-      "title": "Place aux Images - Rencontres AD HOC #9",
-      "city": "Mirabel-et-Blacons",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 38,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/7f962ab0-7209-318f-88c2-b4f11e5a3e54",
-      "title": "Le Temps du Film - Rencontres AD HOC #9",
-      "city": "Mirabel-et-Blacons",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 38,
-      "url": "https://www.google.com/search?q=Le%20Temps%20du%20Film%20-%20Rencontres%20AD%20HOC%20%239%20Mirabel-et-Blacons"
     },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
@@ -244,6 +204,16 @@
       "url": "https://www.google.com/search?q=Heritage%20Days%20at%20the%20Castle%20Suze-la-Rousse"
     },
     {
+      "id": "https://data.datatourisme.fr/13/82d42d3c-933d-3a70-83db-6c7194c13843",
+      "title": "Journées Européennes du Patrimoine au Musée de la Mémoire Agricole",
+      "city": "Montjoyer",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 33,
+      "url": "https://www.google.com/search?q=Journ%C3%A9es%20Europ%C3%A9ennes%20du%20Patrimoine%20au%20Mus%C3%A9e%20de%20la%20M%C3%A9moire%20Agricole%20Montjoyer"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/94f7b605-3704-3f80-9d17-5dd2d1bbee40",
       "title": "Heritage Days at Simiane Castle",
       "city": "Valréas",
@@ -262,6 +232,16 @@
       "ongoing": false,
       "km": 47,
       "url": "https://www.google.com/search?q=Screenings%20of%20Old%20Films%20and%20Heritage%20Photo%20Exhibitions%20at%20Les%20Noni%C3%A8res%20Ch%C3%A2tillon-en-Diois"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/dc419753-21d4-331b-8358-860cfa8938b0",
+      "title": "Visite guidée des \"Chemins de la Résistance à Valréas 1943/1944\"",
+      "city": "Valréas",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Visite%20guid%C3%A9e%20des%20%22Chemins%20de%20la%20R%C3%A9sistance%20%C3%A0%20Valr%C3%A9as%201943%2F1944%22%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/e4106323-bbfd-31f2-b551-e1614d73e898",
@@ -304,14 +284,34 @@
       "url": "https://www.google.com/search?q=Concert%20de%20piano%20%22Wonderland%22%20Donz%C3%A8re"
     },
     {
-      "id": "https://data.datatourisme.fr/13/cc87ecc7-92d6-320f-8b1b-518e5c4e5fa3",
-      "title": "Bridge to Hell Metal Fest #6",
-      "city": "Crest",
-      "date": "2026-09-11T00:00:00.000Z",
-      "end": "2026-09-12T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/ca3b3369-153b-31d3-bfcb-2b1f1612c24b",
+      "title": "Guided Tour of the Notre-Dame de La Motte Church",
+      "city": "La Motte-Chalancon",
+      "date": "2026-09-20T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 16,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%20Notre-Dame%20de%20La%20Motte%20Church%20La%20Motte-Chalancon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f9c74c27-111c-3d5a-b217-13ea6c5684c5",
+      "title": "Concert Rooftop Barbershop",
+      "city": "Montségur-sur-Lauzon",
+      "date": "2026-09-24T00:00:00.000Z",
+      "end": "2026-09-24T23:59:59.000Z",
+      "ongoing": false,
+      "km": 30,
+      "url": "https://www.google.com/search?q=Concert%20Rooftop%20Barbershop%20Monts%C3%A9gur-sur-Lauzon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3c42f5c8-ee50-38da-b040-dfefe4f7e0b4",
+      "title": "Place aux Images - Rencontres AD HOC #9",
+      "city": "Mirabel-et-Blacons",
+      "date": "2026-09-12T00:00:00.000Z",
+      "end": "2026-09-13T23:59:59.000Z",
       "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Bridge%20to%20Hell%20Metal%20Fest%20%236%20Crest"
+      "km": 38,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/4a210032-af99-3ca0-b1bd-a4bae23579a7",
@@ -484,16 +484,6 @@
       "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
     },
     {
-      "id": "https://data.datatourisme.fr/13/78795d08-9ba1-3b3e-bf0d-6598e3b0f7b6",
-      "title": "Cave Jérôme Cayol - Domaine de Maupas - Guided-Tour",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-06-15T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": true,
-      "km": 38,
-      "url": "https://www.google.com/search?q=Cave%20J%C3%A9r%C3%B4me%20Cayol%20-%20Domaine%20de%20Maupas%20-%20Guided-Tour%20Ch%C3%A2tillon-en-Diois"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/190f8881-dcb0-3fd6-a3ce-38311c305060",
       "title": "Exhibition: ‘Before Silence – Morel Barneron, 1997. Photographs by Bernard Baudin’",
       "city": "Valréas",
@@ -602,6 +592,16 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=1000%20years%20of%20history%20at%20Suze-la-Rousse%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/020f3d54-5399-3ce5-892c-285428ac5f60",
+      "title": "Lettres d'encre et sceaux de cire",
+      "city": "Grignan",
+      "date": "2026-02-07T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Lettres%20d'encre%20et%20sceaux%20de%20cire%20Grignan"
     }
   ]
 }
