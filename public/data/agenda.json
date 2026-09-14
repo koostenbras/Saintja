@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T07:53:26.140Z",
+  "updatedAt": "2026-09-14T08:26:16.922Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -7,61 +7,11 @@
       "id": "https://data.datatourisme.fr/13/1dcbd488-338a-3e3e-9f35-7c3e11a1ab38",
       "title": "Fête votive",
       "city": "Saint-Paul-Trois-Châteaux",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
+      "date": "2026-09-14T00:00:00.000Z",
+      "end": "2026-09-14T23:59:59.000Z",
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=F%C3%AAte%20votive%20Saint-Paul-Trois-Ch%C3%A2teaux"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
-      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/aef91b74-92a8-375a-9784-ee98a9c77e62",
-      "title": "Ventoux Saveurs Festival: “Jazz aperitif at Le Chat Blanc” – Loïc Fauche and the Avignon Conservatoire workshops",
-      "city": "Saint-Didier",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 44,
-      "url": "https://www.google.com/search?q=Ventoux%20Saveurs%20Festival%3A%20%E2%80%9CJazz%20aperitif%20at%20Le%20Chat%20Blanc%E2%80%9D%20%E2%80%93%20Lo%C3%AFc%20Fauche%20and%20the%20Avignon%20Conservatoire%20workshops%20Saint-Didier"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c2357211-efed-3297-9f2f-9a1248816151",
-      "title": "Censure et Autocensure - Rencontres #9",
-      "city": "Mirabel-et-Blacons",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 38,
-      "url": "https://www.google.com/search?q=Censure%20et%20Autocensure%20-%20Rencontres%20%239%20Mirabel-et-Blacons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fb17d23d-5bca-38f7-b847-7e04298a0d35",
-      "title": "Musicales de Gadagne Concert de piano Clément LEFEBVRE",
-      "city": "Châteauneuf-de-Gadagne",
-      "date": "2026-09-13T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 55,
-      "url": "https://www.google.com/search?q=Musicales%20de%20Gadagne%20Concert%20de%20piano%20Cl%C3%A9ment%20LEFEBVRE%20Ch%C3%A2teauneuf-de-Gadagne"
     },
     {
       "id": "https://data.datatourisme.fr/13/a6eb4bc4-7146-3d57-8a8c-9f93483b5205",
@@ -304,34 +254,54 @@
       "url": "https://www.google.com/search?q=Concert%20Rooftop%20Barbershop%20Monts%C3%A9gur-sur-Lauzon"
     },
     {
-      "id": "https://data.datatourisme.fr/13/3c42f5c8-ee50-38da-b040-dfefe4f7e0b4",
-      "title": "Place aux Images - Rencontres AD HOC #9",
-      "city": "Mirabel-et-Blacons",
-      "date": "2026-09-12T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": true,
-      "km": 38,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4a210032-af99-3ca0-b1bd-a4bae23579a7",
-      "title": "Provencal Market of Nyons",
+      "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
+      "title": "Pétanque : 8 days of competition in Nyons",
       "city": "Nyons",
-      "date": "2026-05-03T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://vide-greniers.org/evenements/Drome"
+      "date": "2026-09-25T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 10,
+      "url": "https://www.google.com/search?q=P%C3%A9tanque%20%3A%208%20days%20of%20competition%20in%20Nyons%20Nyons"
     },
     {
-      "id": "https://data.datatourisme.fr/13/92c96a28-d44d-335b-bcda-7db70b60df47",
-      "title": "Ferris wheel",
+      "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
+      "title": "MERLUSSE de Marcel PAGNOL",
+      "city": "Valréas",
+      "date": "2026-09-25T00:00:00.000Z",
+      "end": "2026-09-25T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
       "city": "Avignon",
-      "date": "2026-06-06T00:00:00.000Z",
-      "end": "2026-09-13T23:59:59.000Z",
-      "ongoing": true,
+      "date": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-26T23:59:59.000Z",
+      "ongoing": false,
       "km": 60,
-      "url": "https://www.google.com/search?q=Ferris%20wheel%20Avignon"
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/cae0250b-b216-3898-85b0-bfee2009a50b",
+      "title": "Open days",
+      "city": "Pierrelatte",
+      "date": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Open%20days%20Pierrelatte"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-09-27T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/11f7add9-fe32-36cf-b4a1-41cff4543d76",
@@ -602,6 +572,36 @@
       "ongoing": true,
       "km": 26,
       "url": "https://www.google.com/search?q=Lettres%20d'encre%20et%20sceaux%20de%20cire%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/03308726-ea9c-3b05-8189-0c27bb3be83c",
+      "title": "Marché de producteurs",
+      "city": "Buis-les-Baronnies",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 12,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/05a35ae9-cb4e-352b-8054-193fdc55c0d5",
+      "title": "weekly market",
+      "city": "Donzère",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/0ff58c33-b7b7-3c7f-9637-4ba244c65233",
+      "title": "weekly market",
+      "city": "Saint-Restitut",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 36,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
