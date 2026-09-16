@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-15T08:17:14.189Z",
+  "updatedAt": "2026-09-16T08:10:38.677Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/a6eb4bc4-7146-3d57-8a8c-9f93483b5205",
-      "title": "Catherine Sarasin Concert",
-      "city": "Piégon",
-      "date": "2026-09-15T00:00:00.000Z",
-      "end": "2026-09-15T23:59:59.000Z",
-      "ongoing": false,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Catherine%20Sarasin%20Concert%20Pi%C3%A9gon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
       "title": "Evening Farmers' Market at Pernes-les-Fontaines",
@@ -302,6 +292,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/73eb525e-9278-39d3-8cde-f7940a4d6a50",
+      "title": "Guided Tour in English: Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-09-27T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
