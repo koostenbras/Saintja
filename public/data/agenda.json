@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-16T08:10:38.677Z",
+  "updatedAt": "2026-09-17T08:17:26.822Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
-      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
-      "city": "Pernes-les-Fontaines",
-      "date": "2026-09-16T00:00:00.000Z",
-      "end": "2026-10-28T23:59:59.000Z",
-      "ongoing": false,
-      "km": 45,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
       "title": "Festival Résonance",
@@ -304,6 +294,16 @@
       "url": "https://www.google.com/search?q=Guided%20Tour%20in%20English%3A%20Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/9c79badc-9559-3ef4-8d61-7c121df8043b",
+      "title": "Deadly Coffee from the Diois Region",
+      "city": "Recoubeau-Jansac",
+      "date": "2026-09-27T00:00:00.000Z",
+      "end": "2026-09-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 33,
+      "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
       "title": "Exhibition on Firefighters",
       "city": "Die",
@@ -442,6 +442,16 @@
       "ongoing": true,
       "km": 43,
       "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
+      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
+      "city": "Pernes-les-Fontaines",
+      "date": "2026-09-16T00:00:00.000Z",
+      "end": "2026-10-28T23:59:59.000Z",
+      "ongoing": true,
+      "km": 45,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/190f8881-dcb0-3fd6-a3ce-38311c305060",
@@ -592,16 +602,6 @@
       "ongoing": true,
       "km": 36,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/11872390-bd70-33a0-b299-29e7e2fd7679",
-      "title": "Wednesday morning market in Rasteau",
-      "city": "Rasteau",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
