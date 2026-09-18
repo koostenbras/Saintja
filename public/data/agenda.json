@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-17T08:17:26.822Z",
+  "updatedAt": "2026-09-18T07:51:05.326Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
-      "title": "Festival Résonance",
-      "city": "Avignon",
-      "date": "2026-09-17T00:00:00.000Z",
-      "end": "2026-09-20T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/490ccf7d-6b64-3ca0-b15d-b4cf7ded5441",
       "title": "Les Instants Bivouak",
@@ -32,6 +22,16 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/0b242ebd-b804-3fae-8055-64e7ceb1db0f",
+      "title": "Demonstration and Workshop at La Forge du Mazel",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Demonstration%20and%20Workshop%20at%20La%20Forge%20du%20Mazel%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/190aa54e-cd9c-330c-be03-d2c476a9d597",
@@ -334,6 +334,16 @@
       "url": "https://www.google.com/search?q=Kim%20Gordon%20-%20Stories%20for%20a%20body%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/d6d34f12-1f6c-3b75-8167-c09a3ddbc084",
+      "title": "Festival Résonance",
+      "city": "Avignon",
+      "date": "2026-09-17T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": true,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
       "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
       "city": "Mirmande",
@@ -591,16 +601,6 @@
       "end": "2026-12-31T23:59:59.000Z",
       "ongoing": true,
       "km": 43,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/0ff58c33-b7b7-3c7f-9637-4ba244c65233",
-      "title": "weekly market",
-      "city": "Saint-Restitut",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 36,
       "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
