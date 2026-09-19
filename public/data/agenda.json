@@ -1,27 +1,17 @@
 {
-  "updatedAt": "2026-09-18T07:51:05.326Z",
+  "updatedAt": "2026-09-19T07:42:49.356Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
     {
-      "id": "https://data.datatourisme.fr/13/490ccf7d-6b64-3ca0-b15d-b4cf7ded5441",
-      "title": "Les Instants Bivouak",
-      "city": "Nyons",
-      "date": "2026-09-18T00:00:00.000Z",
-      "end": "2026-09-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 11,
-      "url": "https://www.google.com/search?q=Les%20Instants%20Bivouak%20Nyons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/df8270f4-636c-34a1-a137-b053e4d9bd42",
-      "title": "19th Edition of La Drômoise Cycle Race",
-      "city": "Die",
-      "date": "2026-09-18T00:00:00.000Z",
+      "id": "https://data.datatourisme.fr/13/02bd6808-93d0-3fa6-ac4e-da3fa48587e2",
+      "title": "Visite de la Collection Alberti",
+      "city": "Grillon",
+      "date": "2026-09-19T00:00:00.000Z",
       "end": "2026-09-20T23:59:59.000Z",
       "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
+      "km": 24,
+      "url": "https://www.google.com/search?q=Visite%20de%20la%20Collection%20Alberti%20Grillon"
     },
     {
       "id": "https://data.datatourisme.fr/13/0b242ebd-b804-3fae-8055-64e7ceb1db0f",
@@ -174,6 +164,16 @@
       "url": "https://www.google.com/search?q=%C2%AB%20Apprentis%20apothicaires%20%C2%BB%20Crest"
     },
     {
+      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
+      "title": "Exhibition on Firefighters",
+      "city": "Die",
+      "date": "2026-09-19T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/fb67c146-e960-3155-9210-bbb59939fe2f",
       "title": "Climbing the cathedral bell tower",
       "city": "Die",
@@ -304,16 +304,6 @@
       "url": "https://www.google.com/search?q=Deadly%20Coffee%20from%20the%20Diois%20Region%20Recoubeau-Jansac"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
-      "title": "Exhibition on Firefighters",
-      "city": "Die",
-      "date": "2026-07-18T00:00:00.000Z",
-      "end": "2026-09-18T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/720d7fb1-c1c0-32b8-8b14-abf42acbf317",
       "title": "Shilpa Gupta, Geumhyung Jeong, Jumana Manna - The whisper of the Free",
       "city": "Avignon",
@@ -342,6 +332,16 @@
       "ongoing": true,
       "km": 59,
       "url": "https://www.google.com/search?q=Festival%20R%C3%A9sonance%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/df8270f4-636c-34a1-a137-b053e4d9bd42",
+      "title": "19th Edition of La Drômoise Cycle Race",
+      "city": "Die",
+      "date": "2026-09-18T00:00:00.000Z",
+      "end": "2026-09-20T23:59:59.000Z",
+      "ongoing": true,
+      "km": 42,
+      "url": "https://www.google.com/search?q=19th%20Edition%20of%20La%20Dr%C3%B4moise%20Cycle%20Race%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
