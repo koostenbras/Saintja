@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-21T08:27:52.568Z",
+  "updatedAt": "2026-09-22T08:08:16.348Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
-      "title": "Exhibition on Firefighters",
-      "city": "Die",
-      "date": "2026-09-21T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
-    },
     {
       "id": "https://data.datatourisme.fr/13/f9c74c27-111c-3d5a-b217-13ea6c5684c5",
       "title": "Concert Rooftop Barbershop",
@@ -304,6 +294,16 @@
       "url": "https://www.google.com/search?q=L%E2%80%99Affaire%20Nicolas%20Fouquet%20Grignan"
     },
     {
+      "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
+      "title": "Nostradamus & les inventeurs de la Renaissance",
+      "city": "Suze-la-Rousse",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-11-01T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Nostradamus%20%26%20les%20inventeurs%20de%20la%20Renaissance%20Suze-la-Rousse"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
       "title": "Exposition : La Route de la Pierre, de l'Europe à l'Asie, une découverte de la taille de pierre",
       "city": "Mirmande",
@@ -372,6 +372,16 @@
       "ongoing": true,
       "km": 8,
       "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
+      "title": "Exhibition on Firefighters",
+      "city": "Die",
+      "date": "2026-09-21T00:00:00.000Z",
+      "end": "2026-10-03T23:59:59.000Z",
+      "ongoing": true,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
     },
     {
       "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
@@ -592,16 +602,6 @@
       "ongoing": true,
       "km": 28,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/1551156a-bc97-3c63-aeda-8a6d3765b5b9",
-      "title": "Weekly market",
-      "city": "Tulette",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 27,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
