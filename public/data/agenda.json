@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-24T08:02:02.861Z",
+  "updatedAt": "2026-09-25T08:26:30.828Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/f9c74c27-111c-3d5a-b217-13ea6c5684c5",
-      "title": "Concert Rooftop Barbershop",
-      "city": "Montségur-sur-Lauzon",
-      "date": "2026-09-24T00:00:00.000Z",
-      "end": "2026-09-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 30,
-      "url": "https://www.google.com/search?q=Concert%20Rooftop%20Barbershop%20Monts%C3%A9gur-sur-Lauzon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
       "title": "Pétanque : 8 days of competition in Nyons",
@@ -302,6 +292,16 @@
       "ongoing": false,
       "km": 34,
       "url": "https://www.google.com/search?q=Nostradamus%20%26%20les%20inventeurs%20de%20la%20Renaissance%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/57a4bc87-deab-3ad3-a661-4b22c7f54863",
+      "title": "Sévigné-Fouquet, l’histoire du procès du siècle !",
+      "city": "Grignan",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-11-01T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=S%C3%A9vign%C3%A9-Fouquet%2C%20l%E2%80%99histoire%20du%20proc%C3%A8s%20du%20si%C3%A8cle%20!%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/0b902c3a-195b-3f3a-b01c-3d859423ef5b",
