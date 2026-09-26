@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-09-25T08:26:30.828Z",
+  "updatedAt": "2026-09-26T08:13:23.277Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
-      "title": "Pétanque : 8 days of competition in Nyons",
-      "city": "Nyons",
-      "date": "2026-09-25T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 10,
-      "url": "https://www.google.com/search?q=P%C3%A9tanque%20%3A%208%20days%20of%20competition%20in%20Nyons%20Nyons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
-      "title": "MERLUSSE de Marcel PAGNOL",
-      "city": "Valréas",
-      "date": "2026-09-25T00:00:00.000Z",
-      "end": "2026-09-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
       "title": "Avignon at the time of the Popes in English",
@@ -52,6 +32,16 @@
       "ongoing": false,
       "km": 33,
       "url": "https://www.google.com/search?q=Concert%20symphonique%20offert%20Recoubeau-Jansac"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ea827a1e-6b7a-3245-942b-662af0739582",
+      "title": "MERLUSSE de Marcel PAGNOL",
+      "city": "Valréas",
+      "date": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-26T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=MERLUSSE%20de%20Marcel%20PAGNOL%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
@@ -212,6 +202,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Festival%20Page%20Blanche%20%3A%20Entrez%20dans%20la%20danse%20!%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/15849eb0-e873-3c00-8ea5-700051060947",
+      "title": "\"Les Fraises\" dans le cadre du Festival de Cinéma de Saint-Paul-Trois-Châteaux HORS LES MURS",
+      "city": "Roussas",
+      "date": "2026-10-13T00:00:00.000Z",
+      "end": "2026-10-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 35,
+      "url": "https://www.google.com/search?q=%22Les%20Fraises%22%20dans%20le%20cadre%20du%20Festival%20de%20Cin%C3%A9ma%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20HORS%20LES%20MURS%20Roussas"
     },
     {
       "id": "https://data.datatourisme.fr/13/78795d08-9ba1-3b3e-bf0d-6598e3b0f7b6",
@@ -382,6 +382,16 @@
       "ongoing": true,
       "km": 42,
       "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
+      "title": "Pétanque : 8 days of competition in Nyons",
+      "city": "Nyons",
+      "date": "2026-09-25T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
+      "ongoing": true,
+      "km": 10,
+      "url": "https://www.google.com/search?q=P%C3%A9tanque%20%3A%208%20days%20of%20competition%20in%20Nyons%20Nyons"
     },
     {
       "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
@@ -591,16 +601,6 @@
       "end": "2026-12-31T23:59:59.000Z",
       "ongoing": true,
       "km": 26,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/12465311-acda-3b4a-ac55-34778e0f6d20",
-      "title": "Friday morning market in Sablet",
-      "city": "Sablet",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 28,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
