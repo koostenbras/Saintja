@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-30T09:12:27.268Z",
+  "updatedAt": "2026-10-01T09:40:00.731Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/f09f6c82-721e-3661-adf0-977f7b11c3d4",
-      "title": "Outstanding Farmers' Market of Velleron",
-      "city": "Velleron",
-      "date": "2026-10-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": false,
-      "km": 51,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/4c60c81c-3039-38bf-b924-c929bf601a6d",
       "title": "WALL de Marion FRAPPAT",
@@ -22,16 +12,6 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/68d4cca7-5b5b-3586-9a9e-5be07fffed31",
-      "title": "Salon des Auteurs Amoureux des Villages",
-      "city": "Valréas",
-      "date": "2026-10-02T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Salon%20des%20Auteurs%20Amoureux%20des%20Villages%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
@@ -164,16 +144,6 @@
       "url": "https://www.google.com/search?q=%22Les%20Fraises%22%20dans%20le%20cadre%20du%20Festival%20de%20Cin%C3%A9ma%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20HORS%20LES%20MURS%20Roussas"
     },
     {
-      "id": "https://data.datatourisme.fr/13/78795d08-9ba1-3b3e-bf0d-6598e3b0f7b6",
-      "title": "Cave Jérôme Cayol - Domaine de Maupas - Guided-Tour",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-10-13T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 38,
-      "url": "https://www.google.com/search?q=Cave%20J%C3%A9r%C3%B4me%20Cayol%20-%20Domaine%20de%20Maupas%20-%20Guided-Tour%20Ch%C3%A2tillon-en-Diois"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/ad2192ef-8c74-3283-9a8d-d12ca11cdf55",
       "title": "Domaine de Grangeneuve - Atelier Vins Blancs et Fromages, le goût de l'accord",
       "city": "Roussas",
@@ -284,6 +254,16 @@
       "url": "https://www.google.com/search?q=Experiences%20at%20the%20Ch%C3%A2teau%20de%20Simiane%20Valr%C3%A9as"
     },
     {
+      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
+      "title": "Discover the vultures",
+      "city": "Saint-May",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-11-01T23:59:59.000Z",
+      "ongoing": false,
+      "km": 8,
+      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/0d5ea4bd-a816-3b27-b711-503e86fe709f",
       "title": "Domaine de Grangeneuve - Atelier Vins Rouges et Fromages",
       "city": "Roussas",
@@ -304,64 +284,24 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/2e1be2cf-46fb-3398-9a52-304932d530bd",
-      "title": "Visite du village médiéval de Montbrun les Bains",
-      "city": "Montbrun-les-Bains",
-      "date": "2026-09-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 28,
-      "url": "https://www.google.com/search?q=Visite%20du%20village%20m%C3%A9di%C3%A9val%20de%20Montbrun%20les%20Bains%20Montbrun-les-Bains"
+      "id": "https://data.datatourisme.fr/13/78fea29c-f392-32e3-bf6f-fd1353c3bf84",
+      "title": "Visite commentée \"Suze-la-Rousse la médiévale\"",
+      "city": "Suze-la-Rousse",
+      "date": "2026-10-22T00:00:00.000Z",
+      "end": "2026-10-22T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Suze-la-Rousse%20la%20m%C3%A9di%C3%A9vale%22%20Suze-la-Rousse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/b014e0e4-f431-3a85-bc22-a8240f5ff720",
-      "title": "Guided Tour of the 12th C Cistercian Abbey of Notre Dame de Valcroissant",
-      "city": "Die",
-      "date": "2026-09-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 43,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%2012th%20C%20Cistercian%20Abbey%20of%20Notre%20Dame%20de%20Valcroissant%20Die"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e038c901-ee35-3631-8da3-22ba215527a3",
-      "title": "Around the Palace - guided city tour",
-      "city": "Avignon",
-      "date": "2026-08-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Around%20the%20Palace%20-%20guided%20city%20tour%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e4cb5984-268f-3894-9898-ccc12a370286",
-      "title": "La Rivière aux trésors",
-      "city": "Crest",
-      "date": "2026-09-02T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=La%20Rivi%C3%A8re%20aux%20tr%C3%A9sors%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f01af29c-317a-37a8-8656-c4d7f5bf170a",
-      "title": "Guided Tour of the Aroma Plantes Distillery",
-      "city": "Montbrun-les-Bains",
-      "date": "2026-04-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 28,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20of%20the%20Aroma%20Plantes%20Distillery%20Montbrun-les-Bains"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
-      "title": "Discover the vultures",
-      "city": "Saint-May",
-      "date": "2026-09-01T00:00:00.000Z",
-      "end": "2026-09-30T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
+      "id": "https://data.datatourisme.fr/13/ce1a3a88-e9e0-3730-b390-a2aa9ab72275",
+      "title": "Fouquet et Sévigné dans les coulisses du Grand Siècle",
+      "city": "Grignan",
+      "date": "2026-10-23T00:00:00.000Z",
+      "end": "2026-10-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Fouquet%20et%20S%C3%A9vign%C3%A9%20dans%20les%20coulisses%20du%20Grand%20Si%C3%A8cle%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
@@ -602,6 +542,66 @@
       "ongoing": true,
       "km": 28,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/1551156a-bc97-3c63-aeda-8a6d3765b5b9",
+      "title": "Weekly market",
+      "city": "Tulette",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 27,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/17fc86ab-35e0-33c4-a588-3f2e7b5343b0",
+      "title": "Sunday Flea Market",
+      "city": "L'Isle-sur-la-Sorgue",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 54,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/19ac2fbd-9e2d-3ec8-869f-a71950ccfd52",
+      "title": "Weekly Market in Orange",
+      "city": "Orange",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 44,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/1f0fd695-45aa-3f35-8d98-2d4acd7cd31b",
+      "title": "Visite Guidée Valréas - Spéciale Groupe",
+      "city": "Grignan",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Valr%C3%A9as%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2551682e-df0e-3f13-a9be-f9eef863cf0c",
+      "title": "Guided Visit of Brette Vieille Farm",
+      "city": "Brette",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 24,
+      "url": "https://www.google.com/search?q=Guided%20Visit%20of%20Brette%20Vieille%20Farm%20Brette"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/271aa048-ef89-3de6-be47-d938431f2b25",
+      "title": "Marché hebdomadaire",
+      "city": "Saillans",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 35,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
