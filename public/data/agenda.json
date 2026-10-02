@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T09:40:00.731Z",
+  "updatedAt": "2026-10-02T09:14:16.112Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -12,6 +12,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/a9642ebf-38f6-3026-b229-c490e62ab0a6",
+      "title": "Dyadin en concert",
+      "city": "Crest",
+      "date": "2026-10-02T00:00:00.000Z",
+      "end": "2026-10-02T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Dyadin%20en%20concert%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
@@ -82,6 +92,16 @@
       "ongoing": false,
       "km": 34,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
+      "title": "Méditations olfactives et sonores",
+      "city": "Crest",
+      "date": "2026-10-07T00:00:00.000Z",
+      "end": "2026-10-07T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/4b0670a1-d694-3f11-bce2-d743a8386938",
@@ -164,6 +184,16 @@
       "url": "https://www.google.com/search?q=Parcours%20de%20l'Art%20-%20Contemporary%20art%20festival%20-%2032nd%20edition%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/fb3106ca-a1f7-3160-9846-9d3759568570",
+      "title": "Mon coloc est un senior",
+      "city": "Crest",
+      "date": "2026-10-16T00:00:00.000Z",
+      "end": "2026-10-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Mon%20coloc%20est%20un%20senior%20Crest"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/1b8cb067-f233-3a21-8991-2d4b87670169",
       "title": "Experiences at the Château de Simiane",
       "city": "Valréas",
@@ -182,16 +212,6 @@
       "ongoing": false,
       "km": 34,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/39c12e5a-d385-3472-906b-6e074d9a7449",
-      "title": "The Nicolas Fouquet Affair",
-      "city": "Grignan",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=The%20Nicolas%20Fouquet%20Affair%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/4625a859-b39f-3a84-b916-aa5e1d10fe58",
@@ -282,26 +302,6 @@
       "ongoing": false,
       "km": 37,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/78fea29c-f392-32e3-bf6f-fd1353c3bf84",
-      "title": "Visite commentée \"Suze-la-Rousse la médiévale\"",
-      "city": "Suze-la-Rousse",
-      "date": "2026-10-22T00:00:00.000Z",
-      "end": "2026-10-22T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Suze-la-Rousse%20la%20m%C3%A9di%C3%A9vale%22%20Suze-la-Rousse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ce1a3a88-e9e0-3730-b390-a2aa9ab72275",
-      "title": "Fouquet et Sévigné dans les coulisses du Grand Siècle",
-      "city": "Grignan",
-      "date": "2026-10-23T00:00:00.000Z",
-      "end": "2026-10-23T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Fouquet%20et%20S%C3%A9vign%C3%A9%20dans%20les%20coulisses%20du%20Grand%20Si%C3%A8cle%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
@@ -584,16 +584,6 @@
       "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Valr%C3%A9as%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
     },
     {
-      "id": "https://data.datatourisme.fr/13/2551682e-df0e-3f13-a9be-f9eef863cf0c",
-      "title": "Guided Visit of Brette Vieille Farm",
-      "city": "Brette",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 24,
-      "url": "https://www.google.com/search?q=Guided%20Visit%20of%20Brette%20Vieille%20Farm%20Brette"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/271aa048-ef89-3de6-be47-d938431f2b25",
       "title": "Marché hebdomadaire",
       "city": "Saillans",
@@ -601,6 +591,16 @@
       "end": "2026-12-31T23:59:59.000Z",
       "ongoing": true,
       "km": 35,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/28033a1d-4df3-3a98-998b-cd9f2078989e",
+      "title": "Marché hebdomadaire samedi matin",
+      "city": "Montélimar",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
       "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
