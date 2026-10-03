@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-10-02T09:14:16.112Z",
+  "updatedAt": "2026-10-03T08:46:46.985Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4c60c81c-3039-38bf-b924-c929bf601a6d",
-      "title": "WALL de Marion FRAPPAT",
-      "city": "Valréas",
-      "date": "2026-10-02T00:00:00.000Z",
-      "end": "2026-10-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a9642ebf-38f6-3026-b229-c490e62ab0a6",
-      "title": "Dyadin en concert",
-      "city": "Crest",
-      "date": "2026-10-02T00:00:00.000Z",
-      "end": "2026-10-02T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Dyadin%20en%20concert%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
       "title": "Plume et punchline",
@@ -32,6 +12,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4c60c81c-3039-38bf-b924-c929bf601a6d",
+      "title": "WALL de Marion FRAPPAT",
+      "city": "Valréas",
+      "date": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-03T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
@@ -102,6 +92,26 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
+      "title": "Watercolor Exhibition",
+      "city": "Piégon",
+      "date": "2026-10-08T00:00:00.000Z",
+      "end": "2026-10-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 13,
+      "url": "https://www.google.com/search?q=Watercolor%20Exhibition%20Pi%C3%A9gon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3c73304f-68ab-31fd-b0eb-adba201aa7a1",
+      "title": "Yuko Hirota Piano Concert",
+      "city": "Piégon",
+      "date": "2026-10-09T00:00:00.000Z",
+      "end": "2026-10-09T23:59:59.000Z",
+      "ongoing": false,
+      "km": 13,
+      "url": "https://www.google.com/search?q=Yuko%20Hirota%20Piano%20Concert%20Pi%C3%A9gon"
     },
     {
       "id": "https://data.datatourisme.fr/13/4b0670a1-d694-3f11-bce2-d743a8386938",
@@ -286,16 +296,6 @@
     {
       "id": "https://data.datatourisme.fr/13/0d5ea4bd-a816-3b27-b711-503e86fe709f",
       "title": "Domaine de Grangeneuve - Atelier Vins Rouges et Fromages",
-      "city": "Roussas",
-      "date": "2026-10-18T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f7f79099-0fdd-3e21-92af-71064a841f0c",
-      "title": "Domaine de Grangeneuve - Dégustation sur Barrique",
       "city": "Roussas",
       "date": "2026-10-18T00:00:00.000Z",
       "end": "2026-10-18T23:59:59.000Z",
