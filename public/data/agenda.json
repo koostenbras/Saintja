@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-10-03T08:46:46.985Z",
+  "updatedAt": "2026-10-04T09:13:01.233Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
-      "title": "Plume et punchline",
-      "city": "Grignan",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4c60c81c-3039-38bf-b924-c929bf601a6d",
-      "title": "WALL de Marion FRAPPAT",
-      "city": "Valréas",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=WALL%20de%20Marion%20FRAPPAT%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b8a6b108-accb-3c42-97fe-6901e1742a85",
-      "title": "Potters' market",
-      "city": "Avignon",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/c971d295-52fd-3464-a027-9d557cc74713",
-      "title": "Jouer à peindre et à modeler : Ateliers gratuits au Parc Sainte-Anne",
-      "city": "Crest",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Jouer%20%C3%A0%20peindre%20et%20%C3%A0%20modeler%20%3A%20Ateliers%20gratuits%20au%20Parc%20Sainte-Anne%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -134,6 +84,16 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-10-10T00:00:00.000Z",
+      "end": "2026-10-10T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/38eea448-c587-3163-88a7-8a4baae97962",
       "title": "An Evening in Vienna - Page Blanche Festival",
       "city": "Nyons",
@@ -142,6 +102,16 @@
       "ongoing": false,
       "km": 8,
       "url": "https://www.google.com/search?q=An%20Evening%20in%20Vienna%20-%20Page%20Blanche%20Festival%20Nyons"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/51bc8472-88a3-31de-b10a-4ae18c6f7b69",
+      "title": "Octobre rose",
+      "city": "Chantemerle-lès-Grignan",
+      "date": "2026-10-11T00:00:00.000Z",
+      "end": "2026-10-11T23:59:59.000Z",
+      "ongoing": false,
+      "km": 32,
+      "url": "https://www.google.com/search?q=Octobre%20rose%20Chantemerle-l%C3%A8s-Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/b467f08d-3550-369e-a8d5-60bc99ed655b",
@@ -304,14 +274,44 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f8846038-629e-38db-b7f3-acb612deacfc",
-      "title": "Exhibition on Firefighters",
-      "city": "Die",
-      "date": "2026-09-21T00:00:00.000Z",
-      "end": "2026-10-03T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/f7f79099-0fdd-3e21-92af-71064a841f0c",
+      "title": "Domaine de Grangeneuve - Dégustation sur Barrique",
+      "city": "Roussas",
+      "date": "2026-10-18T00:00:00.000Z",
+      "end": "2026-10-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 37,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/78fea29c-f392-32e3-bf6f-fd1353c3bf84",
+      "title": "Visite commentée \"Suze-la-Rousse la médiévale\"",
+      "city": "Suze-la-Rousse",
+      "date": "2026-10-22T00:00:00.000Z",
+      "end": "2026-10-22T23:59:59.000Z",
+      "ongoing": false,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Suze-la-Rousse%20la%20m%C3%A9di%C3%A9vale%22%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ce1a3a88-e9e0-3730-b390-a2aa9ab72275",
+      "title": "Fouquet et Sévigné dans les coulisses du Grand Siècle",
+      "city": "Grignan",
+      "date": "2026-10-23T00:00:00.000Z",
+      "end": "2026-10-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Fouquet%20et%20S%C3%A9vign%C3%A9%20dans%20les%20coulisses%20du%20Grand%20Si%C3%A8cle%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
+      "title": "Plume et punchline",
+      "city": "Grignan",
+      "date": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-04T23:59:59.000Z",
       "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Exhibition%20on%20Firefighters%20Die"
+      "km": 26,
+      "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
