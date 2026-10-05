@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-10-04T09:13:01.233Z",
+  "updatedAt": "2026-10-05T09:53:25.853Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-10-04T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/7a50ea13-4ae9-3f2d-bff5-d9e214a1c63c",
-      "title": "La Balade des Saveurs #3",
-      "city": "Malataverne",
-      "date": "2026-10-04T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=La%20Balade%20des%20Saveurs%20%233%20Malataverne"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/81ba53c6-1b6a-3508-b80d-d08ad6ca48f9",
-      "title": "Vide Grenier de Valaurie",
-      "city": "Valaurie",
-      "date": "2026-10-04T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": false,
-      "km": 34,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
       "title": "Méditations olfactives et sonores",
@@ -112,6 +82,16 @@
       "ongoing": false,
       "km": 32,
       "url": "https://www.google.com/search?q=Octobre%20rose%20Chantemerle-l%C3%A8s-Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-10-11T00:00:00.000Z",
+      "end": "2026-10-11T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/b467f08d-3550-369e-a8d5-60bc99ed655b",
@@ -304,24 +284,24 @@
       "url": "https://www.google.com/search?q=Fouquet%20et%20S%C3%A9vign%C3%A9%20dans%20les%20coulisses%20du%20Grand%20Si%C3%A8cle%20Grignan"
     },
     {
-      "id": "https://data.datatourisme.fr/13/21d3ae50-97a4-3d97-8343-77f8edeb1560",
-      "title": "Plume et punchline",
-      "city": "Grignan",
-      "date": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Plume%20et%20punchline%20Grignan"
+      "id": "https://data.datatourisme.fr/13/22604347-527d-37b4-b3f8-6f96065567d7",
+      "title": "Guided Tour : “History of Mansions”",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-10-27T00:00:00.000Z",
+      "end": "2026-10-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 37,
+      "url": "https://www.google.com/search?q=Guided%20Tour%20%3A%20%E2%80%9CHistory%20of%20Mansions%E2%80%9D%20Saint-Paul-Trois-Ch%C3%A2teaux"
     },
     {
-      "id": "https://data.datatourisme.fr/13/cce9eff7-6b21-3c02-ab92-e803e81a1fe1",
-      "title": "Pétanque : 8 days of competition in Nyons",
-      "city": "Nyons",
-      "date": "2026-09-25T00:00:00.000Z",
-      "end": "2026-10-04T23:59:59.000Z",
-      "ongoing": true,
-      "km": 10,
-      "url": "https://www.google.com/search?q=P%C3%A9tanque%20%3A%208%20days%20of%20competition%20in%20Nyons%20Nyons"
+      "id": "https://data.datatourisme.fr/13/14b1f235-8177-3b11-8fff-3c52a347df02",
+      "title": "Visite commentée \"Au pays de la pierre blanche\"",
+      "city": "Saint-Restitut",
+      "date": "2026-10-29T00:00:00.000Z",
+      "end": "2026-10-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Au%20pays%20de%20la%20pierre%20blanche%22%20Saint-Restitut"
     },
     {
       "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
@@ -602,6 +582,26 @@
       "ongoing": true,
       "km": 43,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2a022337-bf39-3132-b70e-b9d7a2bf0579",
+      "title": "weekly market",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 38,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2bae3536-59f7-361a-b5fe-1e8904181989",
+      "title": "Provence Market",
+      "city": "Beaumes-de-Venise",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
