@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T09:40:45.719Z",
+  "updatedAt": "2026-10-07T09:37:57.752Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -244,16 +244,6 @@
       "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f7912588-352f-3788-8cb1-7ce0c020ee0b",
-      "title": "Escrime et duel au temps de la marquise de Sévigné",
-      "city": "Grignan",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-10-17T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Escrime%20et%20duel%20au%20temps%20de%20la%20marquise%20de%20S%C3%A9vign%C3%A9%20Grignan"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/0d5ea4bd-a816-3b27-b711-503e86fe709f",
       "title": "Domaine de Grangeneuve - Atelier Vins Rouges et Fromages",
       "city": "Roussas",
@@ -302,6 +292,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://www.google.com/search?q=Guided%20Tour%20%3A%20%E2%80%9CHistory%20of%20Mansions%E2%80%9D%20Saint-Paul-Trois-Ch%C3%A2teaux"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/14b1f235-8177-3b11-8fff-3c52a347df02",
+      "title": "Visite commentée \"Au pays de la pierre blanche\"",
+      "city": "Saint-Restitut",
+      "date": "2026-10-29T00:00:00.000Z",
+      "end": "2026-10-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Au%20pays%20de%20la%20pierre%20blanche%22%20Saint-Restitut"
     },
     {
       "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
