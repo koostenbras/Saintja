@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-07T09:37:57.752Z",
+  "updatedAt": "2026-10-08T09:48:18.621Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
-      "title": "Méditations olfactives et sonores",
-      "city": "Crest",
-      "date": "2026-10-07T00:00:00.000Z",
-      "end": "2026-10-07T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
       "title": "Watercolor Exhibition",
@@ -302,6 +292,16 @@
       "ongoing": false,
       "km": 38,
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Au%20pays%20de%20la%20pierre%20blanche%22%20Saint-Restitut"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
+      "title": "Méditations olfactives et sonores",
+      "city": "Crest",
+      "date": "2026-11-04T00:00:00.000Z",
+      "end": "2026-11-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
