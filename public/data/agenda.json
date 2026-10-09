@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-08T09:48:18.621Z",
+  "updatedAt": "2026-10-09T09:53:26.361Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
-      "title": "Watercolor Exhibition",
-      "city": "Piégon",
-      "date": "2026-10-08T00:00:00.000Z",
-      "end": "2026-10-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Watercolor%20Exhibition%20Pi%C3%A9gon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/3c73304f-68ab-31fd-b0eb-adba201aa7a1",
       "title": "Yuko Hirota Piano Concert",
@@ -324,6 +314,16 @@
       "url": "https://www.google.com/search?q=Exposition%20de%20Charlotte%20Rodon%20%22R%C3%A9cits%20des%20sols%22%20Valaurie"
     },
     {
+      "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
+      "title": "Watercolor Exhibition",
+      "city": "Piégon",
+      "date": "2026-10-08T00:00:00.000Z",
+      "end": "2026-10-12T23:59:59.000Z",
+      "ongoing": true,
+      "km": 13,
+      "url": "https://www.google.com/search?q=Watercolor%20Exhibition%20Pi%C3%A9gon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/fa0c3397-c87e-3b9b-9584-de3bab38f732",
       "title": "Marché des producteurs de Vedène",
       "city": "Vedène",
@@ -592,16 +592,6 @@
       "ongoing": true,
       "km": 38,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/2bae3536-59f7-361a-b5fe-1e8904181989",
-      "title": "Provence Market",
-      "city": "Beaumes-de-Venise",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 34,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
