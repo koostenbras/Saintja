@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-10-09T09:53:26.361Z",
+  "updatedAt": "2026-10-10T09:17:04.203Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/3c73304f-68ab-31fd-b0eb-adba201aa7a1",
-      "title": "Yuko Hirota Piano Concert",
-      "city": "Piégon",
-      "date": "2026-10-09T00:00:00.000Z",
-      "end": "2026-10-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Yuko%20Hirota%20Piano%20Concert%20Pi%C3%A9gon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4b0670a1-d694-3f11-bce2-d743a8386938",
-      "title": "Le Grand Repas : \"Le Banquet de la Marquise\"",
-      "city": "Grignan",
-      "date": "2026-10-09T00:00:00.000Z",
-      "end": "2026-10-09T23:59:59.000Z",
-      "ongoing": false,
-      "km": 27,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/49f1bdd7-b1f1-3484-9120-92aec7a822b3",
       "title": "Winegrower’s evening",
@@ -194,6 +174,16 @@
       "url": "https://www.google.com/search?q=Domaine%20de%20Montine%20-%20Visite%20Guid%C3%A9e%20de%20la%20Cave%20de%20Vinification%20gratuite%20Grignan"
     },
     {
+      "id": "https://data.datatourisme.fr/13/6c4ba4eb-5890-3a07-af50-7cbfe5725c69",
+      "title": "Monsters Vegas",
+      "city": "Donzère",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-10-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Monsters%20Vegas%20Donz%C3%A8re"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/9b853da3-6ad1-3d4d-bef1-c2f9118995a7",
       "title": "Faites entrer l’accusé",
       "city": "Grignan",
@@ -242,6 +232,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/7cf43565-b9ab-317e-9227-b42ae1c8e8a7",
+      "title": "Ateliers vacances de la Toussaint (dès 8 ans)",
+      "city": "Chabeuil",
+      "date": "2026-10-19T00:00:00.000Z",
+      "end": "2026-10-23T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Ateliers%20vacances%20de%20la%20Toussaint%20(d%C3%A8s%208%20ans)%20Chabeuil"
     },
     {
       "id": "https://data.datatourisme.fr/13/78fea29c-f392-32e3-bf6f-fd1353c3bf84",
