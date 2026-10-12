@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-10-11T09:34:04.889Z",
+  "updatedAt": "2026-10-12T10:04:45.828Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/38eea448-c587-3163-88a7-8a4baae97962",
-      "title": "Page Blanche Festival : An Evening in Vienna",
-      "city": "Nyons",
-      "date": "2026-10-11T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": false,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Page%20Blanche%20Festival%20%3A%20An%20Evening%20in%20Vienna%20Nyons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/51bc8472-88a3-31de-b10a-4ae18c6f7b69",
-      "title": "Octobre rose",
-      "city": "Chantemerle-lès-Grignan",
-      "date": "2026-10-11T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": false,
-      "km": 32,
-      "url": "https://www.google.com/search?q=Octobre%20rose%20Chantemerle-l%C3%A8s-Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-10-11T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/b467f08d-3550-369e-a8d5-60bc99ed655b",
-      "title": "Golden Rose Medieval Festival - 1326: The Wolf's Conspiracy",
-      "city": "Avignon",
-      "date": "2026-10-11T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Golden%20Rose%20Medieval%20Festival%20-%201326%3A%20The%20Wolf's%20Conspiracy%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/ac9bbf3d-a64f-372a-be2d-849cd6567140",
       "title": "Festival Page Blanche : Entrez dans la danse !",
@@ -214,6 +174,16 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-10-18T00:00:00.000Z",
+      "end": "2026-10-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/f7f79099-0fdd-3e21-92af-71064a841f0c",
       "title": "Domaine de Grangeneuve - Dégustation sur Barrique",
       "city": "Roussas",
@@ -282,26 +252,6 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/8d59bbaa-60a1-34b3-9884-9f709b274968",
-      "title": "Exposition \"À vélo !\"",
-      "city": "Crest",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Exposition%20%22%C3%80%20v%C3%A9lo%20!%22%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f14da93e-07e4-37fb-a006-1df644fa6c1c",
-      "title": "Exposition de Charlotte Rodon \"Récits des sols\"",
-      "city": "Valaurie",
-      "date": "2026-09-11T00:00:00.000Z",
-      "end": "2026-10-11T23:59:59.000Z",
-      "ongoing": true,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Exposition%20de%20Charlotte%20Rodon%20%22R%C3%A9cits%20des%20sols%22%20Valaurie"
     },
     {
       "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
@@ -582,6 +532,26 @@
       "ongoing": true,
       "km": 38,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2bae3536-59f7-361a-b5fe-1e8904181989",
+      "title": "Provence Market",
+      "city": "Beaumes-de-Venise",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2c1b3e9c-0f21-3176-96cc-750a5928e189",
+      "title": "Marché provençal",
+      "city": "Sarrians",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
