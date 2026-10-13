@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-12T10:04:45.828Z",
+  "updatedAt": "2026-10-13T09:57:22.841Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/ac9bbf3d-a64f-372a-be2d-849cd6567140",
-      "title": "Festival Page Blanche : Entrez dans la danse !",
-      "city": "Valréas",
-      "date": "2026-10-12T00:00:00.000Z",
-      "end": "2026-10-12T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Festival%20Page%20Blanche%20%3A%20Entrez%20dans%20la%20danse%20!%20Valr%C3%A9as"
-    },
     {
       "id": "https://data.datatourisme.fr/13/15849eb0-e873-3c00-8ea5-700051060947",
       "title": "\"Les Fraises\" dans le cadre du Festival de Cinéma de Saint-Paul-Trois-Châteaux HORS LES MURS",
@@ -254,14 +244,14 @@
       "url": "https://www.google.com/search?q=M%C3%A9ditations%20olfactives%20et%20sonores%20Crest"
     },
     {
-      "id": "https://data.datatourisme.fr/13/3c9508c4-1124-34aa-974f-33143cda5e3b",
-      "title": "Watercolor Exhibition",
-      "city": "Piégon",
-      "date": "2026-10-08T00:00:00.000Z",
-      "end": "2026-10-12T23:59:59.000Z",
-      "ongoing": true,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Watercolor%20Exhibition%20Pi%C3%A9gon"
+      "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
+      "title": "Santons Market",
+      "city": "Carpentras",
+      "date": "2026-11-12T00:00:00.000Z",
+      "end": "2026-11-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/fa0c3397-c87e-3b9b-9584-de3bab38f732",
@@ -551,6 +541,16 @@
       "end": "2026-12-31T23:59:59.000Z",
       "ongoing": true,
       "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/37ea33ec-febc-3190-b865-6968db1dfccd",
+      "title": "Marché de Saint-Saturnin-lès-Avignon",
+      "city": "Saint-Saturnin-lès-Avignon",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 53,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
