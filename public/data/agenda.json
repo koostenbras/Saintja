@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-13T09:57:22.841Z",
+  "updatedAt": "2026-10-14T08:17:13.835Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/15849eb0-e873-3c00-8ea5-700051060947",
-      "title": "\"Les Fraises\" dans le cadre du Festival de Cinéma de Saint-Paul-Trois-Châteaux HORS LES MURS",
-      "city": "Roussas",
-      "date": "2026-10-13T00:00:00.000Z",
-      "end": "2026-10-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 35,
-      "url": "https://www.google.com/search?q=%22Les%20Fraises%22%20dans%20le%20cadre%20du%20Festival%20de%20Cin%C3%A9ma%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20HORS%20LES%20MURS%20Roussas"
-    },
     {
       "id": "https://data.datatourisme.fr/13/ad2192ef-8c74-3283-9a8d-d12ca11cdf55",
       "title": "Domaine de Grangeneuve - Atelier Vins Blancs et Fromages, le goût de l'accord",
@@ -251,6 +241,16 @@
       "end": "2026-11-18T23:59:59.000Z",
       "ongoing": false,
       "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3444a80a-fd83-34dc-9419-1701ecfdcc0f",
+      "title": "Welcome to the Farm Gastronomic Weekend",
+      "city": "Avignon",
+      "date": "2026-11-13T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
