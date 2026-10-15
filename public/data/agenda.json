@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:17:13.835Z",
+  "updatedAt": "2026-10-15T07:54:01.495Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -251,6 +251,26 @@
       "end": "2026-11-15T23:59:59.000Z",
       "ongoing": false,
       "km": 60,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/27533a43-dff1-3159-a7ed-149c0320ea60",
+      "title": "The Masked Ball at La Mirande",
+      "city": "Avignon",
+      "date": "2026-11-14T00:00:00.000Z",
+      "end": "2026-11-14T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=The%20Masked%20Ball%20at%20La%20Mirande%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/452eba26-0361-37da-87ee-a52c5572fabc",
+      "title": "Open House at Artists' Studios - in and around Avignon",
+      "city": "Avignon",
+      "date": "2026-11-14T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
