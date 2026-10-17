@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-10-16T07:47:11.895Z",
+  "updatedAt": "2026-10-17T07:24:46.872Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/ad2192ef-8c74-3283-9a8d-d12ca11cdf55",
-      "title": "Domaine de Grangeneuve - Atelier Vins Blancs et Fromages, le goût de l'accord",
-      "city": "Roussas",
-      "date": "2026-10-16T00:00:00.000Z",
-      "end": "2026-10-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e279be99-da0d-31f4-864a-61a99ee424e2",
-      "title": "Parcours de l'Art - Contemporary art festival - 32nd edition",
-      "city": "Avignon",
-      "date": "2026-10-16T00:00:00.000Z",
-      "end": "2026-10-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Parcours%20de%20l'Art%20-%20Contemporary%20art%20festival%20-%2032nd%20edition%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/fb3106ca-a1f7-3160-9846-9d3759568570",
-      "title": "Mon coloc est un senior",
-      "city": "Crest",
-      "date": "2026-10-16T00:00:00.000Z",
-      "end": "2026-10-16T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Mon%20coloc%20est%20un%20senior%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/1b8cb067-f233-3a21-8991-2d4b87670169",
       "title": "Experiences at the Château de Simiane",
@@ -132,6 +102,16 @@
       "ongoing": false,
       "km": 20,
       "url": "https://www.google.com/search?q=Experiences%20at%20the%20Ch%C3%A2teau%20de%20Simiane%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ee01a243-82c2-310d-99c5-8c8741a5e973",
+      "title": "Exposition : Voyages au Levant",
+      "city": "Montélimar",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-10-31T23:59:59.000Z",
+      "ongoing": false,
+      "km": 43,
+      "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
     },
     {
       "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
@@ -274,14 +254,14 @@
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/ee01a243-82c2-310d-99c5-8c8741a5e973",
-      "title": "Exposition : Voyages au Levant",
-      "city": "Montélimar",
-      "date": "2026-09-01T00:00:00.000Z",
-      "end": "2026-10-16T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/e279be99-da0d-31f4-864a-61a99ee424e2",
+      "title": "Parcours de l'Art - Contemporary art festival - 32nd edition",
+      "city": "Avignon",
+      "date": "2026-10-16T00:00:00.000Z",
+      "end": "2026-10-25T23:59:59.000Z",
       "ongoing": true,
-      "km": 43,
-      "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
+      "km": 60,
+      "url": "https://www.google.com/search?q=Parcours%20de%20l'Art%20-%20Contemporary%20art%20festival%20-%2032nd%20edition%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
