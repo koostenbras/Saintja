@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-10-18T07:39:49.759Z",
+  "updatedAt": "2026-10-19T08:21:40.162Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/0d5ea4bd-a816-3b27-b711-503e86fe709f",
-      "title": "Domaine de Grangeneuve - Atelier Vins Rouges et Fromages",
-      "city": "Roussas",
-      "date": "2026-10-18T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-10-18T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/6af28fea-9152-3676-ba76-2bef3cbe1d8f",
-      "title": "Domaine de Montine - Visite Guidée de la Cave de Vinification gratuite",
-      "city": "Grignan",
-      "date": "2026-10-18T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 24,
-      "url": "https://www.google.com/search?q=Domaine%20de%20Montine%20-%20Visite%20Guid%C3%A9e%20de%20la%20Cave%20de%20Vinification%20gratuite%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f7f79099-0fdd-3e21-92af-71064a841f0c",
-      "title": "Domaine de Grangeneuve - Dégustation sur Barrique",
-      "city": "Roussas",
-      "date": "2026-10-18T00:00:00.000Z",
-      "end": "2026-10-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/7cf43565-b9ab-317e-9227-b42ae1c8e8a7",
       "title": "Ateliers vacances de la Toussaint (dès 8 ans)",
@@ -82,6 +42,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
+      "title": "Discovering the Palais des Papes - guided tour in English",
+      "city": "Avignon",
+      "date": "2026-10-25T00:00:00.000Z",
+      "end": "2026-10-25T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/22604347-527d-37b4-b3f8-6f96065567d7",
