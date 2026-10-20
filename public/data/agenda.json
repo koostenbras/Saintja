@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-19T08:21:40.162Z",
+  "updatedAt": "2026-10-20T08:05:45.538Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
     {
-      "id": "https://data.datatourisme.fr/13/7cf43565-b9ab-317e-9227-b42ae1c8e8a7",
-      "title": "Ateliers vacances de la Toussaint (dès 8 ans)",
-      "city": "Chabeuil",
-      "date": "2026-10-19T00:00:00.000Z",
-      "end": "2026-10-23T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/6c4ba4eb-5890-3a07-af50-7cbfe5725c69",
+      "title": "Monsters Vegas",
+      "city": "Donzère",
+      "date": "2026-10-21T00:00:00.000Z",
+      "end": "2026-10-21T23:59:59.000Z",
       "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Ateliers%20vacances%20de%20la%20Toussaint%20(d%C3%A8s%208%20ans)%20Chabeuil"
+      "km": 42,
+      "url": "https://www.google.com/search?q=Monsters%20Vegas%20Donz%C3%A8re"
     },
     {
       "id": "https://data.datatourisme.fr/13/78fea29c-f392-32e3-bf6f-fd1353c3bf84",
@@ -124,14 +124,34 @@
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/6c4ba4eb-5890-3a07-af50-7cbfe5725c69",
-      "title": "Monsters Vegas",
-      "city": "Donzère",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-10-19T23:59:59.000Z",
+      "id": "https://data.datatourisme.fr/13/28e9ddc8-beba-3c6a-82c0-3c14cb861796",
+      "title": "Millévin - Celebrating Côtes du Rhône and the New Vintage",
+      "city": "Avignon",
+      "date": "2026-11-19T00:00:00.000Z",
+      "end": "2026-11-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Mill%C3%A9vin%20-%20Celebrating%20C%C3%B4tes%20du%20Rh%C3%B4ne%20and%20the%20New%20Vintage%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/c71f01f5-714a-3aec-8e99-2d3a8c765137",
+      "title": "Garou en solo",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-11-19T00:00:00.000Z",
+      "end": "2026-11-19T23:59:59.000Z",
+      "ongoing": false,
+      "km": 38,
+      "url": "https://www.google.com/search?q=Garou%20en%20solo%20Saint-Paul-Trois-Ch%C3%A2teaux"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/7cf43565-b9ab-317e-9227-b42ae1c8e8a7",
+      "title": "Ateliers vacances de la Toussaint (dès 8 ans)",
+      "city": "Chabeuil",
+      "date": "2026-10-19T00:00:00.000Z",
+      "end": "2026-10-23T23:59:59.000Z",
       "ongoing": true,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Monsters%20Vegas%20Donz%C3%A8re"
+      "km": 60,
+      "url": "https://www.google.com/search?q=Ateliers%20vacances%20de%20la%20Toussaint%20(d%C3%A8s%208%20ans)%20Chabeuil"
     },
     {
       "id": "https://data.datatourisme.fr/13/e279be99-da0d-31f4-864a-61a99ee424e2",
