@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-10-24T07:48:27.618Z",
+  "updatedAt": "2026-10-25T08:00:01.809Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
-      "title": "Avignon at the time of the Popes in English",
-      "city": "Avignon",
-      "date": "2026-10-24T00:00:00.000Z",
-      "end": "2026-10-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/704a8f91-5dd7-3078-bff7-8838f6db4530",
-      "title": "Festival de la raviole",
-      "city": "Saillans",
-      "date": "2026-10-24T00:00:00.000Z",
-      "end": "2026-10-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 35,
-      "url": "https://www.google.com/search?q=Festival%20de%20la%20raviole%20Saillans"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/bca051dc-815f-309d-8100-78f95103dde0",
-      "title": "Lecture by Alain Saint Denis",
-      "city": "Piégon",
-      "date": "2026-10-24T00:00:00.000Z",
-      "end": "2026-10-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 13,
-      "url": "https://www.google.com/search?q=Lecture%20by%20Alain%20Saint%20Denis%20Pi%C3%A9gon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
       "title": "Discovering the Palais des Papes - guided tour in English",
@@ -64,6 +34,16 @@
       "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Au%20pays%20de%20la%20pierre%20blanche%22%20Saint-Restitut"
     },
     {
+      "id": "https://data.datatourisme.fr/13/bbb8aa42-874a-30bd-8c5a-80ad65e1f1e2",
+      "title": "Les Lanternes d'Halloween",
+      "city": "Taulignan",
+      "date": "2026-10-30T00:00:00.000Z",
+      "end": "2026-10-30T23:59:59.000Z",
+      "ongoing": false,
+      "km": 22,
+      "url": "https://www.google.com/search?q=Les%20Lanternes%20d'Halloween%20Taulignan"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/ce1a3a88-e9e0-3730-b390-a2aa9ab72275",
       "title": "Fouquet et Sévigné dans les coulisses du Grand Siècle",
       "city": "Grignan",
@@ -72,6 +52,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://www.google.com/search?q=Fouquet%20et%20S%C3%A9vign%C3%A9%20dans%20les%20coulisses%20du%20Grand%20Si%C3%A8cle%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4e23aed4-96d1-3317-8334-9f45693f23be",
+      "title": "Avignon at the time of the Popes in English",
+      "city": "Avignon",
+      "date": "2026-10-31T00:00:00.000Z",
+      "end": "2026-10-31T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Avignon%20at%20the%20time%20of%20the%20Popes%20in%20English%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
@@ -162,6 +152,16 @@
       "ongoing": false,
       "km": 38,
       "url": "https://www.google.com/search?q=Garou%20en%20solo%20Saint-Paul-Trois-Ch%C3%A2teaux"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/50df0513-4238-3414-b9a7-da4b5ee4ab4d",
+      "title": "Découvrir la Marche Afghane",
+      "city": "Crest",
+      "date": "2026-11-24T00:00:00.000Z",
+      "end": "2026-11-24T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/e279be99-da0d-31f4-864a-61a99ee424e2",
