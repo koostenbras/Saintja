@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-25T08:00:01.809Z",
+  "updatedAt": "2026-10-26T08:21:58.288Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/55e3a072-1db0-3b77-8625-7c0021591b17",
-      "title": "Discovering the Palais des Papes - guided tour in English",
-      "city": "Avignon",
-      "date": "2026-10-25T00:00:00.000Z",
-      "end": "2026-10-25T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Discovering%20the%20Palais%20des%20Papes%20-%20guided%20tour%20in%20English%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/22604347-527d-37b4-b3f8-6f96065567d7",
       "title": "Guided Tour : “History of Mansions”",
@@ -162,16 +152,6 @@
       "ongoing": false,
       "km": 42,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/e279be99-da0d-31f4-864a-61a99ee424e2",
-      "title": "Parcours de l'Art - Contemporary art festival - 32nd edition",
-      "city": "Avignon",
-      "date": "2026-10-16T00:00:00.000Z",
-      "end": "2026-10-25T23:59:59.000Z",
-      "ongoing": true,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Parcours%20de%20l'Art%20-%20Contemporary%20art%20festival%20-%2032nd%20edition%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
@@ -462,6 +442,16 @@
       "ongoing": true,
       "km": 44,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/1f0fd695-45aa-3f35-8d98-2d4acd7cd31b",
+      "title": "Visite Guidée Valréas - Spéciale Groupe",
+      "city": "Grignan",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Valr%C3%A9as%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
     }
   ]
 }
