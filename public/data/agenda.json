@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-27T08:32:58.189Z",
+  "updatedAt": "2026-10-28T09:12:12.131Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/22604347-527d-37b4-b3f8-6f96065567d7",
-      "title": "Guided Tour : “History of Mansions”",
-      "city": "Saint-Paul-Trois-Châteaux",
-      "date": "2026-10-27T00:00:00.000Z",
-      "end": "2026-10-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 37,
-      "url": "https://www.google.com/search?q=Guided%20Tour%20%3A%20%E2%80%9CHistory%20of%20Mansions%E2%80%9D%20Saint-Paul-Trois-Ch%C3%A2teaux"
-    },
     {
       "id": "https://data.datatourisme.fr/13/14b1f235-8177-3b11-8fff-3c52a347df02",
       "title": "Visite commentée \"Au pays de la pierre blanche\"",
