@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T09:12:12.131Z",
+  "updatedAt": "2026-10-29T09:11:59.566Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -144,14 +144,34 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/f913c9a1-9ede-3bfc-92ba-ce2fb34db753",
-      "title": "Evening Farmers' Market at Pernes-les-Fontaines",
-      "city": "Pernes-les-Fontaines",
-      "date": "2026-09-16T00:00:00.000Z",
-      "end": "2026-10-28T23:59:59.000Z",
-      "ongoing": true,
-      "km": 45,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
+      "id": "https://data.datatourisme.fr/13/527b1157-3fc5-3f73-9926-6e9c255fa207",
+      "title": "100% jeux 100% famille",
+      "city": "Chabeuil",
+      "date": "2026-11-28T00:00:00.000Z",
+      "end": "2026-11-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=100%25%20jeux%20100%25%20famille%20Chabeuil"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/676fe6e0-22fc-3358-afd4-c08bb34706a3",
+      "title": "Madame de Sévigné's Christmas",
+      "city": "Grignan",
+      "date": "2026-11-28T00:00:00.000Z",
+      "end": "2026-12-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Madame%20de%20S%C3%A9vign%C3%A9's%20Christmas%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/7f231f5a-561a-3a5a-b2e2-7c32622c44b7",
+      "title": "Medieval Christmas Market",
+      "city": "Taulignan",
+      "date": "2026-11-28T00:00:00.000Z",
+      "end": "2026-11-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 21,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/190f8881-dcb0-3fd6-a3ce-38311c305060",
@@ -442,6 +462,16 @@
       "ongoing": true,
       "km": 20,
       "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Valr%C3%A9as%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/271aa048-ef89-3de6-be47-d938431f2b25",
+      "title": "Marché hebdomadaire",
+      "city": "Saillans",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 35,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
