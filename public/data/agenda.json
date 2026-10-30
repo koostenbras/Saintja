@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-29T09:11:59.566Z",
+  "updatedAt": "2026-10-30T09:24:33.478Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/14b1f235-8177-3b11-8fff-3c52a347df02",
-      "title": "Visite commentée \"Au pays de la pierre blanche\"",
-      "city": "Saint-Restitut",
-      "date": "2026-10-29T00:00:00.000Z",
-      "end": "2026-10-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 38,
-      "url": "https://www.google.com/search?q=Visite%20comment%C3%A9e%20%22Au%20pays%20de%20la%20pierre%20blanche%22%20Saint-Restitut"
-    },
     {
       "id": "https://data.datatourisme.fr/13/bbb8aa42-874a-30bd-8c5a-80ad65e1f1e2",
       "title": "Les Lanternes d'Halloween",
