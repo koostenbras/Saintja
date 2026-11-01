@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T09:10:01.207Z",
+  "updatedAt": "2026-11-01T09:57:10.804Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -134,36 +134,6 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/190f8881-dcb0-3fd6-a3ce-38311c305060",
-      "title": "Exhibition: ‘Before Silence – Morel Barneron, 1997. Photographs by Bernard Baudin’",
-      "city": "Valréas",
-      "date": "2026-04-01T00:00:00.000Z",
-      "end": "2026-10-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Exhibition%3A%20%E2%80%98Before%20Silence%20%E2%80%93%20Morel%20Barneron%2C%201997.%20Photographs%20by%20Bernard%20Baudin%E2%80%99%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/3b9be2f8-cad2-36be-9938-828afc5745bd",
-      "title": "Startling outings...! Thematic outings in Baronnies en Drôme Provençale",
-      "city": "Nyons",
-      "date": "2026-04-01T00:00:00.000Z",
-      "end": "2026-10-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Startling%20outings...!%20Thematic%20outings%20in%20Baronnies%20en%20Dr%C3%B4me%20Proven%C3%A7ale%20Nyons"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ee01a243-82c2-310d-99c5-8c8741a5e973",
-      "title": "Exposition : Voyages au Levant",
-      "city": "Montélimar",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-10-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 43,
-      "url": "https://www.google.com/search?q=Exposition%20%3A%20Voyages%20au%20Levant%20Mont%C3%A9limar"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/1b8cb067-f233-3a21-8991-2d4b87670169",
       "title": "Experiences at the Château de Simiane",
       "city": "Valréas",
@@ -242,16 +212,6 @@
       "ongoing": true,
       "km": 59,
       "url": "https://www.google.com/search?q=Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/f314e584-c30d-39b1-9fee-ed84b7a4bc3b",
-      "title": "Discover the vultures",
-      "city": "Saint-May",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 8,
-      "url": "https://www.google.com/search?q=Discover%20the%20vultures%20Saint-May"
     },
     {
       "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
@@ -432,6 +392,46 @@
       "ongoing": true,
       "km": 35,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/28033a1d-4df3-3a98-998b-cd9f2078989e",
+      "title": "Marché hebdomadaire samedi matin",
+      "city": "Montélimar",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2a022337-bf39-3132-b70e-b9d7a2bf0579",
+      "title": "weekly market",
+      "city": "Saint-Paul-Trois-Châteaux",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 38,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2bae3536-59f7-361a-b5fe-1e8904181989",
+      "title": "Provence Market",
+      "city": "Beaumes-de-Venise",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/2c1b3e9c-0f21-3176-96cc-750a5928e189",
+      "title": "Marché provençal",
+      "city": "Sarrians",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
