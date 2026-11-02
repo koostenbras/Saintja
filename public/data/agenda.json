@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-01T09:57:10.804Z",
+  "updatedAt": "2026-11-02T10:24:51.716Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
+    {
+      "id": "https://data.datatourisme.fr/13/d31aaaa6-5ad4-3b98-a323-4868e371a8cd",
+      "title": "Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-11-02T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
+    },
     {
       "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
       "title": "Méditations olfactives et sonores",
@@ -134,84 +144,24 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/1b8cb067-f233-3a21-8991-2d4b87670169",
-      "title": "Experiences at the Château de Simiane",
-      "city": "Valréas",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Experiences%20at%20the%20Ch%C3%A2teau%20de%20Simiane%20Valr%C3%A9as"
+      "id": "https://data.datatourisme.fr/13/ce348bf5-e80b-384a-9ddc-a00241239703",
+      "title": "The Palace of Mirrors",
+      "city": "Avignon",
+      "date": "2026-11-28T00:00:00.000Z",
+      "end": "2026-12-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/26dd8c8c-25a9-338e-a566-6b716f0c4656",
       "title": "The invisible forest",
       "city": "Sahune",
-      "date": "2026-07-01T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
+      "date": "2026-09-01T00:00:00.000Z",
+      "end": "2026-11-02T23:59:59.000Z",
       "ongoing": true,
       "km": 4,
       "url": "https://www.google.com/search?q=The%20invisible%20forest%20Sahune"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/4625a859-b39f-3a84-b916-aa5e1d10fe58",
-      "title": "L’Affaire Nicolas Fouquet",
-      "city": "Grignan",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=L%E2%80%99Affaire%20Nicolas%20Fouquet%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
-      "title": "Nostradamus & les inventeurs de la Renaissance",
-      "city": "Suze-la-Rousse",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 34,
-      "url": "https://www.google.com/search?q=Nostradamus%20%26%20les%20inventeurs%20de%20la%20Renaissance%20Suze-la-Rousse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/57a4bc87-deab-3ad3-a661-4b22c7f54863",
-      "title": "Sévigné-Fouquet, l’histoire du procès du siècle !",
-      "city": "Grignan",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=S%C3%A9vign%C3%A9-Fouquet%2C%20l%E2%80%99histoire%20du%20proc%C3%A8s%20du%20si%C3%A8cle%20!%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/9b853da3-6ad1-3d4d-bef1-c2f9118995a7",
-      "title": "Faites entrer l’accusé",
-      "city": "Grignan",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Faites%20entrer%20l%E2%80%99accus%C3%A9%20Grignan"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/a309f062-e9c5-38cc-83a1-a410fc6f082f",
-      "title": "Experiences at the Château de Simiane",
-      "city": "Valréas",
-      "date": "2026-10-17T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Experiences%20at%20the%20Ch%C3%A2teau%20de%20Simiane%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/d31aaaa6-5ad4-3b98-a323-4868e371a8cd",
-      "title": "Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-07-03T00:00:00.000Z",
-      "end": "2026-11-01T23:59:59.000Z",
-      "ongoing": true,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
@@ -222,6 +172,16 @@
       "ongoing": true,
       "km": 33,
       "url": "https://www.google.com/search?q=Expo%20patchworks%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
+      "title": "Nostradamus & les inventeurs de la Renaissance",
+      "city": "Suze-la-Rousse",
+      "date": "2026-10-17T00:00:00.000Z",
+      "end": "2026-11-29T23:59:59.000Z",
+      "ongoing": true,
+      "km": 34,
+      "url": "https://www.google.com/search?q=Nostradamus%20%26%20les%20inventeurs%20de%20la%20Renaissance%20Suze-la-Rousse"
     },
     {
       "id": "https://data.datatourisme.fr/13/f98e672f-8ad6-36fc-81ea-f43115e0aef5",
@@ -432,6 +392,66 @@
       "ongoing": true,
       "km": 40,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/37ea33ec-febc-3190-b865-6968db1dfccd",
+      "title": "Marché de Saint-Saturnin-lès-Avignon",
+      "city": "Saint-Saturnin-lès-Avignon",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 53,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3b47d59a-f99d-3a5a-9b62-f5ff7d673552",
+      "title": "Weekly provencal Market at Pernes-les-Fontaines",
+      "city": "Pernes-les-Fontaines",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 45,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3d768d64-36fa-3123-8a8c-db1d4d982473",
+      "title": "Marché de Morières-lès-Avignon",
+      "city": "Morières-lès-Avignon",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 56,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/472f7cd5-a2e4-3fbe-807f-1b9c507222d8",
+      "title": "Visite Guidée Chamaret - Spéciale Groupe",
+      "city": "Grignan",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 28,
+      "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Chamaret%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4a086bf5-757c-359a-b380-fe27ae369abb",
+      "title": "Jeu de piste numérique et ludique : Voyagez avec Madame de Sévigné : de Donzère à Grignan",
+      "city": "Donzère",
+      "date": "2026-04-07T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 43,
+      "url": "https://www.google.com/search?q=Jeu%20de%20piste%20num%C3%A9rique%20et%20ludique%20%3A%20Voyagez%20avec%20Madame%20de%20S%C3%A9vign%C3%A9%20%3A%20de%20Donz%C3%A8re%20%C3%A0%20Grignan%20Donz%C3%A8re"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/4b35d524-6258-3a6a-8ab4-56c98fe4e0eb",
+      "title": "Madame de Sévigné and the oath of Réauville",
+      "city": "Réauville",
+      "date": "2026-02-05T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 32,
+      "url": "https://www.google.com/search?q=Madame%20de%20S%C3%A9vign%C3%A9%20and%20the%20oath%20of%20R%C3%A9auville%20R%C3%A9auville"
     }
   ]
 }
