@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-11-02T10:24:51.716Z",
+  "updatedAt": "2026-11-03T10:22:37.780Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/d31aaaa6-5ad4-3b98-a323-4868e371a8cd",
-      "title": "Relatum: Lee Ufan at the Palais des Papes",
-      "city": "Avignon",
-      "date": "2026-11-02T00:00:00.000Z",
-      "end": "2026-11-15T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
-    },
     {
       "id": "https://data.datatourisme.fr/13/e4be5d13-d0e5-3e14-8647-51450a4ef0b4",
       "title": "Méditations olfactives et sonores",
@@ -154,16 +144,6 @@
       "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
     },
     {
-      "id": "https://data.datatourisme.fr/13/26dd8c8c-25a9-338e-a566-6b716f0c4656",
-      "title": "The invisible forest",
-      "city": "Sahune",
-      "date": "2026-09-01T00:00:00.000Z",
-      "end": "2026-11-02T23:59:59.000Z",
-      "ongoing": true,
-      "km": 4,
-      "url": "https://www.google.com/search?q=The%20invisible%20forest%20Sahune"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
       "title": "Expo patchworks",
       "city": "Suze-la-Rousse",
@@ -172,6 +152,16 @@
       "ongoing": true,
       "km": 33,
       "url": "https://www.google.com/search?q=Expo%20patchworks%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/d31aaaa6-5ad4-3b98-a323-4868e371a8cd",
+      "title": "Relatum: Lee Ufan at the Palais des Papes",
+      "city": "Avignon",
+      "date": "2026-11-02T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": true,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Relatum%3A%20Lee%20Ufan%20at%20the%20Palais%20des%20Papes%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
