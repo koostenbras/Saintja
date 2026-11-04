@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T10:22:37.780Z",
+  "updatedAt": "2026-11-04T10:16:44.646Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -142,6 +142,16 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/10c4d040-e0e8-3b08-ace0-c1fd5bfdb647",
+      "title": "La Mirande Christmas market",
+      "city": "Avignon",
+      "date": "2026-12-04T00:00:00.000Z",
+      "end": "2026-12-06T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
