@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-11-05T10:10:38.123Z",
+  "updatedAt": "2026-11-06T10:14:06.228Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/25398ec3-694b-392f-9d8f-5b2865cd01fa",
-      "title": "Sur les routes de la Drôme",
-      "city": "Crest",
-      "date": "2026-11-05T00:00:00.000Z",
-      "end": "2026-11-05T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Sur%20les%20routes%20de%20la%20Dr%C3%B4me%20Crest"
-    },
     {
       "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
       "title": "Santons Market",
