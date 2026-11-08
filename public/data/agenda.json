@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:29:51.692Z",
+  "updatedAt": "2026-11-08T09:46:05.007Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -314,16 +314,6 @@
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/1f0fd695-45aa-3f35-8d98-2d4acd7cd31b",
-      "title": "Visite Guidée Valréas - Spéciale Groupe",
-      "city": "Grignan",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Valr%C3%A9as%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/271aa048-ef89-3de6-be47-d938431f2b25",
       "title": "Marché hebdomadaire",
       "city": "Saillans",
@@ -404,16 +394,6 @@
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
-      "id": "https://data.datatourisme.fr/13/472f7cd5-a2e4-3fbe-807f-1b9c507222d8",
-      "title": "Visite Guidée Chamaret - Spéciale Groupe",
-      "city": "Grignan",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 28,
-      "url": "https://www.google.com/search?q=Visite%20Guid%C3%A9e%20Chamaret%20-%20Sp%C3%A9ciale%20Groupe%20Grignan"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/4a086bf5-757c-359a-b380-fe27ae369abb",
       "title": "Jeu de piste numérique et ludique : Voyagez avec Madame de Sévigné : de Donzère à Grignan",
       "city": "Donzère",
@@ -442,6 +422,26 @@
       "ongoing": true,
       "km": 58,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/56a60525-f8ee-3916-a917-c5846479ce13",
+      "title": "A fun digital scavenger hunt with Baludik: On the trail of the Guardians of Valréas",
+      "city": "Valréas",
+      "date": "2026-07-22T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=A%20fun%20digital%20scavenger%20hunt%20with%20Baludik%3A%20On%20the%20trail%20of%20the%20Guardians%20of%20Valr%C3%A9as%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/586968c6-31d6-31ef-8719-abe2aa84d056",
+      "title": "Weekly market",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
