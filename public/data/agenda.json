@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T10:08:32.353Z",
+  "updatedAt": "2026-11-12T10:31:37.976Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -32,6 +32,16 @@
       "ongoing": false,
       "km": 60,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/bb339787-afd7-3889-a1e6-3a1a2e7a7baa",
+      "title": "Soirée Crazy Bingo - My Beers",
+      "city": "Étoile-sur-Rhône",
+      "date": "2026-11-13T00:00:00.000Z",
+      "end": "2026-11-13T23:59:59.000Z",
+      "ongoing": false,
+      "km": 60,
+      "url": "https://www.google.com/search?q=Soir%C3%A9e%20Crazy%20Bingo%20-%20My%20Beers%20%C3%89toile-sur-Rh%C3%B4ne"
     },
     {
       "id": "https://data.datatourisme.fr/13/27533a43-dff1-3159-a7ed-149c0320ea60",
@@ -142,6 +152,46 @@
       "ongoing": false,
       "km": 26,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/608bf074-23a3-3e93-9c06-ba1a3aa792ec",
+      "title": "Grignan in Lights: Fireworks",
+      "city": "Grignan",
+      "date": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 27,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/91a20b87-479d-380d-8438-f21776bd9503",
+      "title": "Grignan in lights",
+      "city": "Grignan",
+      "date": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/b729d076-5d2d-3425-a1c9-596705d10106",
+      "title": "Grignan in Lights: Christmas Market",
+      "city": "Grignan",
+      "date": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 27,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/e9591309-123c-3282-bd5e-d39f2bf14db1",
+      "title": "Candlelight - Candlelight Concert: Christmas Music",
+      "city": "Avignon",
+      "date": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=Candlelight%20-%20Candlelight%20Concert%3A%20Christmas%20Music%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
