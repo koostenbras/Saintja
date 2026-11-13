@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-11-12T10:31:37.976Z",
+  "updatedAt": "2026-11-13T10:25:06.615Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
-      "title": "Santons Market",
-      "city": "Carpentras",
-      "date": "2026-11-12T00:00:00.000Z",
-      "end": "2026-11-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 40,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/1ce0eff3-c0da-3d12-bbc4-fbcf73e8565a",
       "title": "Concert du vendredi au Bar du pont à Crest",
@@ -134,6 +124,16 @@
       "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
     },
     {
+      "id": "https://data.datatourisme.fr/13/e768e1eb-3ae1-39a7-bbfa-46d138715fca",
+      "title": "Christmas Market",
+      "city": "Avignon",
+      "date": "2026-11-28T00:00:00.000Z",
+      "end": "2026-11-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/10c4d040-e0e8-3b08-ace0-c1fd5bfdb647",
       "title": "La Mirande Christmas market",
       "city": "Avignon",
@@ -202,6 +202,16 @@
       "ongoing": true,
       "km": 33,
       "url": "https://www.google.com/search?q=Expo%20patchworks%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
+      "title": "Santons Market",
+      "city": "Carpentras",
+      "date": "2026-11-12T00:00:00.000Z",
+      "end": "2026-11-18T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
@@ -482,16 +492,6 @@
       "ongoing": true,
       "km": 20,
       "url": "https://www.google.com/search?q=A%20fun%20digital%20scavenger%20hunt%20with%20Baludik%3A%20On%20the%20trail%20of%20the%20Guardians%20of%20Valr%C3%A9as%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/586968c6-31d6-31ef-8719-abe2aa84d056",
-      "title": "Weekly market",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 40,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
