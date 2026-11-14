@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-11-13T10:25:06.615Z",
+  "updatedAt": "2026-11-14T09:42:48.089Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/1ce0eff3-c0da-3d12-bbc4-fbcf73e8565a",
-      "title": "Concert du vendredi au Bar du pont à Crest",
-      "city": "Crest",
-      "date": "2026-11-13T00:00:00.000Z",
-      "end": "2026-11-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://www.google.com/search?q=Concert%20du%20vendredi%20au%20Bar%20du%20pont%20%C3%A0%20Crest%20Crest"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/3444a80a-fd83-34dc-9419-1701ecfdcc0f",
-      "title": "Welcome to the Farm Gastronomic Weekend",
-      "city": "Avignon",
-      "date": "2026-11-13T00:00:00.000Z",
-      "end": "2026-11-15T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/bb339787-afd7-3889-a1e6-3a1a2e7a7baa",
-      "title": "Soirée Crazy Bingo - My Beers",
-      "city": "Étoile-sur-Rhône",
-      "date": "2026-11-13T00:00:00.000Z",
-      "end": "2026-11-13T23:59:59.000Z",
-      "ongoing": false,
-      "km": 60,
-      "url": "https://www.google.com/search?q=Soir%C3%A9e%20Crazy%20Bingo%20-%20My%20Beers%20%C3%89toile-sur-Rh%C3%B4ne"
-    },
     {
       "id": "https://data.datatourisme.fr/13/27533a43-dff1-3159-a7ed-149c0320ea60",
       "title": "The Masked Ball at La Mirande",
@@ -202,6 +172,16 @@
       "ongoing": true,
       "km": 33,
       "url": "https://www.google.com/search?q=Expo%20patchworks%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/3444a80a-fd83-34dc-9419-1701ecfdcc0f",
+      "title": "Welcome to the Farm Gastronomic Weekend",
+      "city": "Avignon",
+      "date": "2026-11-13T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": true,
+      "km": 60,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
@@ -482,16 +462,6 @@
       "ongoing": true,
       "km": 58,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/56a60525-f8ee-3916-a917-c5846479ce13",
-      "title": "A fun digital scavenger hunt with Baludik: On the trail of the Guardians of Valréas",
-      "city": "Valréas",
-      "date": "2026-07-22T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 20,
-      "url": "https://www.google.com/search?q=A%20fun%20digital%20scavenger%20hunt%20with%20Baludik%3A%20On%20the%20trail%20of%20the%20Guardians%20of%20Valr%C3%A9as%20Valr%C3%A9as"
     }
   ]
 }
