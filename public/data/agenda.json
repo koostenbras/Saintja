@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-11-14T09:42:48.089Z",
+  "updatedAt": "2026-11-15T10:15:47.627Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/27533a43-dff1-3159-a7ed-149c0320ea60",
-      "title": "The Masked Ball at La Mirande",
-      "city": "Avignon",
-      "date": "2026-11-14T00:00:00.000Z",
-      "end": "2026-11-14T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=The%20Masked%20Ball%20at%20La%20Mirande%20Avignon"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/452eba26-0361-37da-87ee-a52c5572fabc",
-      "title": "Open House at Artists' Studios - in and around Avignon",
-      "city": "Avignon",
-      "date": "2026-11-14T00:00:00.000Z",
-      "end": "2026-11-15T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
     {
       "id": "https://data.datatourisme.fr/13/28e9ddc8-beba-3c6a-82c0-3c14cb861796",
       "title": "Millévin - Celebrating Côtes du Rhône and the New Vintage",
@@ -164,16 +144,6 @@
       "url": "https://www.google.com/search?q=Candlelight%20-%20Candlelight%20Concert%3A%20Christmas%20Music%20Avignon"
     },
     {
-      "id": "https://data.datatourisme.fr/13/c9c627f1-682d-3e80-a6fe-638b0b159812",
-      "title": "Expo patchworks",
-      "city": "Suze-la-Rousse",
-      "date": "2026-06-14T00:00:00.000Z",
-      "end": "2026-11-14T23:59:59.000Z",
-      "ongoing": true,
-      "km": 33,
-      "url": "https://www.google.com/search?q=Expo%20patchworks%20Suze-la-Rousse"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/3444a80a-fd83-34dc-9419-1701ecfdcc0f",
       "title": "Welcome to the Farm Gastronomic Weekend",
       "city": "Avignon",
@@ -181,6 +151,16 @@
       "end": "2026-11-15T23:59:59.000Z",
       "ongoing": true,
       "km": 60,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/452eba26-0361-37da-87ee-a52c5572fabc",
+      "title": "Open House at Artists' Studios - in and around Avignon",
+      "city": "Avignon",
+      "date": "2026-11-14T00:00:00.000Z",
+      "end": "2026-11-15T23:59:59.000Z",
+      "ongoing": true,
+      "km": 59,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
