@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T10:15:47.627Z",
+  "updatedAt": "2026-11-16T10:29:34.471Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -144,24 +144,14 @@
       "url": "https://www.google.com/search?q=Candlelight%20-%20Candlelight%20Concert%3A%20Christmas%20Music%20Avignon"
     },
     {
-      "id": "https://data.datatourisme.fr/13/3444a80a-fd83-34dc-9419-1701ecfdcc0f",
-      "title": "Welcome to the Farm Gastronomic Weekend",
-      "city": "Avignon",
-      "date": "2026-11-13T00:00:00.000Z",
-      "end": "2026-11-15T23:59:59.000Z",
-      "ongoing": true,
-      "km": 60,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/452eba26-0361-37da-87ee-a52c5572fabc",
-      "title": "Open House at Artists' Studios - in and around Avignon",
-      "city": "Avignon",
-      "date": "2026-11-14T00:00:00.000Z",
-      "end": "2026-11-15T23:59:59.000Z",
-      "ongoing": true,
-      "km": 59,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
+      "id": "https://data.datatourisme.fr/13/62ffe9d1-a3d7-39f3-8eb7-c699c700bb9d",
+      "title": "Contes Anciens de Noël",
+      "city": "Crest",
+      "date": "2026-12-16T00:00:00.000Z",
+      "end": "2026-12-16T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Contes%20Anciens%20de%20No%C3%ABl%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
@@ -442,6 +432,26 @@
       "ongoing": true,
       "km": 58,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/56a60525-f8ee-3916-a917-c5846479ce13",
+      "title": "A fun digital scavenger hunt with Baludik: On the trail of the Guardians of Valréas",
+      "city": "Valréas",
+      "date": "2026-07-22T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=A%20fun%20digital%20scavenger%20hunt%20with%20Baludik%3A%20On%20the%20trail%20of%20the%20Guardians%20of%20Valr%C3%A9as%20Valr%C3%A9as"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/586968c6-31d6-31ef-8719-abe2aa84d056",
+      "title": "Weekly market",
+      "city": "Châtillon-en-Diois",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 40,
+      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
