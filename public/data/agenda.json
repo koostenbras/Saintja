@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T10:57:24.785Z",
+  "updatedAt": "2026-11-19T10:59:21.169Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -44,16 +44,6 @@
       "url": "https://www.google.com/search?q=100%25%20jeux%20100%25%20famille%20Chabeuil"
     },
     {
-      "id": "https://data.datatourisme.fr/13/676fe6e0-22fc-3358-afd4-c08bb34706a3",
-      "title": "Madame de Sévigné's Christmas",
-      "city": "Grignan",
-      "date": "2026-11-28T00:00:00.000Z",
-      "end": "2026-12-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 26,
-      "url": "https://www.google.com/search?q=Madame%20de%20S%C3%A9vign%C3%A9's%20Christmas%20Grignan"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/7f231f5a-561a-3a5a-b2e2-7c32622c44b7",
       "title": "Medieval Christmas Market",
       "city": "Taulignan",
@@ -62,16 +52,6 @@
       "ongoing": false,
       "km": 21,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/ce348bf5-e80b-384a-9ddc-a00241239703",
-      "title": "The Palace of Mirrors",
-      "city": "Avignon",
-      "date": "2026-11-28T00:00:00.000Z",
-      "end": "2026-12-18T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/e768e1eb-3ae1-39a7-bbfa-46d138715fca",
@@ -154,14 +134,24 @@
       "url": "https://www.google.com/search?q=Contes%20Anciens%20de%20No%C3%ABl%20Crest"
     },
     {
-      "id": "https://data.datatourisme.fr/13/25ca2e8b-a62a-36c8-803e-1c6893c53e2b",
-      "title": "Santons Market",
-      "city": "Carpentras",
-      "date": "2026-11-12T00:00:00.000Z",
-      "end": "2026-11-18T23:59:59.000Z",
-      "ongoing": true,
-      "km": 40,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
+      "id": "https://data.datatourisme.fr/13/676fe6e0-22fc-3358-afd4-c08bb34706a3",
+      "title": "Madame de Sévigné's Christmas",
+      "city": "Grignan",
+      "date": "2026-12-19T00:00:00.000Z",
+      "end": "2026-12-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Madame%20de%20S%C3%A9vign%C3%A9's%20Christmas%20Grignan"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ce348bf5-e80b-384a-9ddc-a00241239703",
+      "title": "The Palace of Mirrors",
+      "city": "Avignon",
+      "date": "2026-12-19T00:00:00.000Z",
+      "end": "2026-12-18T23:59:59.000Z",
+      "ongoing": false,
+      "km": 59,
+      "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
     },
     {
       "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
@@ -452,6 +442,16 @@
       "ongoing": true,
       "km": 40,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/5d57975b-20b5-3f87-8fcd-b51e3d5dd0cc",
+      "title": "Marché provençal",
+      "city": "Aubignan",
+      "date": "2026-01-01T00:00:00.000Z",
+      "end": "2026-12-31T23:59:59.000Z",
+      "ongoing": true,
+      "km": 36,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
