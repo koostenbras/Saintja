@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T10:48:39.129Z",
+  "updatedAt": "2026-11-21T10:31:36.366Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -62,6 +62,16 @@
       "ongoing": false,
       "km": 26,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/5fdb26db-47c3-3150-9609-d7f67683a2f2",
+      "title": "Atelier de cuisine",
+      "city": "Crest",
+      "date": "2026-12-05T00:00:00.000Z",
+      "end": "2026-12-05T23:59:59.000Z",
+      "ongoing": false,
+      "km": 42,
+      "url": "https://www.google.com/search?q=Atelier%20de%20cuisine%20Crest"
     },
     {
       "id": "https://data.datatourisme.fr/13/608bf074-23a3-3e93-9c06-ba1a3aa792ec",
