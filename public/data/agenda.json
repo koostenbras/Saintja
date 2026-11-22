@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T10:31:36.366Z",
+  "updatedAt": "2026-11-22T10:36:38.280Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -54,6 +54,16 @@
       "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
+      "id": "https://data.datatourisme.fr/13/56e1711b-d979-3feb-a4cd-4226882680e1",
+      "title": "Grangeneuve’s Gourmet Christmas",
+      "city": "Roussas",
+      "date": "2026-12-04T00:00:00.000Z",
+      "end": "2026-12-04T23:59:59.000Z",
+      "ongoing": false,
+      "km": 37,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
       "id": "https://data.datatourisme.fr/13/493fa7a4-06a2-36ef-b56e-77c921c26740",
       "title": "Truffle ban at Richerenches",
       "city": "Richerenches",
@@ -72,6 +82,16 @@
       "ongoing": false,
       "km": 42,
       "url": "https://www.google.com/search?q=Atelier%20de%20cuisine%20Crest"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/55555290-9fb9-3f77-8586-3869b393d926",
+      "title": "Christmas Market",
+      "city": "Visan",
+      "date": "2026-12-11T00:00:00.000Z",
+      "end": "2026-12-11T23:59:59.000Z",
+      "ongoing": false,
+      "km": 24,
+      "url": "https://vide-greniers.org/evenements/Vaucluse"
     },
     {
       "id": "https://data.datatourisme.fr/13/608bf074-23a3-3e93-9c06-ba1a3aa792ec",
