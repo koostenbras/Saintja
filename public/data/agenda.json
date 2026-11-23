@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T10:36:38.280Z",
+  "updatedAt": "2026-11-23T11:37:42.864Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -121,6 +121,16 @@
       "end": "2026-12-12T23:59:59.000Z",
       "ongoing": false,
       "km": 27,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/c0ec71fc-527c-3e35-9892-c23f8f7bda90",
+      "title": "Experience the magic of Christmas at an artisanal chocolate shop",
+      "city": "Beaufort-sur-Gervanne",
+      "date": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 44,
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
