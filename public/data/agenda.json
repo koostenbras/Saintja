@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-11-24T13:10:17.134Z",
+  "updatedAt": "2026-11-25T11:58:05.766Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/50df0513-4238-3414-b9a7-da4b5ee4ab4d",
-      "title": "Découvrir la Marche Afghane",
-      "city": "Crest",
-      "date": "2026-11-24T00:00:00.000Z",
-      "end": "2026-11-24T23:59:59.000Z",
-      "ongoing": false,
-      "km": 42,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/527b1157-3fc5-3f73-9926-6e9c255fa207",
       "title": "100% jeux 100% famille",
