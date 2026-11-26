@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:58:05.766Z",
+  "updatedAt": "2026-11-26T11:46:24.931Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
@@ -162,6 +162,26 @@
       "ongoing": false,
       "km": 59,
       "url": "https://www.google.com/search?q=The%20Palace%20of%20Mirrors%20Avignon"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/ecb7109e-dc6a-3838-b0c2-1c1efee4f8c4",
+      "title": "The Odyssée Sonore",
+      "city": "Orange",
+      "date": "2026-12-26T00:00:00.000Z",
+      "end": "2026-12-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 44,
+      "url": "https://www.google.com/search?q=The%20Odyss%C3%A9e%20Sonore%20Orange"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/049f79ae-586b-30be-8019-a5e023dbdd49",
+      "title": "\"Féminin Pluriel\" Exhibition, photographs by Joëlle Vassort",
+      "city": "Valréas",
+      "date": "2026-11-06T00:00:00.000Z",
+      "end": "2026-11-28T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://www.google.com/search?q=%22F%C3%A9minin%20Pluriel%22%20Exhibition%2C%20photographs%20by%20Jo%C3%ABlle%20Vassort%20Valr%C3%A9as"
     },
     {
       "id": "https://data.datatourisme.fr/13/52a9f010-145b-31cc-80eb-d4d9e8b5d314",
@@ -452,16 +472,6 @@
       "ongoing": true,
       "km": 40,
       "url": "https://vide-greniers.org/evenements/Drome"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/5d57975b-20b5-3f87-8fcd-b51e3d5dd0cc",
-      "title": "Marché provençal",
-      "city": "Aubignan",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 36,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
     }
   ]
 }
