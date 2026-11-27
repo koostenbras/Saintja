@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-26T11:46:24.931Z",
+  "updatedAt": "2026-11-27T11:39:34.029Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
+    {
+      "id": "https://data.datatourisme.fr/13/d187e8b2-674b-3586-822e-a4ddd967a099",
+      "title": "Black Days SolIdaire at the Biscuiterie de Provence!",
+      "city": "Saint-Maurice-sur-Eygues",
+      "date": "2026-11-27T00:00:00.000Z",
+      "end": "2026-11-29T23:59:59.000Z",
+      "ongoing": false,
+      "km": 20,
+      "url": "https://vide-greniers.org/evenements/Drome"
+    },
     {
       "id": "https://data.datatourisme.fr/13/527b1157-3fc5-3f73-9926-6e9c255fa207",
       "title": "100% jeux 100% famille",
@@ -82,6 +92,16 @@
       "ongoing": false,
       "km": 24,
       "url": "https://vide-greniers.org/evenements/Vaucluse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/631c2025-9f82-332d-89ea-2d62d5825269",
+      "title": "Cancale Oysters at Corazon",
+      "city": "Dieulefit",
+      "date": "2026-12-11T00:00:00.000Z",
+      "end": "2026-12-12T23:59:59.000Z",
+      "ongoing": false,
+      "km": 21,
+      "url": "https://www.google.com/search?q=Cancale%20Oysters%20at%20Corazon%20Dieulefit"
     },
     {
       "id": "https://data.datatourisme.fr/13/608bf074-23a3-3e93-9c06-ba1a3aa792ec",
@@ -172,6 +192,16 @@
       "ongoing": false,
       "km": 44,
       "url": "https://www.google.com/search?q=The%20Odyss%C3%A9e%20Sonore%20Orange"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/72647ba0-bc5d-35ab-a85c-81a19a459f94",
+      "title": "CONCERT DE NOËL",
+      "city": "Grignan",
+      "date": "2026-12-27T00:00:00.000Z",
+      "end": "2026-12-27T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=CONCERT%20DE%20NO%C3%8BL%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/049f79ae-586b-30be-8019-a5e023dbdd49",
