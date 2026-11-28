@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-11-27T11:39:34.029Z",
+  "updatedAt": "2026-11-28T11:14:30.283Z",
   "source": "DataTourisme",
   "daysAhead": 30,
   "events": [
-    {
-      "id": "https://data.datatourisme.fr/13/d187e8b2-674b-3586-822e-a4ddd967a099",
-      "title": "Black Days SolIdaire at the Biscuiterie de Provence!",
-      "city": "Saint-Maurice-sur-Eygues",
-      "date": "2026-11-27T00:00:00.000Z",
-      "end": "2026-11-29T23:59:59.000Z",
-      "ongoing": false,
-      "km": 20,
-      "url": "https://vide-greniers.org/evenements/Drome"
-    },
     {
       "id": "https://data.datatourisme.fr/13/527b1157-3fc5-3f73-9926-6e9c255fa207",
       "title": "100% jeux 100% famille",
@@ -34,16 +24,6 @@
       "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
-      "id": "https://data.datatourisme.fr/13/e768e1eb-3ae1-39a7-bbfa-46d138715fca",
-      "title": "Christmas Market",
-      "city": "Avignon",
-      "date": "2026-11-28T00:00:00.000Z",
-      "end": "2026-11-27T23:59:59.000Z",
-      "ongoing": false,
-      "km": 59,
-      "url": "https://vide-greniers.org/evenements/Vaucluse"
-    },
-    {
       "id": "https://data.datatourisme.fr/13/10c4d040-e0e8-3b08-ace0-c1fd5bfdb647",
       "title": "La Mirande Christmas market",
       "city": "Avignon",
@@ -62,6 +42,16 @@
       "ongoing": false,
       "km": 37,
       "url": "https://vide-greniers.org/evenements/Drome"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/341a679a-222d-39bc-9847-de2fca348351",
+      "title": "Special Evening Event: \"It's Christmas Before Its Time!\"",
+      "city": "Grignan",
+      "date": "2026-12-05T00:00:00.000Z",
+      "end": "2026-12-05T23:59:59.000Z",
+      "ongoing": false,
+      "km": 26,
+      "url": "https://www.google.com/search?q=Special%20Evening%20Event%3A%20%22It's%20Christmas%20Before%20Its%20Time!%22%20Grignan"
     },
     {
       "id": "https://data.datatourisme.fr/13/493fa7a4-06a2-36ef-b56e-77c921c26740",
@@ -222,6 +212,16 @@
       "ongoing": true,
       "km": 34,
       "url": "https://www.google.com/search?q=Nostradamus%20%26%20les%20inventeurs%20de%20la%20Renaissance%20Suze-la-Rousse"
+    },
+    {
+      "id": "https://data.datatourisme.fr/13/d187e8b2-674b-3586-822e-a4ddd967a099",
+      "title": "Black Days SolIdaire at the Biscuiterie de Provence!",
+      "city": "Saint-Maurice-sur-Eygues",
+      "date": "2026-11-27T00:00:00.000Z",
+      "end": "2026-11-29T23:59:59.000Z",
+      "ongoing": true,
+      "km": 20,
+      "url": "https://vide-greniers.org/evenements/Drome"
     },
     {
       "id": "https://data.datatourisme.fr/13/f98e672f-8ad6-36fc-81ea-f43115e0aef5",
@@ -492,16 +492,6 @@
       "ongoing": true,
       "km": 20,
       "url": "https://www.google.com/search?q=A%20fun%20digital%20scavenger%20hunt%20with%20Baludik%3A%20On%20the%20trail%20of%20the%20Guardians%20of%20Valr%C3%A9as%20Valr%C3%A9as"
-    },
-    {
-      "id": "https://data.datatourisme.fr/13/586968c6-31d6-31ef-8719-abe2aa84d056",
-      "title": "Weekly market",
-      "city": "Châtillon-en-Diois",
-      "date": "2026-01-01T00:00:00.000Z",
-      "end": "2026-12-31T23:59:59.000Z",
-      "ongoing": true,
-      "km": 40,
-      "url": "https://vide-greniers.org/evenements/Drome"
     }
   ]
 }
